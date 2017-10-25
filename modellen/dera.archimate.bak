@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Dera 2.0" id="67a0c650-d45f-4561-a71f-7a82eeafd734" version="4.0.0">
+  <folder name="Strategy" id="1f909763-5bfc-4556-8cf5-ae57484f5cc8" type="strategy"/>
+  <folder name="Business" id="5bac14c0-dc95-46b8-a209-3fe091517079" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Cultureel Erfgoed Instituut" id="cbd14f34-5982-44ea-a6e4-2ac698a237a2"/>
+    <element xsi:type="archimate:BusinessService" name="Collecties catalogiseren" id="0a905c3d-2f13-4b12-b8cf-e62408e0269a"/>
+    <element xsi:type="archimate:BusinessService" name="Collecties aggregeren" id="4baf3a1d-ffd9-4b5e-ba1f-08758ac975d0"/>
+    <element xsi:type="archimate:BusinessService" name="Collectie beheren" id="ffd8eb66-451a-43a7-b7d0-c12eae3e490f"/>
+    <element xsi:type="archimate:BusinessService" name="Collecties vindbaar maken" id="917f48b0-5e25-4c86-9a5c-f5d1cba11caf"/>
+    <element xsi:type="archimate:BusinessService" name="Collectie ontsluiten" id="fc90cfb9-cfce-44cc-be22-30c253c1a586"/>
+    <element xsi:type="archimate:BusinessService" name="Objecten opnemen (Ingest)" id="5c5daef7-2e41-46ec-ac4a-d3ed42adc96d"/>
+    <element xsi:type="archimate:BusinessRole" name="Auteur" id="ece856d5-34b6-4fbb-96c9-c8e3674dd227"/>
+    <element xsi:type="archimate:BusinessFunction" name="Creatie categoriseren" id="2d50d29b-9e4e-41cb-989c-225301ce6a5c"/>
+    <element xsi:type="archimate:BusinessFunction" name="Creatie vervaardigen" id="6fca0768-c60f-40f8-9345-f8b47947e07c"/>
+    <element xsi:type="archimate:BusinessFunction" name="Creatie aanbieden bij bronhouder" id="c302292d-d491-4bd8-ab92-776e170b62b3"/>
+    <element xsi:type="archimate:BusinessService" name="Collecties omzetten naar RDF" id="a72d02dc-9437-4bc1-8d2a-90d1ff04b42b"/>
+    <element xsi:type="archimate:BusinessService" name="Verbinden met kernregistraties van oncepten" id="cc5555f6-2e09-45df-b0ee-e3412f407cc1"/>
+    <element xsi:type="archimate:BusinessService" name="Kernregistraties ontsluiten" id="bd9f5cc2-a328-401d-9715-7cab9c216d0a"/>
+    <element xsi:type="archimate:BusinessFunction" name="Creatie beschrijven" id="30ecb1cb-6cbd-48d6-be49-3f9248d37d84"/>
+    <element xsi:type="archimate:BusinessFunction" name="Creatie voorzien van verwijzingen naar concepten" id="e95f39fb-88f8-4980-890b-a5c1b832075a"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="OGP" id="238893f9-1b33-4046-b03f-3a2f4e7ecaf7">
+      <documentation>https://www.opengovpartnership.org/
+
+WHAT IS THE OPEN GOVERNMENT PARTNERSHIP?
+
+The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. In the spirit of multi-stakeholder collaboration, OGP is overseen by a Steering Committee including representatives of governments and civil society organizations.
+
+To become a member of OGP, participating countries must endorse a high-level Open Government Declaration, deliver a country action plan developed with public consultation, and commit to independent reporting on their progress going forward.
+
+The Open Government Partnership formally launched on September 20, 2011, when the 8 founding governments (Brazil, Indonesia, Mexico, Norway, the Philippines, South Africa, the United Kingdom and the United States) endorsed the Open Government Declaration, and announced their country action plans. Since 2011, OGP has welcomed the commitment of 67 additional governments to join the Partnership.
+
+In total, 75 OGP participating countries and 15 subnational governments have made over 2,500 commitments to make their governments more open and accountable.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessCollaboration" name="NDE" id="8bdcb97d-05e4-460a-bba0-f180d4eb64c2">
+      <documentation>Netwerk Digitaal Erfgoed
+
+Het Netwerk Digitaal Erfgoed is een samenwerkingsverband dat zich richt op de ontwikkeling van een stelsel van landelijke voorzieningen en diensten voor het verbeteren van de zichtbaarheid, bruikbaarheid en houdbaarheid van digitaal erfgoed. Het samenwerkingsverband is op initiatief van het Ministerie van Onderwijs, Cultuur en Wetenschap (OCW) tot stand gekomen.
+
+In het Netwerk Digitaal Erfgoed (NDE) werkt het Ministerie van OCW nauw samen met de erfgoedsector. Per deelsector (archieven, bibliotheken, musea, media, wetenschap) is een landelijk knooppunt benoemd. Samen met kenniscentrum Digitaal Erfgoed Nederland (DEN) en landelijke startpagina innl is zo een kerngroep binnen het Netwerk gevormd. Deze kerngroep heeft de Nationale strategie digitaal erfgoed opgesteld. Het streven is zo veel mogelijk andere erfgoedinstellingen te betrekken bij de uitvoering van deze strategie, ten behoeve van een optimaal gebruik van digitaal erfgoed. </documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Nederlandse Overheid" id="c5a7d5ed-912b-4a66-b0bf-6ea03db9bb80"/>
+    <element xsi:type="archimate:BusinessRole" name="Regering" id="2bb4b520-95da-4f00-8535-adfc27be9d90"/>
+    <element xsi:type="archimate:BusinessActor" name="OCW" id="ccf3b580-9052-4fee-94dd-b178f0fb12ae"/>
+    <element xsi:type="archimate:BusinessRole" name="Werkpakket: Onderwijs" id="902fcd50-a7c4-404d-b5c2-eacb7437e63a"/>
+    <element xsi:type="archimate:BusinessRole" name="Werkpakket: Cultuur" id="b4784487-6d3e-4549-8421-55507a81fe54"/>
+    <element xsi:type="archimate:BusinessRole" name="Werkpakket: Wetenschap" id="eaa58277-d294-4a1c-838b-4d13d55c3543"/>
+    <element xsi:type="archimate:BusinessActor" name="KB" id="9b9b63a7-39b8-4d6b-9ddd-2bf7a03bd571">
+      <documentation>De Koninklijke Bibliotheek
+
+De KB wil nog meer dan voorheen een platform bieden waar mensen en informatie samen komen. Onze belangrijkste opgave de komende jaren is de ontwikkeling van een nationale digitale bibliotheek – samen met onze partners in het netwerk.
+
+https://www.kb.nl/</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Beeld en Geluid" id="a307516f-da5e-4ce6-98be-5c502081bbfb">
+      <documentation>HET NEDERLANDS INSTITUUT VOOR BEELD EN GELUID
+
+Het Nederlands Instituut voor Beeld en Geluid is het media-archief van Nederland en de grootste van zijn soort in Europa. Het Instituut speelt een toonaangevende rol op het gebied van beheer en toegankelijk maken van het Nederlandse media-erfgoed. Het gebouw op het Media Park in Hilversum herbergt een dagelijks groeiende collectie van radio, televisie, film, foto’s, muziek, documentaires, nieuwe media, games en internetcultuur. Deze collecties geven een uniek beeld van de geschiedenis van Nederland van de afgelopen honderd jaar en van de ontwikkeling van de audiovisuele media in het bijzonder. Beeld en Geluid is toegewijd om de unieke collectie en de kennis daarover breed toegankelijk te maken voor uiteenlopende doelgroepen, waaronder mediaprofessionals, de creatieve sector, het onderwijs en het algemeen publiek. Door middel van onderzoek en innovatie heeft het instituut zich ontwikkeld tot een brede culturele instelling die met de opgebouwde kennis en infrastructuur een centrale functie inneemt binnen de archief- en mediasector in binnen- en buitenland. Beeld en Geluid ontvangt een structurele Rijksbijdrage op grond van de Mediawet.
+
+http://www.beeldengeluid.nl/over</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="RCE" id="c47bd3e8-3d19-4b36-9949-e42731fbaa08">
+      <documentation>De Rijksdienst voor het Cultureel Erfgoed is een onderdeel van het ministerie van Onderwijs, Cultuur en Wetenschap. We werken onder de rechtstreekse verantwoordelijkheid van de minister. De Rijksdienst voert wet- en regelgeving en erfgoedbeleid uit dat het ministerie samen met de dienst ontwikkelt.
+
+https://cultureelerfgoed.nl/organisatie</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="KNAW" id="b50743da-be42-4e8e-98ce-8c874bca5114">
+      <documentation>De Rijksdienst voor het Cultureel Erfgoed is een onderdeel van het ministerie van Onderwijs, Cultuur en Wetenschap. We werken onder de rechtstreekse verantwoordelijkheid van de minister. De Rijksdienst voert wet- en regelgeving en erfgoedbeleid uit dat het ministerie samen met de dienst ontwikkelt.
+
+https://cultureelerfgoed.nl/organisatie</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="NA" id="f126f330-3952-4837-a2aa-fabbbe339a6e">
+      <documentation>Het Nationaal Archief
+
+Als 'nationaal geheugen' beheert het Nationaal Archief de archieven van de landelijke overheid, maar ook archieven van maatschappelijke organisaties en individuele personen die van nationaal belang zijn (geweest). Daarnaast beschikt het Nationaal Archief over een grote collectie foto's en historische kaarten.
+
+De geschiedenis van het Nationaal Archief begint in 1802, wanneer voor het eerst een archivarius der Bataafsche Republiek wordt benoemd in de persoon van Hendrik van Wijn. Sindsdien heeft het Rijk de zorg voor de archieven tot zijn verantwoordelijkheid gerekend.
+
+http://www.nationaalarchief.nl/organisatie</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessCollaboration" name="Erfgoedsoftware Leveranciers (KnEL)" id="354be20c-8fec-45c8-a266-567cde360f38">
+      <documentation>Twaalf leveranciers van erfgoedsoftware hebben zich in 2016, op uitnodiging van CLICKNL Cultureel Erfgoed en Netwerk Digitaal Erfgoed (NDE) verenigd in het Knooppunt Erfgoedsoftware Leveranciers (KnEL). Een verslag van de initiatieven en ideeën die in deze periode zijn ontwikkeld is nu te lezen in het eindrapport knooppunt erfgoedsoftware leveranciers.
+
+Kwartiermaker KnEL
+
+De softwareleveranciers hebben gebruik gemaakt van de MIT regeling van het Ministerie van Economische Zaken en gezamenlijk een innovatiemakelaar gefinancierd. Deze ´Kwartiermaker KnEL´Vincent de Keijzer, heeft het overleg tussen de deelnemende leveranciers gefaciliteerd en de mogelijkheden onderzocht van een structureel overleg tussen het knooppunt leveranciers en het Netwerk Digitaal Erfgoed.
+Eindrapport
+
+In het eindrapport wordt teruggeblikt op de afgelopen periode. Het brengt de verwachtingen bij de start van het KnEL in kaart, geeft een overzicht van ondernomen activiteiten en bespreekt de bevindingen. Het rapport wordt afgesloten met een reeks aanbevelingen voor een eventuele doorstart van het samenwerkingsverband. Het KnEL geeft daarbij aan behoefte te hebben aan een stevigere organisatie van de onderlinge samenwerking en heldere afspraken over de samenwerking met het NDE. De leveranciers willen op deze manier invulling geven aan de publiek-private samenwerking die naar hun idee onvoldoende is uitgewerkt in de NDE plannen.
+
+Doorstart
+
+Het knooppunt is blij om te zien dat de eerste tekenen van een doorstart zich aandienen. Eén van de leveranciers (DeventIT, Bunschoten) heeft aangegeven het voortouw te willen nemen in het gesprek over een mogelijk vervolg. DEN heeft aangeboden daarbij de secretarisrol op te willen nemen.
+
+http://www.den.nl/nieuws/bericht/5779</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessCollaboration" name="NCDD" id="234b7d25-d87c-482a-9cd1-2aa3eca33dab">
+      <documentation>Nationale Coalitie Digitale Duurzaamheid
+
+De Nationale Coalitie Digitale Duurzaamheid is in 2008 door vier partijen opgericht om een infrastructuur te (helpen) realiseren voor duurzame toegankelijkheid van digitale objecten die in het publieke domein beheerd en ontsloten worden. Onder ‘infrastructuur’ verstaan wij een landelijk dekkend netwerk van voorzieningen: afspraken over collectievorming, opslagfaciliteiten, software, hardware, kennis over preservering, opleidingen, menskracht, kwaliteitsbeheer en financiering. In 2009 voerde de NCDD een landelijke verkenning uit met als titel Toekomst voor ons digitaal geheugen (PDF). Op basis van deze verkenning werd in 2010 een vervolgrapport geschreven waarin een strategische agenda 2010-2013 (PDF) voor duurzame toegang werd geformuleerd, met als kern ‘samenwerking’ om de missie te bereiken: samen bouwen aan de toekomst van ons digitaal geheugen.
+
+Missie
+De NCDD wil als nationale coalitie een gedistribueerd maar samenhangend landelijk netwerk realiseren waarin uiteindelijk voor alle relevante digitale gegevens van de publieke sector een plek zal zijn. Hiervoor moeten niet alleen opslagfaciliteiten beschikbaar zijn, maar vooral ook kennis en menskracht om het beheer goed vorm te kunnen geven. Ook moeten goede afspraken worden gemaakt over de verantwoordelijkheden; wat instellingen zelf moeten doen en welke taken ze in samenwerkingsverbanden vorm kunnen geven.
+
+Visie
+Domeinoverstijgende samenwerking en afstemming zijn de sleutelbegrippen voor het realiseren van een kwalitatief hoogwaardig, effectief en efficiënt beheer van digitale informatie. De NCDD-partners brengen die samenwerking nu op een hoger plan door over de hele breedte van het publieke domein te zoeken naar de beste oplossingen. Daarbij nemen we uitdrukkelijk de belangen mee van kleinere organisaties die niet in staat zijn op eigen kracht betrouwbaar digitaal beheer tot stand te brengen, omdat zij de benodigde technische voorzieningen, organisatie en het benodigde kennisniveau missen.
+
+Kernthema’s
+De NCDD heeft vier kernthema’s benoemd:
+
+Kennisdeling
+Infrastructuur voor lange termijn beheer van digitale informatie en kwaliteitsbeheer
+Afstemming collectiebeleid
+Kostenbeheersing
+De NCDD-partners werken aan deze thema’s door het uitvoeren van gezamenlijke projecten. De projectteams bestaan uit experts van verschillende organisaties (coalitieleden, maar ook andere collectiebeherende instellingen), met een projectleider vanuit een van de NCDD-partners. Zo bundelen we onze krachten en expertise voor gezamenlijke oplossingen en kennisvergroting.
+
+Concrete activiteiten
+In het NCDD-programmaplan 2013-2018 (PDF) beschrijven we hoe we de strategische agenda van de NCDD omzetten in concrete activiteiten. De jaarplannen worden gebaseerd op dit programmaplan. Voor 2016 zijn de belangrijkste ijkpunten van de NCDD:
+
+Het uitvoeren van de projecten in het werkpakket Digitaal Erfgoed Houdbaar, onderdeel van het werkprogramma van het Netwerk Digitaal Erfgoed,
+Het uitdiepen van de platformfunctie van de NCDD via concrete activiteiten op het gebied van kennisontwikkeling en kennisuitwisseling in netwerkverband en in samenwerking met de coalitiepartners,
+Het actualiseren van de visie van de NCDD op digitale duurzaamheid in Nederland en het bepalen van de rol en positie van de NCDD hierin vanaf 2017.
+
+http://www.ncdd.nl/over-de-ncdd/beleid-en-strategie/
+
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="DANS" id="24b55bd9-2bbd-4f26-abc5-06ba51cf43aa"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="CCDD" id="08b9ffd3-b4b5-4845-aecc-e35c55bbb409">
+      <documentation>Culturele Coalitie Digitale Duurzaamheid
+
+De Culturele Coalitie Digitale Duurzaamheid (onderdeel van de NCDD) is een kennisnetwerk waarin cultureelerfgoedinstellingen met elkaar aan de slag gaan om digitale informatie duurzaam toegankelijk te houden.
+
+In de sector cultuur worden steeds meer digitale objecten geproduceerd en gearchiveerd. Denk aan digitale kunst, gedigitaliseerde schilderijen en prenten, culturele websites en omvangrijke databases met digitale informatie over erfgoedcollecties. Het is voor erfgoedinstellingen daarom noodzakelijk kennis en expertise op te bouwen over duurzame toegankelijkheid van de digitale collectie en collectie-informatie, bij voorkeur binnen de eigen instelling. Er is veel specialistische kennis bij instellingen zelf, maar deze wordt niet duurzaam geborgd en ook niet structureel gedeeld. De kennis is verdeeld over een groot aantal erfgoedinstellingen en netwerken. De CCDD bundelt de kennis in één kennisnetwerk.
+
+CCDD-partners
+Elf instellingen vormen de kerngroep, die het bestuur van de CCDD ondersteunt.
+
+EYE Filmmuseum
+Erfgoedinspectie
+Het Nieuwe Instituut
+Living Media Art (LIMA)
+Nederlandse Museumvereniging/SIMIN
+Rijksbureau voor Kunsthistorische Documentatie (RKD)
+Rijksdienst voor het Cultureel Erfgoed (RCE)
+Rijksmuseum Amsterdam
+Stichting Digitaal Erfgoed Nederland (DEN)
+Stichting Volkenkundige Collectie Nederland (SVCN)
+Naturalis Biodiversity Center
+Sandra den Hamer (directeur van EYE Filmmuseum) treedt op als voorzitter. Zij vertegenwoordigt tevens de CCDD in de NCDD. Het secretariaat van de CCDD is belegd bij DEN. Voor meer informatie over de CCDD kunt u per mail contact opnemen met Marcus Cohen.
+
+http://www.ncdd.nl/over-de-ncdd/partners/culturele-coalitie-digitale-duurzaamheid/</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Driebit" id="a85ce351-c478-49b1-b904-d578d480fae7"/>
+    <element xsi:type="archimate:BusinessActor" name="Total Active Media" id="e38b4b55-9343-4383-89a1-a113ae1b7451"/>
+    <element xsi:type="archimate:BusinessActor" name="Delving" id="1f6e9f8b-5c14-42b7-8dd8-c9a4f7433dec"/>
+    <element xsi:type="archimate:BusinessActor" name="TMIS/CIT" id="5fbc943b-7bfb-4131-bc77-b20e0f132919"/>
+    <element xsi:type="archimate:BusinessActor" name="Deventit" id="99b1ce7b-a4ed-4bfc-bc53-59eb518c9cde"/>
+    <element xsi:type="archimate:BusinessActor" name="Picturae" id="7fd285cb-d338-46c9-a389-05b82a984cca"/>
+    <element xsi:type="archimate:BusinessActor" name="OCLC" id="49088461-da81-4935-80f4-2b712fcb73cc"/>
+    <element xsi:type="archimate:BusinessActor" name="Adlib Axiell" id="b205dd91-1045-47bb-b7b9-a51cbde3acf7"/>
+    <element xsi:type="archimate:BusinessActor" name="Vancis" id="3eb0bd4a-cc61-4a72-8653-24eb934dbbc2"/>
+    <element xsi:type="archimate:BusinessActor" name="Spinque" id="8d562ee8-9946-495c-a649-9a5a09ed7b2b"/>
+    <element xsi:type="archimate:BusinessActor" name="Divault" id="e0ed5c0e-7fe5-4656-b538-2bba3c2566df"/>
+    <element xsi:type="archimate:BusinessActor" name="Seecr" id="a8641b84-78db-414f-b789-7d607c911167"/>
+    <element xsi:type="archimate:BusinessActor" name="DEN" id="2e4405ae-073e-4b09-96b5-ba6293603d78">
+      <documentation>DEN is het nationale kennisinstituut voor digitalisering in de cultuursector. DEN ondersteunt cultuurproducerende en erfgoedbeherende instellingen om in gezamenlijkheid een actieve bijdrage te leveren aan de informatiemaatschappij op basis van digitale collectievorming, archivering en dienstverlening.
+DEN bevordert en bewaakt de kwaliteit van digitalisering en digitale dienstverlening door de erfgoed- en cultuursector (archieven, musea, bibliotheken met bijzondere collecties, archeologische en bouwhistorische instellingen, cultuurproducerende instellingen).
+ 
+DEN investeert in kennisontwikkeling op het gebied van open ICT-standaarden en andere landelijke kwaliteitsprincipes voor duurzame digitalisering.
+ 
+DEN stimuleert de erfgoedinstellingen en cultuurproducerende instellingen te innoveren en hun diensten aan te passen aan de eisen van de digitaliserende samenleving.
+ 
+Door kwaliteitszorg versterkt DEN de toekomstvastheid en de publieksgerichtheid van een nationale infrastructuur voor digitaal erfgoed.
+ 
+Door een stevige en onafhankelijke positie in nationale en internationale netwerken op het gebied van digitaal erfgoed en aangrenzende terreinen bewaakt DEN de aansluiting van de Digitale Collectie Nederland op andere nationale en internationale diensten en voorzieningen.
+ 
+DEN maakt onderdeel uit van de basisinfrastructuur in de culturele sector en wordt gefinancierd door het ministerie van OCW.</documentation>
+    </element>
+  </folder>
+  <folder name="Application" id="97a9bd3b-0391-43a3-ab60-236ff6a3bf95" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Collectie Beheer Systeem" id="ef25c29d-66ac-4535-b11e-f4a8194293ca"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Terminologie Beheer Systeem" id="0723ed5c-7d82-48e1-9845-e65d4ee58ea7">
+      <documentation>Specifiek: 
+Het Gemeenschappelijk Geautomatiseerde Catalogiseersysteem (GGC) is speciaal voor Nederlandse bibliotheken. Het biedt een gedeelde infrastructuur om de collecties gezamenlijk te catalogiseren, waardoor de kwaliteit van uw metadatabeheer toeneemt. Het GGC bevindt zich in een transitietraject naar WorldCat, maar wordt nog steeds gebruikt door veel wetenschappelijke, openbare en speciale bibliotheken. Het GGC wordt door de Koninklijke Bibliotheek gebruikt als het basisregistratiesysteem voor de collecties. Het gebruik van het GGC is een uitstekende (vaak zelfs de beste) ‘springplank’ om de oversteek naar het wereldwijde WorldCat voor te bereiden en in te zetten.
+
+https://www.oclc.org/nl/ggc.html (OCLC)
+
+Generiek:
+http://openskos.beeldengeluid.nl/
+</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="Collectie catalogiseren" id="6a487e48-78b6-49a0-80e7-3d1d0c907eaa"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Aggregator" id="4f79889c-003e-455b-b627-777cbd90c2c5"/>
+    <element xsi:type="archimate:ApplicationService" name="Collectie ontsluiten voor publiek" id="9f9154f7-1d80-44ad-8b4c-a7bc9d41c2bd"/>
+    <element xsi:type="archimate:ApplicationService" name="Vindbaar maken erfgoed collecties" id="18b10343-1016-41b3-9d86-2819e582e93d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Register" id="5d003415-f4d8-4017-b184-4e2943b3f9c2"/>
+    <element xsi:type="archimate:DataObject" name="Organisatie profiel" id="cd72d48b-f9c1-48ce-a37d-4f73ed89ecf5"/>
+    <element xsi:type="archimate:DataObject" name="Dataset profiel" id="9003dfaa-5f2a-4e5f-973a-75c2649ba24e"/>
+    <element xsi:type="archimate:DataObject" name="Object profiel" id="23b88383-7a48-4d04-b312-eee3286b819e"/>
+    <element xsi:type="archimate:ApplicationComponent" name="OpenSKOS" id="2a838953-a94b-4c05-90bc-20e0576f0591"/>
+    <element xsi:type="archimate:ApplicationComponent" name="APE (Archives Portal Europe)" id="56e1055e-cb1d-4fa9-8011-39e236bf92d5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="OCLC WorldCat" id="171b535c-6d0d-4ad1-97ae-50f520a55ba5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Linked Open Data Verzamelaar" id="4c534b9c-62e5-46c9-b9f0-15557cedcb01"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Frontend: Zoekhulp (ZVT)" id="f3f2b184-1cb2-4690-ac1d-a03571e9f4f1">
+      <documentation>Generiek bouwblok voor de functionaliteit Zoeken Vinden Tonen in een website</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Metadata" id="a35b168f-a1d7-49c9-acea-c99a5e0b3cdd"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Service Portaal" id="2e72ae3f-217e-4fa8-9ba9-e184a520ad50"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Browser (ZoekenVindenTonen)" id="32ead9e2-9e17-4425-b371-10796b25363d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Kennisbank (Knowledge Graph)" id="172d05f6-924b-47cb-ace2-4e7a6a18b24f"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Register" id="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Termen Netwerk" id="7ee9d0df-45e2-498c-b7bd-65e75cc3bca6"/>
+    <element xsi:type="archimate:ApplicationService" name="Terminologieen ontsluiten" id="1eb07667-5be9-4f67-9dc8-1c90ba9af969"/>
+    <element xsi:type="archimate:ApplicationService" name="Terminologieen beheren" id="82edc942-2006-47bb-b571-bdab277bb94d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="OpenSKOS" id="33d356e1-0e89-49e6-b0b8-08e00b40851b">
+      <documentation>http://openskos.beeldengeluid.nl/</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="PoolParty" id="ad31315f-7dcf-4c5f-a634-525ca9a9969c">
+      <documentation>https://www.poolparty.biz/</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Mais Flexis" id="0a6b1d26-c2b5-467e-8b78-114de232a9f1">
+      <documentation>Collectie Beheer Systeem van De Ree. Het Nationaal Archief gebruikt dit.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Mais Flexis MDWS" id="dd1dacb8-dce3-4f74-8867-4a1caa36df62"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Archieven.nl" id="751cf9b8-28a0-4ce7-bd28-803fd6b2fe0a"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="4cf1fd4a-ae7b-4ee8-b99a-6e97e2e5be4d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="e-Depot (Preservica)" id="a96d16cd-b959-4d82-b0d9-f4730249d3a6">
+      <documentation>Feitelijk ook een CBS, maar bij het NA voornamelijk gebruikt als digitaal depot voor het duurzaam bewaren van digitale bestanden.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="Digitale stukken ontsluiten" id="e1b87ac1-7aee-4d83-b257-db9d59ee8c1a"/>
+    <element xsi:type="archimate:ApplicationService" name="Digitale stukken ontsluiten voor publiek" id="299035c0-3d15-4093-a088-6b4d0f66fa13"/>
+    <element xsi:type="archimate:ApplicationService" name="MOM ontsluiten (beschrijvende etadata)" id="0ddaf6b7-2d61-40d8-af1a-469fce692eb2">
+      <documentation>Manifestatie Onafhankelijke Metadata. Collecties, EAD (Encoded Archival Description) etc.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="Ontsluiting uit e-Depot" id="44bc0713-8878-44fb-ae05-69d07812f534"/>
+    <element xsi:type="archimate:ApplicationService" name="MAM ontsluiten (manifestatie profielen)" id="c575e9eb-bece-46a6-9d1c-c0d2cbe8c657">
+      <documentation>Manfifestatie Afhankelijke Metadata, profiel informatie over de manifestaties op het e-Depot. UUID, Deliverable Units, beheers informatie, versies, pronom, governance, auteur (creatie).</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Publiekswebsite" id="fed36006-57b9-4fb7-b2d3-ca5c195dee2d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Terminologie bron" id="619133b8-2215-4fc8-832a-dd4f7e7eaf72"/>
+    <element xsi:type="archimate:DataObject" name="Terminologieen" id="344dec64-ecda-4d32-81dc-8a7ccb651796"/>
+    <element xsi:type="archimate:ApplicationComponent" name="RKDartists&amp;" id="f5f7c5dc-b7af-4290-9560-cdc31cd60f0d">
+      <documentation>https://rkd.nl/en/explore/artists</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Gemeenschappelijk Geautomatiseerde Catalogiseersysteem (GGC)" id="dab841d0-08ce-4f58-9509-7843b9cfe37e">
+      <documentation>https://www.oclc.org/nl/ggc.html
+
+Het Gemeenschappelijk Geautomatiseerde Catalogiseersysteem (GGC) is speciaal voor Nederlandse bibliotheken. Het biedt een gedeelde infrastructuur om de collecties gezamenlijk te catalogiseren, waardoor de kwaliteit van uw metadatabeheer toeneemt. Het GGC bevindt zich in een transitietraject naar WorldCat, maar wordt nog steeds gebruikt door veel wetenschappelijke, openbare en speciale bibliotheken. Het GGC wordt door de Koninklijke Bibliotheek gebruikt als het basisregistratiesysteem voor de collecties. Het gebruik van het GGC is een uitstekende (vaak zelfs de beste) ‘springplank’ om de oversteek naar het wereldwijde WorldCat voor te bereiden en in te zetten.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="GTAA" id="8b2fb4e7-191b-4b86-9025-bf13e36839b1">
+      <documentation>Common Thesaurus for Audiovisual Archives
+http://gtaa.beeldengeluid.nl/</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Cultuurhistorische Thesaurus" id="0f824dcc-2125-4083-8b03-d2a43a09fd1b">
+      <documentation>https://data.cultureelerfgoed.nl/PoolParty/wiki/term/id/cht</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="DBPedia" id="bc349123-0fb7-425f-b58b-de33c8cac72e">
+      <documentation>http://wiki.dbpedia.org/</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Art &amp; Architecture Thesaurus (AAT)" id="bfcc7b42-347b-4afc-abfd-699693ee86bb">
+      <documentation>De Art &amp; Architecture Thesaurus (AAT) is een wereldwijd toegepast ontsluitingsmiddel voor het toegankelijk maken van architectuur-, kunst- en cultuurhistorische collecties. De Nederlandstalige AAT is een vertaling en bewerking van de Amerikaanse AAT van het Getty Research Institute die wordt verzorgd door het RKD - Nederlands Instituut voor Kunstgeschiedenis.
+http://website.aat-ned.nl/home</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Visuele Thesaurus voor Mode &amp; Kostuums" id="ac16ddf2-5ba1-4405-aa69-793fc7f543f6">
+      <documentation>http://www.den.nl/project/640/Visuele-Thesaurus-voor-Mode-&amp;-Kostuums
+Dit project (november 2015 - juni 2017), getrokken door het ModeMuseum in Antwerpen (MoMu) en geïnspireerd door het portaal Modemuze.nl, heeft tot doel het gebruik van gedeelde termenlijsten te motiveren binnen Vlaamse en Nederlandse musea met mode-erfgoed. In dat kader is er door een consortium van elf musea gewerkt aan de versterking van de Art &amp; Architecture Thesaurus (AAT), waarvoor 130 - al deels verwerkte - toevoegingen zijn aangeboden bij het Getty Research Institute. Hierbij is gefocust op de objecttypes en textiele materialen, die na vergelijking met de collecties duidelijk ontbraken in de Amerikaanse thesaurus.
+Daarnaast organiseerde het project workshops over het opschonen en linken van collecties voor de projectpartners, om deze kennis vervolgens te verankeren in een handleiding voor het brede werkveld (in samenwerking met NDE). De eigen set termen is samen met de bestaande mode en kostuum-gerelateerde AAT-concepten ontsloten als de Visuele Thesaurus voor Mode &amp; Kostuums. Inclusief de links naar op Wikimedia Commons geplaatste illustraties is deze thesaurus als SKOS beschikbaar. Ondertussen wordt hij geïmplementeerd in het platform Modemuze.nl, om de effecten te kunnen tonen aan het werkveld en dit verder bewust te maken van de kansen van Linked Data. 
+Voor dit project werkte het Antwerpse museum in de stuurgroep samen met Modemuze, NDE, VIAA, RCE en werd ondersteund door Spinque, de Universiteit Gent en het RKD.
+Betrokken musea: Amsterdam Museum, Rijksmuseum Amsterdam, Centraal Museum, Paleis Het Loo, Fries Museum, Museum Rotterdam, Gemeentemuseum Den Haag, Koninklijke Musea voor Kunst &amp; Geschiedenis, Koninklijk Instituut voor het Kunstpatrimonium, Modemuseum Hasselt, ModeMuseum Provincie Antwerpen (MoMu).</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Organisatieprofiel Erfgoedinstelling" id="d8f6dadd-efa2-41a5-a058-4d8c34a51080"/>
+    <element xsi:type="archimate:DataObject" name="Datasets " id="f0f400b0-96bd-4e8f-8ace-63e3a7d64682"/>
+    <element xsi:type="archimate:DataObject" name="Object profielen" id="5d7bb94c-2888-415e-a4ea-058c023d2dbe"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Nederlandse Thesaurus van Auteursnamen (NTA)" id="38db4fac-4e5c-4417-89e1-9c5398c33c8c">
+      <documentation>De Nederlandse Thesaurus van Auteursnamen (NTA) ook wel Persoonsnamenthesaurus genoemd, is onderdeel van het Gemeenschappelijk Geautomatiseerd Catalogiseersysteem (GGC) dat beheerd wordt door OCLC.
+
+Wat biedt deze thesaurus?
+Het doel van de thesaurus is persoonsnamen te uniformeren zodat het mogelijk wordt om de publicaties van en over een auteur in de catalogus bij elkaar te brengen. Dit is de zogenaamde collocatiefunctie van de catalogus. Om deze functie te realiseren worden naams- en andere persoonsgegevens van auteurs opgeslagen, zodat onderscheid gemaakt kan worden tussen auteurs met dezelfde naam. Met behulp van deze gegevens kunnen ook de zoekfuncties in verschillende zoeksystemen verbeterd worden. OCLC verschaft deelnemende instellingen de mogelijkheid deze functie te gebruiken in vergelijkbare systemen waarin men ook tussen auteurs wil onderscheiden.
+
+In de NTA worden de gegevens opgenomen die nodig zijn om nu of in de toekomst auteurs met dezelfde naam te kunnen identificeren en onderscheiden.. Het betreft altijd de naam, maar het kan daarbij ook gaan om pseudoniemen, spellingvarianten en de eigennaam van auteurs, om de geboorte- en sterfdatum, titulatuur en gegevens over werkrelaties, zoals beroepsaanduiding of bedrijf waar men werkzaam is.
+https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis/ggc-thesauri-als-linked-data#toc-5</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="KB Corporatiethesaurus" id="2ed73379-f031-465f-8db3-6803bdb81718">
+      <documentation>De KB Corporatiethesaurus is een thesaurus waarmee de Depotcollectie en de catalogus van deze collectie, de Nederlandse Bibliografie online, op corporatie zijn ontsloten. Een corporatieve auteur is een instelling, commissie of organisatie die als auteur optreedt (dus geen ‘natuurlijke personen’).
+
+Sinds 1 januari 2012 worden alle collecties van de Koninklijke Bibliotheek op corporatie ontsloten volgens deze thesaurus. En sinds 1 november 2013 wordt de corporatiethesaurus aan alle instellingen in het GGC aangeboden voor gebruik.
+
+Wat biedt deze thesaurus?
+Het doel van de thesaurus is het uniformeren van corporaties zodat het mogelijk wordt om de publicaties van en over een corporatie in de catalogus bij elkaar te brengen. Dit is de zogenaamde collocatiefunctie van de catalogus. Om deze functie te realiseren worden naams- en andere gegevens van corporaties opgeslagen zodat onderscheid gemaakt kan worden tussen corporaties met dezelfde naam. Met behulp van deze gegevens kunnen ook de zoekfuncties in verschillende zoeksystemen verbeterd worden.
+
+Hoe is deze thesaurus doorzoekbaar?
+De databases van OCLC (CBS/GGC) en WorldCat en de online retrievalsystemen [zoeksystemen] van OCLC, zoals Online Publiekscatalogi (o.a. van de KB), Picarta en WorldCat zijn doorzoekbaar op deze corporaties.
+
+Opbouw en beheer van deze thesaurus
+De thesaurus is opgebouwd met ruimere en met nauwere termen, die met elkaar verbonden zijn d.m.v. Pica Productie Nummers (PPN’s). Het is een lopende thesaurus waarin voortdurend aanpassingen plaatsvinden.
+
+De kenmerkcode (kmc) waarop corporaties in het GGC worden ingevoerd is 312X. De Afdeling Documentverwerking van de Koninklijke Bibliotheek beheert deze thesaurus. Andere instellingen in het GGC kunnen voor het maken van een corporatie terecht bij deze afdeling, catalogisering@kb.nl (link sends e-mail).
+https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis/ggc-thesauri-als-linked-data#toc-6</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Brinkman onderwerpen" id="d4a37302-c25c-4e3f-9582-3c53e9b1a876">
+      <documentation>Brinkmanonderwerpen
+Volgens de thesaurus Brinkmanonderwerpen worden alle collecties van de Koninklijke Bibliotheek ontsloten.
+
+Wat biedt deze thesaurus?
+Het doel van de thesaurus is het uniformeren van onderwerpen zodat het mogelijk wordt om de publicaties over een onderwerp in de catalogus bij elkaar te brengen. Dit is de zogenaamde collocatiefunctie van de catalogus. Met behulp van deze gegevens kunnen ook de zoekfuncties in verschillende zoeksystemen verbeterd worden.
+
+De thesaurus bestaat naast de onderwerpstrefwoorden ook uit vormtrefwoorden en geografische trefwoorden.
+
+Hoe is deze thesaurus doorzoekbaar?
+De databases van OCLC (CBS/GGC) en WorldCat en de online retrievalsystemen van OCLC zoals Online Publiekscatalogi (o.a. van de KB), Picarta en WorldCat zijn doorzoekbaar op deze onderwerpen.
+
+Opbouw en beheer van deze thesaurus
+De thesaurus is opgebouwd met ruimere, nauwere en verwante termen. Deze termen zijn met elkaar verbonden d.m.v. Pica Productie Nummers (PPN’s). Het is een lopende thesaurus waarin voortdurend aanpassingen plaatsvinden.
+
+De kenmerkcode (kmc) waarop de Brinkmantrefwoorden in het GGC worden ingevoerd is 520X. De Afdeling Documentverwerking van de Koninklijke Bibliotheek beheert de thesaurus.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Gemeenschappelijke Onderwerpsontsluiting (GOO)" id="276191e8-bb50-4e75-b053-9ca791f8df3e">
+      <documentation>De Gemeenschappelijk Onderwerpsontsluiting (GOO) of Gemeenschappelijke Trefwoordenthesaurus (GTR) is tot 1 januari 2012 bijgehouden en beheerd door de Koninklijke Bibliotheek t.b.v. het samenwerkingsverband Gemeenschappelijke Onderwerpsontsluiting.
+
+GOO was ontwikkeld om de onderwerpsontsluiting door wetenschappelijke bibliotheken gezamenlijk uit te voeren als onderdeel van het Gemeenschappelijk Geautomatiseerd Catalogiseersysteem (GGC) van Pica, later OCLC. De deelnemende bibliotheken maakten bij de beschrijving van titels in het GGC gebruik van zowel de Nederlandse Basisclassificatie als van een gedetailleerd woordsysteem, de GOO-trefwoordenthesaurus (GTT).
+
+Door de opheffing van het Samenwerkingsverband zijn de Nederlandse Basisclassificatie, de Gemeenschappelijke Trefwoordenthesaurus en de onderwerpsgegevens over gegaan naar OCLC. OCLC wil bibliotheken die het instrumentarium of de data van GOO en de Nederlandse Basisclassificatie willen blijven gebruiken naar vermogen faciliteren.
+
+Meer informatie
+http://www.ukb.nl/goo</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Nederlandse Basisclassificatie (NBC)" id="eb5a3026-3e7e-4197-bc7d-a3c216aae764">
+      <documentation>De Nederlandse Basisclassificatie (NBC) is een van oorsprong Nederlands bibliotheek classificatieschema speciaal ontwikkeld voor wetenschappelijke bibliotheken.
+
+Deze classificatie is eind 80-er jaren ontwikkeld onder leiding van de Koninklijke Bibliotheek, in gebruik sinds 1990. In 2006 verscheen de laatste bijgewerkte versie.
+
+Wat biedt dit classificatiesysteem?
+De NBC geeft een (beperkt) hiërarchisch verband en duidt gezien de grofmazigheid ervan niet zozeer het onderwerp aan, maar de discipline waar het onderwerp toe behoort. De NBC werd vooral gebruikt in samenhang met de GOO.
+
+Meer informatie
+http://nl.wikipedia.org/wiki/Nederlandse_Basisclassificatie</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Data.overheid.nl" id="5e14ada6-31ba-4d4a-837f-9fc7229b04cd"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Annotatieplatform" id="18d10471-485d-4aba-85cd-04bdd1f5ecc8"/>
+    <element xsi:type="archimate:ApplicationComponent" name="dokie.li" id="f0d90f40-80c3-43c9-9ea7-61d119e13dd2">
+      <documentation>dokieli is a clientside editor for decentralised article publishing, annotations and social interactions.
+
+https://dokie.li/
+https://github.com/linkeddata/dokieli
+Write and publish articles in a space you control
+including locally, offline and static hosting.
+Save articles to your personal datastore and edit in place
+(supports Solid / Linked Data Platform).
+Annotate, reply to and share articles.
+Let your readers choose where to store their comments and notes.
+Get notifications
+when someone interacts with your article.
+Embed live data, scripts, stats and multimedia.
+Great for tutorials and experimental results.
+Add identifiers and semantic markup to any concept
+to put your prose in the Linked Open Data cloud.
+Anyone can tweak, clone and remix your articles.
+Spread your ideas, facilitate open knowledge access and reuse.
+Let your readers choose a view that suits them.
+Design your own or use preset themes.
+Open source and under ongoing development...
+dogfooding, feedback and contributions welcome.
+Try it now!
+This webpage is a dokieli article.
+Write and publish
+
+dokieli articles and annotations are completely decentralised! This means that authors can publish where they choose, and we have no central servers to monitor or control your content or the interactions of your readers. Simply add the dokieli CSS and JavaScript to any HTML page to immediately add in-browser editing and annotations.
+
+You can download the dependencies to work offline, or use them directly from dokie.li. Use in-browser local storage to save your changes or export to save to your harddrive, and to any Web server when you’re ready to share your article.
+
+Personal storage
+
+In order to edit articles in the browser and save directly to server storage, as well as grant access to collaborators to edit, dokieli complies with the Solid protocol, based on the Linked Data Platform W3C standard. This is essentially a REST API for reading and writing Linked Data. Solid includes identity through WebID, access control through Web Access Control, and other enhancements for decentralised personal data management.
+
+You can sign up for a demo personal datastore at databox, install an existing server implementation, or even make your own server implementation from the spec. Once you have this, you can store dokieli articles there, privately or publicly (or limited access to others with WebIDs), as well as use this space for replies and notifications (and data generated by other Solid apps).
+
+dokieli enables the Write dimension of the Read-Write Web
+
+Annotations and replies
+
+dokieli implements the W3C Web Annotation specifications Wherever your article is published, readers can leave annotations and replies if they have their own personal datastore to save them to. If your article is published on a personal storage space, you can offer to store annotations and replies on their behalf, and enable anonymous responses too. All annotations and replies can be saved with a  Creative Commons license.
+
+Notifications
+
+dokieli implements Linked Data Notifications W3C Recommendation for notifications for annotations and social activities. Whenever someone interacts with your article through dokieli, you will receive a notification in the appropriate inbox . Right now you get notifications for annotations, replies, shares, reviews, citations/links, bookmarks and likes. dokieli also implements the W3C Activity Vocabulary.
+
+Rich embedding
+
+A dokieli article is simply an HTML  document, so anything you can include in an HTML page you can include in your article. We’re adding new features to the UI to help with this all the time. You can directly embed raw data; in Turtle, JSON-LD, or TriG (used in Nanopublications).
+
+Identifiers and semantics
+
+Unique identifiers (URIs) are automatically generated for every section of your article to make it easy for others to link and refer to them. You can add identifiers to any concepts you think are important at any level of granularity. Additionally, you can add descriptive markup to any concept or snippet of prose which has an identifier; dokieli generates  RDFa markup under the hood so your ideas are exposed as Linked Data for others to query, reuse and visualise.
+
+Remixing and replication
+
+Readers can click  save as on any of your articles to create a copy in their own datastore. This copy retains a link back to yours as a derivative work. This feature means that dokieli is a self-replicating application, spreading itself around the Web as ideas and discussions are spread.
+
+Views
+
+Views are just stylesheets, so if you know CSS  it is easy to make your own or customise our presets. You choose which to include with any of your articles according to what you think is useful for your audience, whether that is your personal website style or an academic paper layout. Every so often we add a new view, so keep an eye out.
+
+Researchers
+
+dokieli envisions research results, analysis and data all being produced interactively on the Web and seamlessly linked to and from articles. Through annotations and notifications, the academic process of peer-review can be open, transparent and decentralised for researchers.
+
+This is in line with the goals of the  Linked Research initiative. As an increasing number of conferences are accepting HTML submissions, you can write your paper  with dokieli and export to HTML or PDF for submission; we provide stylesheets for LNCS and ACM publication layouts out of the box. Here is one article, about dokieli, and others in the wild.
+
+dokieli is open source; developers can find the code at  github.com/linkeddata/dokieli. This is very much a work in progress, so contributions, issues, bug reports and feature requests are welcome. You can also join the chat on Gitter.
+
+We’re building dokieli to be something we want to use, so we encourage dogfooding! Check out examples in the wild.
+Dive in
+
+This page itself is a dokieli document, so to get started, open the menu in the top right and click edit. You can change this page to your heart’s content, try out different  views, then  export the HTML and upload it somewhere you control.
+
+If you have a personal storage space, you can click  new (for a blank document) or  save as (for a copy of this one) and choose where you would like to save it. You will be redirected to your new document, where you can edit away and have changes automatically saved to your Webspace. Of course, you’ll also be able to interact with your new document using other applications!
+
+Help and shape dokieli
+
+dokieli (issues, chat), Linked Research, Solid. Supported by Crosscloud (2015-10 — 2016-09).
+
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="W3C Web Annotation Model" id="cd137aba-f777-4430-b30b-952e89bd71d1">
+      <documentation>https://www.w3.org/TR/annotation-model/
+
+Annotating, the act of creating associations between distinct pieces of information, is a pervasive activity online in many guises. Web citizens make comments about online resources using either tools built in to the hosting website, external web services, or the functionality of an annotation client. Comments about shared photos or videos, reviews of products, or even social network mentions of web resources could all be considered as annotations. In addition, there are a plethora of &quot;sticky note&quot; systems and stand-alone multimedia annotation systems. This specification describes a common approach to expressing these annotations, and more.
+
+The Web Annotation Data Model provides an extensible, interoperable framework for expressing annotations such that they can easily be shared between platforms, with sufficient richness of expression to satisfy complex requirements while remaining simple enough to also allow for the most common use cases, such as attaching a piece of text to a single web resource.
+
+An annotation is considered to be a set of connected resources, typically including a body and target, and conveys that the body is related to the target. The exact nature of this relationship changes according to the intention of the annotation, but the body is most frequently somehow &quot;about&quot; the target. This perspective results in a basic model with three parts, depicted below. The full model supports additional functionality, enabling content to be embedded within the annotation, selecting arbitrary segments of resources, choosing the appropriate representation of a resource and providing styling hints to help clients render the annotation appropriately. Annotations created by or intended for machines are also possible, ensuring that the Data Web is not ignored in favor of only considering the human-oriented Document Web.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="W3C Web Annotation Vocabulary" id="e0b1df3b-18a7-4d0b-9e0d-4f66aa285021">
+      <documentation>https://www.w3.org/TR/annotation-vocab/#introduction
+namespace http://www.w3.org/ns/oa#
+The specification is divided into two major sections: the terms defined in the Web Annotation ontology, and terms from other ontologies used in the model.
+
+Prefix	Namespace	Description
+oa	http://www.w3.org/ns/oa#	The Web Annotation Data Model
+as	http://www.w3.org/ns/activitystreams#	[activitystreams-vocabulary]
+dc	http://purl.org/dc/elements/1.1/	[DC11]
+dcterms	http://purl.org/dc/terms/	[DC-TERMS]
+dctypes	http://purl.org/dc/dcmitype/	[DC-TERMS]
+foaf	http://xmlns.com/foaf/0.1/	[FOAF]
+rdf	http://www.w3.org/1999/02/22-rdf-syntax-ns#	[rdf-schema]
+rdfs	http://www.w3.org/2000/01/rdf-schema#	[rdf-schema]
+schema	http://schema.org/	schema.org
+skos	http://www.w3.org/2004/02/skos/core#	[skos-reference]
+xsd	http://www.w3.org/2001/XMLSchema#	[xmlschema-2]
+
+</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationInterface" name="W3C Web Annotation Protocol" id="03555adb-1575-4e68-b4ca-88b70101d8c6">
+      <documentation>https://www.w3.org/TR/annotation-protocol/
+
+Interoperability between systems has two basic aspects: the syntax and semantics of the data that is moved between the systems, and the transport mechanism for that movement. The HTTP protocol and the Web architecture provides us with a great starting point for a standardized transport layer, and can be used to move content between systems easily and effectively. Building upon these foundations allows us to make use of existing technology and patterns to ensure consistency and ease of development.
+
+The Web Annotation Protocol describes a transport mechanism for creating, managing, and retrieving Annotations. Annotations in this specification are assumed to follow the requirements of the Web Annotation Data Model [annotation-model] and Web Annotation Vocabulary [annotation-vocab]. This specification builds upon REST principles and the Linked Data Platform [ldp] recommendation, and familiarity with it is recommended.
+
+1.1 Aims of the Protocol
+
+The primary aim of the Web Annotation Protocol is to provide a standard set of interactions that allow annotation clients and servers to interoperate seamlessly. By being able to discover annotation protocol end-points and how to interact with them, clients can be configured either automatically or by the user to store annotations in any compatible remote system, rather than being locked in to a single client and server pair.
+
+1.2 Summary
+
+For those familiar with the Web Annotation model, LDP, and REST, much of the Annotation Protocol will be very obvious. The following aspects are the most important new requirements.
+
+The media type to use for Annotations is: application/ld+json;profile=&quot;http://www.w3.org/ns/anno.jsonld&quot;
+Annotation Containers are constrained by the set of constraints described in this specification, and thus the ldp:constrainedBy URL is http://www.w3.org/TR/annotation-protocol/
+The link header can refer from any resource to an Annotation Container using a rel type of: http://www.w3.org/ns/oa#annotationService
+The response from a Container after creating an Annotation should include a representation of the Annotation, after any changes have been made to it, in the JSON-LD serialization.
+Annotation Containers should only contain Annotations, and not other resources.
+Activity Streams Collection [activitystreams-core] model is used for paging, as in-page ordering is an important requirement.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="Web annotaties maken" id="9e1a557f-5a39-4c72-8b24-2daa37b8402e"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Interface (protocol)" id="4dcc9004-9e7a-42c7-85bf-1e03c75e3602"/>
+    <element xsi:type="archimate:ApplicationService" name="Applicatie Service" id="5b26b8d5-ec00-40c6-a610-dc58725c1d5b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Applicatie componet" id="37792de1-1f9c-4e94-b8eb-5f31f0dc7cd2"/>
+    <element xsi:type="archimate:DataObject" name="Data object" id="3222d9d6-6b38-47b7-9447-d3c04701a729"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="241ff34d-64ba-4d16-8d8f-6295a8839e50" type="technology"/>
+  <folder name="Motivation" id="7af505d0-a3b1-4439-bb73-27e69bbdea44" type="motivation">
+    <element xsi:type="archimate:Goal" name="Voldoen aan de specificaties van DERA" id="9d100b43-e38a-4585-80e8-84e3e86e5709"/>
+    <element xsi:type="archimate:Requirement" name="Data als LOD publiceren" id="b9cb5949-d471-4850-be3c-97e21a8a338f"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="3e54a38c-3b08-4a8a-9342-16a70f4a2e45" type="implementation_migration"/>
+  <folder name="Other" id="b7fff1e0-7f71-4dc1-9194-bafeb5503e9d" type="other">
+    <element xsi:type="archimate:Grouping" name="Zichtbaar" id="83dab8ed-ebb0-4354-a236-c49ac578eea4"/>
+    <element xsi:type="archimate:Grouping" name="Creatie" id="a0cbb78c-cd86-44cc-81c3-b89df9f15533"/>
+    <element xsi:type="archimate:Grouping" name="Houdbaar" id="091ba448-91ca-4c52-b7a5-c09d0ce62ff5"/>
+    <element xsi:type="archimate:Grouping" name="Bruikbaar" id="7820c7ff-7250-4eaf-8d6e-43a96a95eace"/>
+    <element xsi:type="archimate:Grouping" name="Zichtbaar" id="920b13c9-2a5b-4a80-914e-643e6444757e"/>
+  </folder>
+  <folder name="Relations" id="656a473f-c31a-4251-8ce3-9c3c6d726341" type="relations">
+    <element xsi:type="archimate:RealizationRelationship" name="realiseert" id="1d7e2778-796c-4ca8-913b-f6cbb38bd8c5" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="9f9154f7-1d80-44ad-8b4c-a7bc9d41c2bd"/>
+    <element xsi:type="archimate:ServingRelationship" id="22d6c110-78a4-480c-a72d-0f7a12013225" source="9f9154f7-1d80-44ad-8b4c-a7bc9d41c2bd" target="4f79889c-003e-455b-b627-777cbd90c2c5"/>
+    <element xsi:type="archimate:RealizationRelationship" id="c1ddab2c-86a1-4104-baf1-56f4747f655c" source="4f79889c-003e-455b-b627-777cbd90c2c5" target="18b10343-1016-41b3-9d86-2819e582e93d"/>
+    <element xsi:type="archimate:AccessRelationship" id="d1293d7a-2a7b-4af6-b68b-69bb35115b27" source="5d003415-f4d8-4017-b184-4e2943b3f9c2" target="cd72d48b-f9c1-48ce-a37d-4f73ed89ecf5"/>
+    <element xsi:type="archimate:AccessRelationship" id="f1c1277d-e108-4028-84d5-c61106760008" source="5d003415-f4d8-4017-b184-4e2943b3f9c2" target="9003dfaa-5f2a-4e5f-973a-75c2649ba24e"/>
+    <element xsi:type="archimate:AccessRelationship" id="d0a48886-0816-4378-b578-99fe6405162d" source="5d003415-f4d8-4017-b184-4e2943b3f9c2" target="23b88383-7a48-4d04-b312-eee3286b819e"/>
+    <element xsi:type="archimate:ServingRelationship" id="dda9bea7-5459-4e50-be88-56f9347c292b" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="0a905c3d-2f13-4b12-b8cf-e62408e0269a"/>
+    <element xsi:type="archimate:ServingRelationship" id="0637c78b-a37e-409b-be2e-a1fc2db14cd5" source="56e1055e-cb1d-4fa9-8011-39e236bf92d5" target="4baf3a1d-ffd9-4b5e-ba1f-08758ac975d0"/>
+    <element xsi:type="archimate:ServingRelationship" id="6e2625dc-3fb8-4ac7-9a79-4bbd875bbca0" source="56e1055e-cb1d-4fa9-8011-39e236bf92d5" target="917f48b0-5e25-4c86-9a5c-f5d1cba11caf"/>
+    <element xsi:type="archimate:ServingRelationship" id="7ae4788e-0f8d-43f6-9e32-edc6c178eb64" source="171b535c-6d0d-4ad1-97ae-50f520a55ba5" target="4baf3a1d-ffd9-4b5e-ba1f-08758ac975d0"/>
+    <element xsi:type="archimate:ServingRelationship" id="1fffc950-44bf-4a2e-904d-58dcc9a81b79" source="4f79889c-003e-455b-b627-777cbd90c2c5" target="917f48b0-5e25-4c86-9a5c-f5d1cba11caf"/>
+    <element xsi:type="archimate:ServingRelationship" id="99a6b634-7086-4179-9ca9-4e8ebf785612" source="4f79889c-003e-455b-b627-777cbd90c2c5" target="4baf3a1d-ffd9-4b5e-ba1f-08758ac975d0"/>
+    <element xsi:type="archimate:ServingRelationship" id="e40c259c-09f3-42b6-916d-9dea308f1607" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="ffd8eb66-451a-43a7-b7d0-c12eae3e490f"/>
+    <element xsi:type="archimate:ServingRelationship" id="82840836-a9cd-4935-b50b-f9e83f8872e5" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="fc90cfb9-cfce-44cc-be22-30c253c1a586"/>
+    <element xsi:type="archimate:ServingRelationship" id="8d00f07e-040b-45d7-affd-b02700424a5b" source="fc90cfb9-cfce-44cc-be22-30c253c1a586" target="4f79889c-003e-455b-b627-777cbd90c2c5"/>
+    <element xsi:type="archimate:FlowRelationship" id="34049727-aade-498e-81d4-520343cd1133" source="fc90cfb9-cfce-44cc-be22-30c253c1a586" target="4baf3a1d-ffd9-4b5e-ba1f-08758ac975d0"/>
+    <element xsi:type="archimate:ServingRelationship" id="e1a0d416-6bd7-4811-960e-f2bc32eabb27" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="5c5daef7-2e41-46ec-ac4a-d3ed42adc96d"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="d78dd842-3180-493f-90a3-03ae7aa5a097" source="ece856d5-34b6-4fbb-96c9-c8e3674dd227" target="2d50d29b-9e4e-41cb-989c-225301ce6a5c"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="be0899c7-3a12-4237-abcd-9ecb8dd24835" source="ece856d5-34b6-4fbb-96c9-c8e3674dd227" target="6fca0768-c60f-40f8-9345-f8b47947e07c"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="53ef8af4-54bf-4cd0-9587-dd5ea9f39c7e" source="ece856d5-34b6-4fbb-96c9-c8e3674dd227" target="c302292d-d491-4bd8-ab92-776e170b62b3"/>
+    <element xsi:type="archimate:FlowRelationship" id="d48d10ff-7aa3-4797-a7dc-4ead2a829ff4" source="c302292d-d491-4bd8-ab92-776e170b62b3" target="5c5daef7-2e41-46ec-ac4a-d3ed42adc96d"/>
+    <element xsi:type="archimate:FlowRelationship" id="450ba499-a172-4e9a-84a9-7820bb26dc73" source="fc90cfb9-cfce-44cc-be22-30c253c1a586" target="a72d02dc-9437-4bc1-8d2a-90d1ff04b42b"/>
+    <element xsi:type="archimate:ServingRelationship" id="610ccbb2-a6e5-48d7-8b27-a493e5959f23" source="5d003415-f4d8-4017-b184-4e2943b3f9c2" target="bd9f5cc2-a328-401d-9715-7cab9c216d0a"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="4c77b22c-83a1-4eb6-8e33-00bb9b3bb2e4" source="ece856d5-34b6-4fbb-96c9-c8e3674dd227" target="30ecb1cb-6cbd-48d6-be49-3f9248d37d84"/>
+    <element xsi:type="archimate:ServingRelationship" id="286ea469-e59a-4087-acaf-dfb62183a813" source="4c534b9c-62e5-46c9-b9f0-15557cedcb01" target="a72d02dc-9437-4bc1-8d2a-90d1ff04b42b"/>
+    <element xsi:type="archimate:ServingRelationship" name="via beheer of automatisch" id="815e8ac8-ffdf-4a66-a23a-5972cf21fd88" source="4c534b9c-62e5-46c9-b9f0-15557cedcb01" target="cc5555f6-2e09-45df-b0ee-e3412f407cc1"/>
+    <element xsi:type="archimate:ServingRelationship" name="gebruikt" id="f5c3bebb-ae4b-46f6-b658-7482ea404769" source="bd9f5cc2-a328-401d-9715-7cab9c216d0a" target="cc5555f6-2e09-45df-b0ee-e3412f407cc1"/>
+    <element xsi:type="archimate:ServingRelationship" name="gebruikt" id="86d4479c-0287-4997-a4ac-e15568e8f8b4" source="cc5555f6-2e09-45df-b0ee-e3412f407cc1" target="e95f39fb-88f8-4980-890b-a5c1b832075a"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="73c11558-521e-4b28-b464-a278c6f2e84b" source="ece856d5-34b6-4fbb-96c9-c8e3674dd227" target="e95f39fb-88f8-4980-890b-a5c1b832075a"/>
+    <element xsi:type="archimate:ServingRelationship" name="gebruiker zelf" id="8125b06f-f0fa-4ff0-889a-d4ca509ea19e" source="f3f2b184-1cb2-4690-ac1d-a03571e9f4f1" target="cc5555f6-2e09-45df-b0ee-e3412f407cc1"/>
+    <element xsi:type="archimate:AssociationRelationship" id="1f6a4d51-14f0-4979-84eb-ae66bba055cf" source="a35b168f-a1d7-49c9-acea-c99a5e0b3cdd" target="450ba499-a172-4e9a-84a9-7820bb26dc73"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a1187927-ce5c-4be7-839d-0a52bcc1a68e" source="7820c7ff-7250-4eaf-8d6e-43a96a95eace" target="0a905c3d-2f13-4b12-b8cf-e62408e0269a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="add38269-59a9-4fa0-84c1-e973b8424eef" source="920b13c9-2a5b-4a80-914e-643e6444757e" target="f3f2b184-1cb2-4690-ac1d-a03571e9f4f1"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a71b4a9b-2068-488f-a2a2-70d7dc1f1d8e" source="a0cbb78c-cd86-44cc-81c3-b89df9f15533" target="c302292d-d491-4bd8-ab92-776e170b62b3"/>
+    <element xsi:type="archimate:RealizationRelationship" name="realiseert" id="eda7d7aa-8884-4992-bc1e-49dce3c5842b" source="0723ed5c-7d82-48e1-9845-e65d4ee58ea7" target="82edc942-2006-47bb-b571-bdab277bb94d"/>
+    <element xsi:type="archimate:RealizationRelationship" name="realiseert" id="b2e893ec-e75e-488c-9647-f931135f6245" source="0723ed5c-7d82-48e1-9845-e65d4ee58ea7" target="1eb07667-5be9-4f67-9dc8-1c90ba9af969"/>
+    <element xsi:type="archimate:ServingRelationship" name="gebruikt" id="a2a4c3cd-b748-4dbd-9b7d-88760675f071" source="1eb07667-5be9-4f67-9dc8-1c90ba9af969" target="0a905c3d-2f13-4b12-b8cf-e62408e0269a"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="5a0e2f08-f667-4bd7-b0f0-2a6498a7a0b6" source="33d356e1-0e89-49e6-b0b8-08e00b40851b" target="0723ed5c-7d82-48e1-9845-e65d4ee58ea7"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="f3f44eda-7b79-47ad-bd0f-f1d5fb5c46a0" source="ad31315f-7dcf-4c5f-a634-525ca9a9969c" target="0723ed5c-7d82-48e1-9845-e65d4ee58ea7"/>
+    <element xsi:type="archimate:ServingRelationship" id="2b4a5c3c-b2e9-418f-b1ec-be300f444a5b" source="0723ed5c-7d82-48e1-9845-e65d4ee58ea7" target="0a905c3d-2f13-4b12-b8cf-e62408e0269a"/>
+    <element xsi:type="archimate:RealizationRelationship" id="b8bce858-b86f-4ea0-8e6a-d47fda8fc0a4" source="9f9154f7-1d80-44ad-8b4c-a7bc9d41c2bd" target="fc90cfb9-cfce-44cc-be22-30c253c1a586"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="e9018e78-92e7-4908-8fa3-08506f976273" source="0a905c3d-2f13-4b12-b8cf-e62408e0269a" target="ffd8eb66-451a-43a7-b7d0-c12eae3e490f"/>
+    <element xsi:type="archimate:RealizationRelationship" id="c1274d7b-0c41-47fb-aaf5-4db202799bcc" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="0a905c3d-2f13-4b12-b8cf-e62408e0269a"/>
+    <element xsi:type="archimate:RealizationRelationship" id="3ec02dd7-903e-464c-bd3f-db3079c6fda9" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="5c5daef7-2e41-46ec-ac4a-d3ed42adc96d"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="b08332f5-0307-46dc-9d72-8d1a98438ed9" source="0a6b1d26-c2b5-467e-8b78-114de232a9f1" target="ef25c29d-66ac-4535-b11e-f4a8194293ca"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="3d410a17-f694-4f0b-ae33-42b992131ba6" source="dd1dacb8-dce3-4f74-8867-4a1caa36df62" target="0a6b1d26-c2b5-467e-8b78-114de232a9f1"/>
+    <element xsi:type="archimate:AssociationRelationship" id="0714607c-66a4-4e9d-b50d-dd25b2199ea7" source="dd1dacb8-dce3-4f74-8867-4a1caa36df62" target="751cf9b8-28a0-4ce7-bd28-803fd6b2fe0a"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="ee7ae50d-c74b-4137-b09a-9ea91735323a" source="a96d16cd-b959-4d82-b0d9-f4730249d3a6" target="ef25c29d-66ac-4535-b11e-f4a8194293ca"/>
+    <element xsi:type="archimate:RealizationRelationship" id="0ea8e1e2-f275-4be9-98fe-4a89c2bd1ea9" source="a96d16cd-b959-4d82-b0d9-f4730249d3a6" target="e1b87ac1-7aee-4d83-b257-db9d59ee8c1a"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="5e97dec8-063d-4fd8-b684-e47a401b90c7" source="e1b87ac1-7aee-4d83-b257-db9d59ee8c1a" target="299035c0-3d15-4093-a088-6b4d0f66fa13"/>
+    <element xsi:type="archimate:ServingRelationship" name="bedient" id="066f3773-8a60-47aa-95ce-f713e1440494" source="44bc0713-8878-44fb-ae05-69d07812f534" target="ef25c29d-66ac-4535-b11e-f4a8194293ca"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="236b7426-5ec9-4d78-8ff1-15ea874da609" source="e1b87ac1-7aee-4d83-b257-db9d59ee8c1a" target="44bc0713-8878-44fb-ae05-69d07812f534"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="c281db87-1241-4477-ab2b-ad81c122c2bc" source="0ddaf6b7-2d61-40d8-af1a-469fce692eb2" target="44bc0713-8878-44fb-ae05-69d07812f534"/>
+    <element xsi:type="archimate:RealizationRelationship" id="24244267-b4f6-4cae-a897-f54123174584" source="a96d16cd-b959-4d82-b0d9-f4730249d3a6" target="44bc0713-8878-44fb-ae05-69d07812f534"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="18ea09e9-41f1-4d43-9b36-bbecdccaa94e" source="c575e9eb-bece-46a6-9d1c-c0d2cbe8c657" target="44bc0713-8878-44fb-ae05-69d07812f534"/>
+    <element xsi:type="archimate:ServingRelationship" id="da5dd913-0a59-4dc4-83ce-61ab3a5d9498" source="32ead9e2-9e17-4425-b371-10796b25363d" target="2e72ae3f-217e-4fa8-9ba9-e184a520ad50"/>
+    <element xsi:type="archimate:ServingRelationship" id="f3823ed4-8fb7-458e-a3dd-6a2b40fcf10d" source="172d05f6-924b-47cb-ace2-4e7a6a18b24f" target="32ead9e2-9e17-4425-b371-10796b25363d"/>
+    <element xsi:type="archimate:ServingRelationship" id="45f9212f-7d50-40f7-8d3d-dfef281376e4" source="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9" target="7ee9d0df-45e2-498c-b7bd-65e75cc3bca6"/>
+    <element xsi:type="archimate:ServingRelationship" id="e3da15ab-e207-42a1-9ab3-f9950911d256" source="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9" target="172d05f6-924b-47cb-ace2-4e7a6a18b24f"/>
+    <element xsi:type="archimate:ServingRelationship" id="6d8ff6f6-25e7-4dbf-affd-130b12e65c1e" source="7ee9d0df-45e2-498c-b7bd-65e75cc3bca6" target="172d05f6-924b-47cb-ace2-4e7a6a18b24f"/>
+    <element xsi:type="archimate:ServingRelationship" id="a2e22da5-e050-4e7a-a422-378d7cff4488" source="4f79889c-003e-455b-b627-777cbd90c2c5" target="32ead9e2-9e17-4425-b371-10796b25363d"/>
+    <element xsi:type="archimate:ServingRelationship" id="8315e83c-9a3c-4d7f-a750-0e4a080479fe" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="4f79889c-003e-455b-b627-777cbd90c2c5"/>
+    <element xsi:type="archimate:ServingRelationship" id="ea326475-6cb9-49a3-a2b1-af90359ef7e4" source="0723ed5c-7d82-48e1-9845-e65d4ee58ea7" target="ef25c29d-66ac-4535-b11e-f4a8194293ca"/>
+    <element xsi:type="archimate:ServingRelationship" id="6f0f94d3-4cb7-45a4-b789-251b7ce9d3ab" source="0723ed5c-7d82-48e1-9845-e65d4ee58ea7" target="7ee9d0df-45e2-498c-b7bd-65e75cc3bca6"/>
+    <element xsi:type="archimate:ServingRelationship" id="09ce6abd-b7b1-42e6-811d-c26280c855a6" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="32ead9e2-9e17-4425-b371-10796b25363d"/>
+    <element xsi:type="archimate:ServingRelationship" id="ac565eca-7b61-4cd8-bdf4-57059df73c4a" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9"/>
+    <element xsi:type="archimate:AggregationRelationship" id="bdb8c005-49bb-48dc-b87b-3052c89250cc" source="fed36006-57b9-4fb7-b2d3-ca5c195dee2d" target="2e72ae3f-217e-4fa8-9ba9-e184a520ad50"/>
+    <element xsi:type="archimate:FlowRelationship" name="data" id="970e9cdc-fab0-4b72-980b-d87cd2dc03cf" source="619133b8-2215-4fc8-832a-dd4f7e7eaf72" target="0723ed5c-7d82-48e1-9845-e65d4ee58ea7"/>
+    <element xsi:type="archimate:AssociationRelationship" id="8a6f881d-a123-4eb3-877c-4d0637352522" source="344dec64-ecda-4d32-81dc-8a7ccb651796" target="970e9cdc-fab0-4b72-980b-d87cd2dc03cf"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="b16ea0b4-7e13-4e21-abc9-680f47c74b1a" source="dab841d0-08ce-4f58-9509-7843b9cfe37e" target="0723ed5c-7d82-48e1-9845-e65d4ee58ea7"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="6bbd1ef8-ba43-481c-96af-696e2d08f026" source="f5f7c5dc-b7af-4290-9560-cdc31cd60f0d" target="0723ed5c-7d82-48e1-9845-e65d4ee58ea7"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="13997c6a-37e4-4f62-83dc-ed9c0931fe24" source="8b2fb4e7-191b-4b86-9025-bf13e36839b1" target="33d356e1-0e89-49e6-b0b8-08e00b40851b"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="b3950199-68f5-464d-bc56-9a58f8cc7f9c" source="0f824dcc-2125-4083-8b03-d2a43a09fd1b" target="ad31315f-7dcf-4c5f-a634-525ca9a9969c"/>
+    <element xsi:type="archimate:RealizationRelationship" id="d67a3fc6-2e39-440e-a09d-c5e27d3fca43" source="b9cb5949-d471-4850-be3c-97e21a8a338f" target="9d100b43-e38a-4585-80e8-84e3e86e5709"/>
+    <element xsi:type="archimate:AssociationRelationship" id="6c4ae3ef-1a94-4ab0-a673-3ac8bc61c414" source="b9cb5949-d471-4850-be3c-97e21a8a338f" target="1eb07667-5be9-4f67-9dc8-1c90ba9af969"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="44081b68-0ef4-41b2-a08e-feba989916ea" source="bc349123-0fb7-425f-b58b-de33c8cac72e" target="619133b8-2215-4fc8-832a-dd4f7e7eaf72"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="e6ef09ab-7378-4587-a589-a9fa8fa21286" source="bfcc7b42-347b-4afc-abfd-699693ee86bb" target="619133b8-2215-4fc8-832a-dd4f7e7eaf72"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="53f0ec50-107c-4d6c-8187-d09a9cd67bce" source="f5f7c5dc-b7af-4290-9560-cdc31cd60f0d" target="619133b8-2215-4fc8-832a-dd4f7e7eaf72"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="717c9c30-6529-4138-9c4d-f9e052eb9992" source="ac16ddf2-5ba1-4405-aa69-793fc7f543f6" target="619133b8-2215-4fc8-832a-dd4f7e7eaf72"/>
+    <element xsi:type="archimate:FlowRelationship" name="registreren" id="64bc8e22-70b0-49f3-8730-24cbbb3fe678" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9"/>
+    <element xsi:type="archimate:AssociationRelationship" id="9f384739-67fd-462e-80f6-c5952731813a" source="d8f6dadd-efa2-41a5-a058-4d8c34a51080" target="64bc8e22-70b0-49f3-8730-24cbbb3fe678"/>
+    <element xsi:type="archimate:AssociationRelationship" id="a15b85bb-6a24-4ba3-9d89-594ac3c4381f" source="f0f400b0-96bd-4e8f-8ace-63e3a7d64682" target="64bc8e22-70b0-49f3-8730-24cbbb3fe678"/>
+    <element xsi:type="archimate:AssociationRelationship" id="c63d353b-fc22-4add-8074-b464c39dbaab" source="5d7bb94c-2888-415e-a4ea-058c023d2dbe" target="64bc8e22-70b0-49f3-8730-24cbbb3fe678"/>
+    <element xsi:type="archimate:AggregationRelationship" id="5e48dd88-bd91-47ea-9099-81cf571893de" source="dab841d0-08ce-4f58-9509-7843b9cfe37e" target="38db4fac-4e5c-4417-89e1-9c5398c33c8c"/>
+    <element xsi:type="archimate:AggregationRelationship" id="aee31cc3-ae15-4af9-9e0d-46f1f2eb35ee" source="dab841d0-08ce-4f58-9509-7843b9cfe37e" target="2ed73379-f031-465f-8db3-6803bdb81718"/>
+    <element xsi:type="archimate:AggregationRelationship" id="93538f99-8e85-488c-baa4-117af96e29ac" source="dab841d0-08ce-4f58-9509-7843b9cfe37e" target="d4a37302-c25c-4e3f-9582-3c53e9b1a876"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a3d64450-9fe3-412b-9bbc-58e0ab210c87" source="dab841d0-08ce-4f58-9509-7843b9cfe37e" target="eb5a3026-3e7e-4197-bc7d-a3c216aae764"/>
+    <element xsi:type="archimate:AggregationRelationship" id="5a9cc26b-0028-45c5-839c-4eb1b1287c61" source="dab841d0-08ce-4f58-9509-7843b9cfe37e" target="276191e8-bb50-4e75-b053-9ca791f8df3e"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="specialisatie" id="a4963c64-9e82-4395-9d63-210fc050020e" source="f0d90f40-80c3-43c9-9ea7-61d119e13dd2" target="18d10471-485d-4aba-85cd-04bdd1f5ecc8"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="138a635f-c8c3-4181-a2c1-47418f786053" source="c5a7d5ed-912b-4a66-b0bf-6ea03db9bb80" target="2bb4b520-95da-4f00-8535-adfc27be9d90"/>
+    <element xsi:type="archimate:AggregationRelationship" id="6b175d0b-71d2-4d16-b418-31b19cfc9cfe" source="238893f9-1b33-4046-b03f-3a2f4e7ecaf7" target="2bb4b520-95da-4f00-8535-adfc27be9d90"/>
+    <element xsi:type="archimate:AggregationRelationship" id="e678d7d5-00e6-4a2b-8956-034a87ff5e61" source="c5a7d5ed-912b-4a66-b0bf-6ea03db9bb80" target="ccf3b580-9052-4fee-94dd-b178f0fb12ae"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a4a0726b-cd2b-4ea2-8083-ceb5412f9211" source="2bb4b520-95da-4f00-8535-adfc27be9d90" target="902fcd50-a7c4-404d-b5c2-eacb7437e63a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="d8e5292e-71fa-46d3-9798-c3e86ff662cb" source="2bb4b520-95da-4f00-8535-adfc27be9d90" target="b4784487-6d3e-4549-8421-55507a81fe54"/>
+    <element xsi:type="archimate:AggregationRelationship" id="7eec170b-4197-4235-ba44-acb4a6ff80fe" source="2bb4b520-95da-4f00-8535-adfc27be9d90" target="eaa58277-d294-4a1c-838b-4d13d55c3543"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="3cc59d29-be7c-4849-b751-b26fcf713373" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="902fcd50-a7c4-404d-b5c2-eacb7437e63a"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="79d693af-018f-4647-8d82-cb14cd2ff7dd" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="b4784487-6d3e-4549-8421-55507a81fe54"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="a55600a4-b75e-4750-9136-3c2e9d3451b5" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="eaa58277-d294-4a1c-838b-4d13d55c3543"/>
+    <element xsi:type="archimate:AggregationRelationship" id="e1da44bf-fd2a-4fc8-96e6-fcdd0fb90cef" source="8bdcb97d-05e4-460a-bba0-f180d4eb64c2" target="ccf3b580-9052-4fee-94dd-b178f0fb12ae"/>
+    <element xsi:type="archimate:AggregationRelationship" id="7487e248-6913-42bc-b75f-a154434df07f" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="b50743da-be42-4e8e-98ce-8c874bca5114"/>
+    <element xsi:type="archimate:AggregationRelationship" id="753d7ce5-1c68-42e9-882d-79397284fe7d" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="c47bd3e8-3d19-4b36-9949-e42731fbaa08"/>
+    <element xsi:type="archimate:AggregationRelationship" id="b1c9f702-b099-4257-821e-33c4bb03402f" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="f126f330-3952-4837-a2aa-fabbbe339a6e"/>
+    <element xsi:type="archimate:AggregationRelationship" id="226cf259-6f63-4354-b7fe-b6b7cc987f76" source="8bdcb97d-05e4-460a-bba0-f180d4eb64c2" target="a307516f-da5e-4ce6-98be-5c502081bbfb"/>
+    <element xsi:type="archimate:AggregationRelationship" id="7c337e37-7834-4867-9fb6-166dd8abbda0" source="8bdcb97d-05e4-460a-bba0-f180d4eb64c2" target="9b9b63a7-39b8-4d6b-9ddd-2bf7a03bd571"/>
+    <element xsi:type="archimate:AggregationRelationship" id="e3077c7f-8c1f-430d-a108-8fdb98a4ae8a" source="8bdcb97d-05e4-460a-bba0-f180d4eb64c2" target="354be20c-8fec-45c8-a266-567cde360f38"/>
+    <element xsi:type="archimate:AggregationRelationship" id="03a7c4e2-f8fc-428a-939a-59a5e0c1cca8" source="234b7d25-d87c-482a-9cd1-2aa3eca33dab" target="24b55bd9-2bbd-4f26-abc5-06ba51cf43aa"/>
+    <element xsi:type="archimate:AggregationRelationship" id="3cc0ae29-1820-4e0a-8ea1-fcc7bef4eea7" source="234b7d25-d87c-482a-9cd1-2aa3eca33dab" target="f126f330-3952-4837-a2aa-fabbbe339a6e"/>
+    <element xsi:type="archimate:AggregationRelationship" id="dcf91390-5edd-4900-9379-93630eb50f00" source="234b7d25-d87c-482a-9cd1-2aa3eca33dab" target="9b9b63a7-39b8-4d6b-9ddd-2bf7a03bd571"/>
+    <element xsi:type="archimate:AggregationRelationship" id="6bd42087-02df-43d5-aaba-1a51e990fea4" source="234b7d25-d87c-482a-9cd1-2aa3eca33dab" target="a307516f-da5e-4ce6-98be-5c502081bbfb"/>
+    <element xsi:type="archimate:AggregationRelationship" id="3a4261b0-30f7-48ad-b48e-d640aa0d1a5d" source="234b7d25-d87c-482a-9cd1-2aa3eca33dab" target="08b9ffd3-b4b5-4845-aecc-e35c55bbb409"/>
+    <element xsi:type="archimate:AssociationRelationship" id="e9ee8368-9bf9-499e-90b2-3a16af2f2bfa" source="cd137aba-f777-4430-b30b-952e89bd71d1" target="03555adb-1575-4e68-b4ca-88b70101d8c6"/>
+    <element xsi:type="archimate:AssociationRelationship" id="1dccb957-797c-4859-9ffd-bc2842c10983" source="e0b1df3b-18a7-4d0b-9e0d-4f66aa285021" target="03555adb-1575-4e68-b4ca-88b70101d8c6"/>
+    <element xsi:type="archimate:RealizationRelationship" name="realiseert" id="4485c207-ae70-4e64-b7b7-f04c1ac16eec" source="18d10471-485d-4aba-85cd-04bdd1f5ecc8" target="9e1a557f-5a39-4c72-8b24-2daa37b8402e"/>
+    <element xsi:type="archimate:AssignmentRelationship" name="past toe" id="2567b0b0-b448-40ae-b1d7-a4a6bb5941a0" source="03555adb-1575-4e68-b4ca-88b70101d8c6" target="9e1a557f-5a39-4c72-8b24-2daa37b8402e"/>
+    <element xsi:type="archimate:AggregationRelationship" id="feef33f4-b5f6-443f-bfee-9b47e5fbde85" source="08b9ffd3-b4b5-4845-aecc-e35c55bbb409" target="c47bd3e8-3d19-4b36-9949-e42731fbaa08"/>
+    <element xsi:type="archimate:AggregationRelationship" id="27d5a231-a5e1-407b-8f7b-4270fb772de1" source="08b9ffd3-b4b5-4845-aecc-e35c55bbb409" target="8bdcb97d-05e4-460a-bba0-f180d4eb64c2"/>
+  </folder>
+  <folder name="Views" id="0af8a53c-8cf2-4dd9-9f19-ad04a0eb3796" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Vierlagen model (creatie)" id="6f3b5b31-56b1-417a-8a89-902dd7e861c9">
+      <child xsi:type="archimate:DiagramObject" id="5f6c338d-830b-466c-9b01-74a60a452a3f" lineColor="#5c5c5c" fillColor="#ffffff" archimateElement="920b13c9-2a5b-4a80-914e-643e6444757e">
+        <bounds x="-24" y="-108" width="1020" height="132"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6c8c1135-5713-4549-a536-4d8847578ac3" source="5f6c338d-830b-466c-9b01-74a60a452a3f" target="fa062218-f26f-462c-b518-e5458e9f85c7" archimateRelationship="add38269-59a9-4fa0-84c1-e973b8424eef"/>
+        <child xsi:type="archimate:DiagramObject" id="fa062218-f26f-462c-b518-e5458e9f85c7" targetConnections="6c8c1135-5713-4549-a536-4d8847578ac3" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="f3f2b184-1cb2-4690-ac1d-a03571e9f4f1">
+          <bounds x="684" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c7d4e97f-7a85-4b92-a101-6cc0c8de85d7" lineColor="#000000" textPosition="0" source="fa062218-f26f-462c-b518-e5458e9f85c7" target="fd83fb29-98ee-4868-afa3-127d60f39bf6" archimateRelationship="8125b06f-f0fa-4ff0-889a-d4ca509ea19e">
+            <bendpoint startX="33" startY="45" endX="33" endY="-54"/>
+          </sourceConnection>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="93ac584c-e25f-4861-8ca9-50c2c4df14ec" lineColor="#5c5c5c" fillColor="#ffffff" archimateElement="7820c7ff-7250-4eaf-8d6e-43a96a95eace">
+        <bounds x="-24" y="36" width="1020" height="240"/>
+        <sourceConnection xsi:type="archimate:Connection" id="36734746-9489-45c1-947a-67d58ddea4bc" source="93ac584c-e25f-4861-8ca9-50c2c4df14ec" target="cab9c018-ffdb-4a40-9211-e21db947e7ea" archimateRelationship="a1187927-ce5c-4be7-839d-0a52bcc1a68e"/>
+        <child xsi:type="archimate:DiagramObject" id="cab9c018-ffdb-4a40-9211-e21db947e7ea" targetConnections="30eac27b-d3bc-4eda-9a10-67387e3f4866 36734746-9489-45c1-947a-67d58ddea4bc eb940e24-4da9-4d8e-97d2-e328c7c5951a" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="0a905c3d-2f13-4b12-b8cf-e62408e0269a">
+          <bounds x="288" y="36" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d34f152a-e6a8-4551-b1f6-ffa7c5925282" lineColor="#5c5c5c" fillColor="#ffffff" archimateElement="091ba448-91ca-4c52-b7a5-c09d0ce62ff5">
+        <bounds x="-24" y="288" width="1020" height="264"/>
+        <child xsi:type="archimate:DiagramObject" id="5f75fae6-6bc7-4bb6-b89c-5fa1af9f0758" targetConnections="dda59a85-69d9-4ef4-acda-e16f18a432d2" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="fc90cfb9-cfce-44cc-be22-30c253c1a586">
+          <bounds x="480" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="d20690cb-3aa5-434c-96ee-8901c16193a4" targetConnections="4b6f6c8c-9bc3-4651-88e4-aa8e99fd8aa6" lineColor="#000000" source="5f75fae6-6bc7-4bb6-b89c-5fa1af9f0758" target="b835eddb-472e-4546-bdb7-514f95fc75b7" archimateRelationship="450ba499-a172-4e9a-84a9-7820bb26dc73"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="1fdfd39a-b527-4ef6-bbc7-a62c915d4217" targetConnections="6cd14c22-03a9-47ef-89d9-aedd21c79a67" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="ffd8eb66-451a-43a7-b7d0-c12eae3e490f">
+          <bounds x="348" y="48" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d5d581b4-af08-4ee8-99e5-b67f97222c4d" lineColor="#5c5c5c" fillColor="#ffffff" archimateElement="a0cbb78c-cd86-44cc-81c3-b89df9f15533">
+        <bounds x="-24" y="564" width="1020" height="204"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6876f236-f9d6-4a34-b79f-dafdab19a1d5" source="d5d581b4-af08-4ee8-99e5-b67f97222c4d" target="820ed8fb-6bde-45f4-afb9-9c90d5ad969f" archimateRelationship="a71b4a9b-2068-488f-a2a2-70d7dc1f1d8e"/>
+        <child xsi:type="archimate:DiagramObject" id="820ed8fb-6bde-45f4-afb9-9c90d5ad969f" targetConnections="6d86e51c-22ea-4205-97a4-73c849435ae8 6876f236-f9d6-4a34-b79f-dafdab19a1d5" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="c302292d-d491-4bd8-ab92-776e170b62b3">
+          <bounds x="360" y="36" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="cd5eff42-51c0-4592-babf-8d6ee5cf2932" lineColor="#000000" source="820ed8fb-6bde-45f4-afb9-9c90d5ad969f" target="7be42fda-e058-412c-858b-9457bb957573" archimateRelationship="d48d10ff-7aa3-4797-a7dc-4ead2a829ff4"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="27b5995b-a53b-46cf-9daa-d593328ed157" archimateElement="ef25c29d-66ac-4535-b11e-f4a8194293ca">
+        <bounds x="336" y="408" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6cd14c22-03a9-47ef-89d9-aedd21c79a67" lineColor="#000000" source="27b5995b-a53b-46cf-9daa-d593328ed157" target="1fdfd39a-b527-4ef6-bbc7-a62c915d4217" archimateRelationship="e40c259c-09f3-42b6-916d-9dea308f1607"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dda59a85-69d9-4ef4-acda-e16f18a432d2" lineColor="#000000" source="27b5995b-a53b-46cf-9daa-d593328ed157" target="5f75fae6-6bc7-4bb6-b89c-5fa1af9f0758" archimateRelationship="82840836-a9cd-4935-b50b-f9e83f8872e5">
+          <bendpoint startX="132" startY="-3" endY="93"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="30eac27b-d3bc-4eda-9a10-67387e3f4866" lineColor="#000000" source="27b5995b-a53b-46cf-9daa-d593328ed157" target="cab9c018-ffdb-4a40-9211-e21db947e7ea" archimateRelationship="dda9bea7-5459-4e50-be88-56f9347c292b">
+          <bendpoint startX="-96" startY="-3" endX="-12" endY="294"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="7b823ee0-a62c-488e-a356-550245bc3ae2" lineColor="#000000" source="27b5995b-a53b-46cf-9daa-d593328ed157" target="7be42fda-e058-412c-858b-9457bb957573" archimateRelationship="e1a0d416-6bd7-4811-960e-f2bc32eabb27"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4644205c-6a1d-467b-97fd-92167ff2bf69" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0723ed5c-7d82-48e1-9845-e65d4ee58ea7">
+        <bounds x="48" y="180" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="eb940e24-4da9-4d8e-97d2-e328c7c5951a" lineColor="#000000" source="4644205c-6a1d-467b-97fd-92167ff2bf69" target="cab9c018-ffdb-4a40-9211-e21db947e7ea" archimateRelationship="2b4a5c3c-b2e9-418f-b1ec-be300f444a5b">
+          <bendpoint startX="60" startY="-3" endX="-156" endY="105"/>
+          <bendpoint startX="180" startY="-3" endX="-36" endY="105"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="249e8e04-8e34-4182-ba6c-23ea78040d01" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="5d003415-f4d8-4017-b184-4e2943b3f9c2">
+        <bounds x="828" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8b8b51f7-bae0-4ac6-ae6a-c1520dc115f8" lineColor="#000000" source="249e8e04-8e34-4182-ba6c-23ea78040d01" target="9804e45c-9548-4b85-aa0d-3369c8e9dbac" archimateRelationship="610ccbb2-a6e5-48d7-8b27-a493e5959f23"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7be42fda-e058-412c-858b-9457bb957573" targetConnections="7b823ee0-a62c-488e-a356-550245bc3ae2 cd5eff42-51c0-4592-babf-8d6ee5cf2932" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="5c5daef7-2e41-46ec-ac4a-d3ed42adc96d">
+        <bounds x="336" y="480" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3d33a90e-cc4d-47e5-b3ee-dc7e9ce8ade4" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="ece856d5-34b6-4fbb-96c9-c8e3674dd227">
+        <bounds x="336" y="696" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f4bdf0d2-9a98-4ee1-97e7-8ccbc39b910b" lineColor="#000000" source="3d33a90e-cc4d-47e5-b3ee-dc7e9ce8ade4" target="221a6aab-e03a-4d62-8d8e-88b1b9d7e77f" archimateRelationship="d78dd842-3180-493f-90a3-03ae7aa5a097">
+          <bendpoint startX="-156" startY="-27" endY="57"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="b0224ef8-945c-4330-af6a-eca1e26d94a5" lineColor="#000000" source="3d33a90e-cc4d-47e5-b3ee-dc7e9ce8ade4" target="f88e9e49-3d12-494b-97cc-3f5925e23477" archimateRelationship="be0899c7-3a12-4237-abcd-9ecb8dd24835">
+          <bendpoint startX="-288" startY="-15" endY="69"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="6d86e51c-22ea-4205-97a4-73c849435ae8" lineColor="#000000" source="3d33a90e-cc4d-47e5-b3ee-dc7e9ce8ade4" target="820ed8fb-6bde-45f4-afb9-9c90d5ad969f" archimateRelationship="53ef8af4-54bf-4cd0-9587-dd5ea9f39c7e"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ae65f4bc-dc32-4ca6-9c0b-99e952489eee" lineColor="#000000" source="3d33a90e-cc4d-47e5-b3ee-dc7e9ce8ade4" target="26d812ed-bf49-4e9d-95c8-87ad5e74d0b7" archimateRelationship="4c77b22c-83a1-4eb6-8e33-00bb9b3bb2e4">
+          <bendpoint startX="144" startY="-27" endY="57"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="339b6f75-71ee-4456-8e9a-391ff72379a9" lineColor="#000000" source="3d33a90e-cc4d-47e5-b3ee-dc7e9ce8ade4" target="3f08d62c-afda-44bf-8440-1c86c4363c6e" archimateRelationship="73c11558-521e-4b28-b464-a278c6f2e84b">
+          <bendpoint startX="288" startY="-15" endX="-15" endY="69"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="221a6aab-e03a-4d62-8d8e-88b1b9d7e77f" targetConnections="f4bdf0d2-9a98-4ee1-97e7-8ccbc39b910b" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="2d50d29b-9e4e-41cb-989c-225301ce6a5c">
+        <bounds x="192" y="612" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f88e9e49-3d12-494b-97cc-3f5925e23477" targetConnections="b0224ef8-945c-4330-af6a-eca1e26d94a5" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="6fca0768-c60f-40f8-9345-f8b47947e07c">
+        <bounds x="48" y="612" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="85e37872-c8a5-408c-8c78-0e1313a1615a" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="4c534b9c-62e5-46c9-b9f0-15557cedcb01">
+        <bounds x="587" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d146260a-bf80-4c71-9256-03f9a36713bf" lineColor="#000000" source="85e37872-c8a5-408c-8c78-0e1313a1615a" target="b835eddb-472e-4546-bdb7-514f95fc75b7" archimateRelationship="286ea469-e59a-4087-acaf-dfb62183a813">
+          <bendpoint startX="-83" startY="-51" endX="36" endY="66"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="82d121c8-4d53-4046-a608-55bf624d86b0" lineColor="#000000" textPosition="0" source="85e37872-c8a5-408c-8c78-0e1313a1615a" target="fd83fb29-98ee-4868-afa3-127d60f39bf6" archimateRelationship="815e8ac8-ffdf-4a66-a23a-5972cf21fd88"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b835eddb-472e-4546-bdb7-514f95fc75b7" targetConnections="d20690cb-3aa5-434c-96ee-8901c16193a4 d146260a-bf80-4c71-9256-03f9a36713bf" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="a72d02dc-9437-4bc1-8d2a-90d1ff04b42b">
+        <bounds x="468" y="75" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fd83fb29-98ee-4868-afa3-127d60f39bf6" targetConnections="82d121c8-4d53-4046-a608-55bf624d86b0 5fb9332b-092c-4ad2-90eb-125d8aaa937c c7d4e97f-7a85-4b92-a101-6cc0c8de85d7" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="cc5555f6-2e09-45df-b0ee-e3412f407cc1">
+        <bounds x="639" y="75" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="78e2ef34-5887-4fc8-ab1e-9b1249f1138e" lineColor="#000000" textPosition="2" source="fd83fb29-98ee-4868-afa3-127d60f39bf6" target="3f08d62c-afda-44bf-8440-1c86c4363c6e" archimateRelationship="86d4479c-0287-4997-a4ac-e15568e8f8b4">
+          <bendpoint startX="33" startY="234" endX="33" endY="-267"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9804e45c-9548-4b85-aa0d-3369c8e9dbac" targetConnections="8b8b51f7-bae0-4ac6-ae6a-c1520dc115f8" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="bd9f5cc2-a328-401d-9715-7cab9c216d0a">
+        <bounds x="816" y="75" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5fb9332b-092c-4ad2-90eb-125d8aaa937c" lineColor="#000000" textPosition="2" source="9804e45c-9548-4b85-aa0d-3369c8e9dbac" target="fd83fb29-98ee-4868-afa3-127d60f39bf6" archimateRelationship="f5c3bebb-ae4b-46f6-b658-7482ea404769"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="26d812ed-bf49-4e9d-95c8-87ad5e74d0b7" targetConnections="ae65f4bc-dc32-4ca6-9c0b-99e952489eee" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="30ecb1cb-6cbd-48d6-be49-3f9248d37d84">
+        <bounds x="480" y="612" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3f08d62c-afda-44bf-8440-1c86c4363c6e" targetConnections="339b6f75-71ee-4456-8e9a-391ff72379a9 78e2ef34-5887-4fc8-ab1e-9b1249f1138e" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="e95f39fb-88f8-4980-890b-a5c1b832075a">
+        <bounds x="629" y="612" width="140" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8f61ce8f-bcf8-4194-8b78-c52ca847275e" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="a35b168f-a1d7-49c9-acea-c99a5e0b3cdd">
+        <bounds x="384" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4b6f6c8c-9bc3-4651-88e4-aa8e99fd8aa6" lineColor="#000000" source="8f61ce8f-bcf8-4194-8b78-c52ca847275e" target="d20690cb-3aa5-434c-96ee-8901c16193a4" archimateRelationship="1f6a4d51-14f0-4979-84eb-ae66bba055cf"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="NDE Functioneel" id="89f7cf5b-de69-4af8-97f1-5b03e47a2027">
+      <child xsi:type="archimate:Group" id="7a477c11-d3e8-4485-9e30-0bb6298e14ba" name="Zichtbaar" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffb4ae">
+        <bounds x="120" width="805" height="203"/>
+        <child xsi:type="archimate:DiagramObject" id="a5de8346-8850-4182-9131-f224b0d84309" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="fed36006-57b9-4fb7-b2d3-ca5c195dee2d">
+          <bounds x="420" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4d366120-12ca-4477-8d9b-e0caab902857" lineColor="#000000" source="a5de8346-8850-4182-9131-f224b0d84309" target="ac0c75cd-503b-4b74-a80d-92b8bf80f928" archimateRelationship="bdb8c005-49bb-48dc-b87b-3052c89250cc"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ac0c75cd-503b-4b74-a80d-92b8bf80f928" targetConnections="7d2d4e6a-dfeb-4edc-a4d0-9061b52c4cc6 4d366120-12ca-4477-8d9b-e0caab902857" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="2e72ae3f-217e-4fa8-9ba9-e184a520ad50">
+          <bounds x="420" y="120" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="b559e8d7-26db-4a59-a77f-64ba1d5f94b3" name="Bruikbaar" lineColor="#5c5c5c" textAlignment="1" fillColor="#aeffae">
+        <bounds x="120" y="216" width="805" height="397"/>
+        <child xsi:type="archimate:DiagramObject" id="08f16910-c3c1-4eff-a111-7f4c313a2a42" targetConnections="2b329312-c309-41c0-bf54-159eb468e518 1182fbad-ffef-4076-ab1e-3540e97ce113" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="172d05f6-924b-47cb-ace2-4e7a6a18b24f">
+          <bounds x="420" y="144" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="cff3ed5e-af50-4ad7-a794-643324bd6333" lineColor="#000000" source="08f16910-c3c1-4eff-a111-7f4c313a2a42" target="6e5de636-1d0f-48d5-861d-41d0ad490660" archimateRelationship="f3823ed4-8fb7-458e-a3dd-6a2b40fcf10d"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="6e5de636-1d0f-48d5-861d-41d0ad490660" targetConnections="cff3ed5e-af50-4ad7-a794-643324bd6333 08bf2d8b-ffd5-497b-a4dc-6b0a8a3dcbac 09748bfc-7361-438a-b937-c8e679613d83" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="32ead9e2-9e17-4425-b371-10796b25363d">
+          <bounds x="420" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="7d2d4e6a-dfeb-4edc-a4d0-9061b52c4cc6" lineColor="#000000" source="6e5de636-1d0f-48d5-861d-41d0ad490660" target="ac0c75cd-503b-4b74-a80d-92b8bf80f928" archimateRelationship="da5dd913-0a59-4dc4-83ce-61ab3a5d9498"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="c77d3a01-b21d-4dd4-8ddd-ef0971fa0130" targetConnections="4408ae9f-bfd1-4c9e-93c6-d6c264855299 80a6138d-fe24-4ca7-aab1-57d0320effbb" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="7ee9d0df-45e2-498c-b7bd-65e75cc3bca6">
+          <bounds x="576" y="228" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="1182fbad-ffef-4076-ab1e-3540e97ce113" lineColor="#000000" source="c77d3a01-b21d-4dd4-8ddd-ef0971fa0130" target="08f16910-c3c1-4eff-a111-7f4c313a2a42" archimateRelationship="6d8ff6f6-25e7-4dbf-affd-130b12e65c1e">
+            <bendpoint startY="-99" endX="168" endY="9"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="fde0d21f-7599-4ab5-b2e5-970d073177a5" targetConnections="ac10e011-8863-4a33-be1e-3092f2d7103c" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9">
+          <bounds x="240" y="228" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4408ae9f-bfd1-4c9e-93c6-d6c264855299" lineColor="#000000" source="fde0d21f-7599-4ab5-b2e5-970d073177a5" target="c77d3a01-b21d-4dd4-8ddd-ef0971fa0130" archimateRelationship="45f9212f-7d50-40f7-8d3d-dfef281376e4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="2b329312-c309-41c0-bf54-159eb468e518" lineColor="#000000" source="fde0d21f-7599-4ab5-b2e5-970d073177a5" target="08f16910-c3c1-4eff-a111-7f4c313a2a42" archimateRelationship="e3da15ab-e207-42a1-9ab3-f9950911d256">
+            <bendpoint startY="-87" endX="-180" endY="-3"/>
+          </sourceConnection>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="04ad52b2-9c46-4e94-99d7-97c67249902a" name="Houdbaar" lineColor="#5c5c5c" textAlignment="1" fillColor="#aeeeff">
+        <bounds x="120" y="624" width="805" height="121"/>
+        <child xsi:type="archimate:DiagramObject" id="d61a6ceb-31e2-46a5-8462-066ad6fad7ed" targetConnections="6af95a5d-01e2-492d-8d94-457a72a532fc" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="ef25c29d-66ac-4535-b11e-f4a8194293ca">
+          <bounds x="252" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="e5a750e4-f0ed-4afc-bc96-d9d41795c989" lineColor="#000000" source="d61a6ceb-31e2-46a5-8462-066ad6fad7ed" target="e6ebdc49-57dc-44b0-934c-b541ed206293" archimateRelationship="8315e83c-9a3c-4d7f-a750-0e4a080479fe">
+            <bendpoint startX="-240" startY="9" endY="141"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="09748bfc-7361-438a-b937-c8e679613d83" lineColor="#000000" source="d61a6ceb-31e2-46a5-8462-066ad6fad7ed" target="6e5de636-1d0f-48d5-861d-41d0ad490660" archimateRelationship="09ce6abd-b7b1-42e6-811d-c26280c855a6">
+            <bendpoint startX="-96" startY="-3" endX="-264" endY="405"/>
+            <bendpoint startX="-96" startY="-399" endX="-264" endY="9"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="ac10e011-8863-4a33-be1e-3092f2d7103c" lineColor="#000000" source="d61a6ceb-31e2-46a5-8462-066ad6fad7ed" target="fde0d21f-7599-4ab5-b2e5-970d073177a5" archimateRelationship="ac565eca-7b61-4cd8-bdf4-57059df73c4a"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="50b342c5-44b1-4ef4-829d-9c09ebdd7e28" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0723ed5c-7d82-48e1-9845-e65d4ee58ea7">
+          <bounds x="588" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="6af95a5d-01e2-492d-8d94-457a72a532fc" lineColor="#000000" source="50b342c5-44b1-4ef4-829d-9c09ebdd7e28" target="d61a6ceb-31e2-46a5-8462-066ad6fad7ed" archimateRelationship="ea326475-6cb9-49a3-a2b1-af90359ef7e4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="80a6138d-fe24-4ca7-aab1-57d0320effbb" lineColor="#000000" source="50b342c5-44b1-4ef4-829d-9c09ebdd7e28" target="c77d3a01-b21d-4dd4-8ddd-ef0971fa0130" archimateRelationship="6f0f94d3-4cb7-45a4-b789-251b7ce9d3ab"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e6ebdc49-57dc-44b0-934c-b541ed206293" targetConnections="e5a750e4-f0ed-4afc-bc96-d9d41795c989" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="4f79889c-003e-455b-b627-777cbd90c2c5">
+        <bounds x="132" y="540" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="08bf2d8b-ffd5-497b-a4dc-6b0a8a3dcbac" lineColor="#000000" source="e6ebdc49-57dc-44b0-934c-b541ed206293" target="6e5de636-1d0f-48d5-861d-41d0ad490660" archimateRelationship="a2e22da5-e050-4e7a-a422-378d7cff4488">
+          <bendpoint startY="-279" endX="-408" endY="-3"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:Note" id="54eeb06f-768e-4796-a21d-c2c52de54eeb" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="24" width="65" height="47"/>
+        <content>SOLL</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Terminologie Beheer Systemen" id="9c5a691c-3b64-48e2-ba69-4fc7011b77f3" viewpoint="layered">
+      <child xsi:type="archimate:DiagramObject" id="8009ee84-c205-475e-bece-10bb383769c4" targetConnections="3ba09d46-17ae-4251-93d6-022f1c740a81 f0ac739e-e800-487d-96cf-1b6f834c006f acf1d7ec-82c8-498c-945e-66d9acad541d 82f16a19-ba95-43c9-9747-5953e4480e05 9d14913d-3c15-4c04-92c7-bc585c49ccea" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0723ed5c-7d82-48e1-9845-e65d4ee58ea7">
+        <bounds x="372" y="276" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1944064d-4293-4edb-b4da-1b8ad57365d1" lineColor="#000000" textPosition="2" source="8009ee84-c205-475e-bece-10bb383769c4" target="265b1c6e-6235-457f-b47c-66406fb647d4" archimateRelationship="eda7d7aa-8884-4992-bc1e-49dce3c5842b">
+          <bendpoint startX="-12" startY="-39" endX="66" endY="69"/>
+          <bendpoint startX="-72" startY="-39" endX="6" endY="69"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="0864082e-b961-466d-9b19-536ac3be1c88" lineColor="#000000" textPosition="2" source="8009ee84-c205-475e-bece-10bb383769c4" target="1cd7d42f-ada5-4f38-9f41-24ef52938b39" archimateRelationship="b2e893ec-e75e-488c-9647-f931135f6245">
+          <bendpoint startX="12" startY="-39" endX="-54" endY="69"/>
+          <bendpoint startX="72" startY="-39" endX="6" endY="69"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f4f80da4-882f-4070-b238-a2c0f4732f25" targetConnections="dd72e9bd-187d-4cf1-925c-41aa8e21db8a" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="0a905c3d-2f13-4b12-b8cf-e62408e0269a">
+        <bounds x="432" y="48" width="133" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1cd7d42f-ada5-4f38-9f41-24ef52938b39" targetConnections="0864082e-b961-466d-9b19-536ac3be1c88 67ddf3b8-97be-40a7-b9ee-7bd4fbd82177" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="1eb07667-5be9-4f67-9dc8-1c90ba9af969">
+        <bounds x="432" y="168" width="133" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dd72e9bd-187d-4cf1-925c-41aa8e21db8a" lineColor="#000000" textPosition="2" source="1cd7d42f-ada5-4f38-9f41-24ef52938b39" target="f4f80da4-882f-4070-b238-a2c0f4732f25" archimateRelationship="a2a4c3cd-b748-4dbd-9b7d-88760675f071"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="265b1c6e-6235-457f-b47c-66406fb647d4" targetConnections="1944064d-4293-4edb-b4da-1b8ad57365d1" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="82edc942-2006-47bb-b571-bdab277bb94d">
+        <bounds x="288" y="168" width="132" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ba58dbad-702a-4cae-9816-7fed67e267eb" targetConnections="5ca37b71-8f0a-4da3-91f1-001cdeae13bc" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="33d356e1-0e89-49e6-b0b8-08e00b40851b">
+        <bounds x="336" y="420" width="136" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3ba09d46-17ae-4251-93d6-022f1c740a81" lineColor="#000000" textPosition="2" source="ba58dbad-702a-4cae-9816-7fed67e267eb" target="8009ee84-c205-475e-bece-10bb383769c4" archimateRelationship="5a0e2f08-f667-4bd7-b0f0-2a6498a7a0b6">
+          <bendpoint startX="7" startY="-51" endX="-60" endY="93"/>
+          <bendpoint startX="67" startY="-51" endY="93"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1a7f92ac-49ba-4841-80a1-79985702ba59" targetConnections="bc39ab7e-c2a8-4bed-8f50-640d29705e95" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="ad31315f-7dcf-4c5f-a634-525ca9a9969c">
+        <bounds x="484" y="420" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f0ac739e-e800-487d-96cf-1b6f834c006f" lineColor="#000000" textPosition="2" source="1a7f92ac-49ba-4841-80a1-79985702ba59" target="8009ee84-c205-475e-bece-10bb383769c4" archimateRelationship="f3f44eda-7b79-47ad-bd0f-f1d5fb5c46a0">
+          <bendpoint startX="11" startY="-51" endX="84" endY="93"/>
+          <bendpoint startX="-73" startY="-51" endY="93"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ecc2b7c1-dade-4566-9e76-d133d1ccd9b3" targetConnections="371bab01-7ec8-4d33-b859-fcd2d59ccf96" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="619133b8-2215-4fc8-832a-dd4f7e7eaf72">
+        <bounds x="72" y="276" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="acf1d7ec-82c8-498c-945e-66d9acad541d" targetConnections="ba61dba2-09c9-4bf3-9ce2-a946cbcd76bf" lineColor="#000000" textPosition="0" source="ecc2b7c1-dade-4566-9e76-d133d1ccd9b3" target="8009ee84-c205-475e-bece-10bb383769c4" archimateRelationship="970e9cdc-fab0-4b72-980b-d87cd2dc03cf"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b58034da-1b62-40c8-9c63-5215952bf4e6" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="344dec64-ecda-4d32-81dc-8a7ccb651796">
+        <bounds x="220" y="330" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ba61dba2-09c9-4bf3-9ce2-a946cbcd76bf" lineColor="#000000" source="b58034da-1b62-40c8-9c63-5215952bf4e6" target="acf1d7ec-82c8-498c-945e-66d9acad541d" archimateRelationship="8a6f881d-a123-4eb3-877c-4d0637352522"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f4418dc6-7e99-4825-a8aa-a74a5dacb9ca" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="f5f7c5dc-b7af-4290-9560-cdc31cd60f0d">
+        <bounds x="178" y="420" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9d14913d-3c15-4c04-92c7-bc585c49ccea" lineColor="#000000" textPosition="2" source="f4418dc6-7e99-4825-a8aa-a74a5dacb9ca" target="8009ee84-c205-475e-bece-10bb383769c4" archimateRelationship="6bbd1ef8-ba43-481c-96af-696e2d08f026">
+          <bendpoint startX="14" startY="-51" endX="-180" endY="93"/>
+          <bendpoint startX="206" startY="-51" endX="12" endY="93"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="371bab01-7ec8-4d33-b859-fcd2d59ccf96" lineColor="#000000" textPosition="2" source="f4418dc6-7e99-4825-a8aa-a74a5dacb9ca" target="ecc2b7c1-dade-4566-9e76-d133d1ccd9b3" archimateRelationship="53f0ec50-107c-4d6c-8187-d09a9cd67bce">
+          <bendpoint startX="-10" startY="-51" endX="120" endY="93"/>
+          <bendpoint startX="-130" startY="-51" endY="93"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c97451e3-4a44-45f9-8370-9718fa660a2e" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="dab841d0-08ce-4f58-9509-7843b9cfe37e">
+        <bounds x="720" y="420" width="166" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="82f16a19-ba95-43c9-9747-5953e4480e05" lineColor="#000000" source="c97451e3-4a44-45f9-8370-9718fa660a2e" target="8009ee84-c205-475e-bece-10bb383769c4" archimateRelationship="b16ea0b4-7e13-4e21-abc9-680f47c74b1a">
+          <bendpoint startX="-2" startY="-51" endX="288" endY="93"/>
+          <bendpoint startX="-359" startY="-51" endX="12" endY="93"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="19834fed-a390-4b86-a346-efddcd32a2e9" lineColor="#000000" source="c97451e3-4a44-45f9-8370-9718fa660a2e" target="32b603e0-3321-483b-ad62-2f377b8e9440" archimateRelationship="5e48dd88-bd91-47ea-9099-81cf571893de">
+          <bendpoint startX="13" startY="81" endX="90" endY="-51"/>
+          <bendpoint startX="-35" startY="81" endX="3" endY="-51"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="47cac060-ab98-458b-9cc5-9379fb8952d6" lineColor="#000000" source="c97451e3-4a44-45f9-8370-9718fa660a2e" target="de2b3805-140f-41b0-9f20-d6abad3d42b8" archimateRelationship="aee31cc3-ae15-4af9-9e0d-46f1f2eb35ee">
+          <bendpoint startX="13" startY="81" endX="-78" endY="-51"/>
+          <bendpoint startX="109" startY="81" endX="-6" endY="-51"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="b776a1d8-8b5c-4533-aa06-5da38fe62eaa" lineColor="#000000" source="c97451e3-4a44-45f9-8370-9718fa660a2e" target="37e8ab42-61ef-4a62-8438-e558fc62dbe9" archimateRelationship="93538f99-8e85-488c-baa4-117af96e29ac">
+          <bendpoint startX="13" startY="261" endX="-79" endY="-51"/>
+          <bendpoint startX="109" startY="261" endX="17" endY="-51"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="35fe82e7-26d0-43d0-969a-a0451f7206e6" lineColor="#000000" source="c97451e3-4a44-45f9-8370-9718fa660a2e" target="3dbcc6ba-ac04-4019-9260-fca1f6ea295c" archimateRelationship="a3d64450-9fe3-412b-9bbc-58e0ab210c87">
+          <bendpoint startX="13" startY="177" endX="-79" endY="-45"/>
+          <bendpoint startX="109" startY="177" endX="17" endY="-45"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="9b918ef8-c0eb-4e63-8212-7f414e3aa8c7" lineColor="#000000" source="c97451e3-4a44-45f9-8370-9718fa660a2e" target="d8107d14-978d-44fa-bbe4-f6bf93c2de6e" archimateRelationship="5a9cc26b-0028-45c5-839c-4eb1b1287c61">
+          <bendpoint startX="13" startY="177" endX="90" endY="-45"/>
+          <bendpoint startX="-83" startY="177" endX="15" endY="-45"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="02eaf4de-b7da-4038-9b90-2a12148642b2" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="8b2fb4e7-191b-4b86-9025-bf13e36839b1">
+        <bounds x="339" y="528" width="133" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5ca37b71-8f0a-4da3-91f1-001cdeae13bc" lineColor="#000000" textPosition="2" source="02eaf4de-b7da-4038-9b90-2a12148642b2" target="ba58dbad-702a-4cae-9816-7fed67e267eb" archimateRelationship="13997c6a-37e4-4f62-83dc-ed9c0931fe24"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="48937815-b09f-4031-82b4-42fca4422930" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0f824dcc-2125-4083-8b03-d2a43a09fd1b">
+        <bounds x="484" y="528" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="bc39ab7e-c2a8-4bed-8f50-640d29705e95" lineColor="#000000" textPosition="2" source="48937815-b09f-4031-82b4-42fca4422930" target="1a7f92ac-49ba-4841-80a1-79985702ba59" archimateRelationship="b3950199-68f5-464d-bc56-9a58f8cc7f9c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5b0d11ea-c465-45b6-94cf-73fe1f63723a" targetConnections="cb15fb55-e6af-4379-ad77-ef98a06c4c91" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="9d100b43-e38a-4585-80e8-84e3e86e5709">
+        <bounds x="624" y="60" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fe938780-7b7c-4469-97c8-7e9ff943c59d" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="b9cb5949-d471-4850-be3c-97e21a8a338f">
+        <bounds x="624" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="cb15fb55-e6af-4379-ad77-ef98a06c4c91" lineColor="#000000" source="fe938780-7b7c-4469-97c8-7e9ff943c59d" target="5b0d11ea-c465-45b6-94cf-73fe1f63723a" archimateRelationship="d67a3fc6-2e39-440e-a09d-c5e27d3fca43"/>
+        <sourceConnection xsi:type="archimate:Connection" id="67ddf3b8-97be-40a7-b9ee-7bd4fbd82177" lineColor="#000000" source="fe938780-7b7c-4469-97c8-7e9ff943c59d" target="1cd7d42f-ada5-4f38-9f41-24ef52938b39" archimateRelationship="6c4ae3ef-1a94-4ab0-a673-3ac8bc61c414"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="32b603e0-3321-483b-ad62-2f377b8e9440" targetConnections="19834fed-a390-4b86-a346-efddcd32a2e9" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="38db4fac-4e5c-4417-89e1-9c5398c33c8c">
+        <bounds x="660" y="552" width="133" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="de2b3805-140f-41b0-9f20-d6abad3d42b8" targetConnections="47cac060-ab98-458b-9cc5-9379fb8952d6" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="2ed73379-f031-465f-8db3-6803bdb81718">
+        <bounds x="828" y="552" width="133" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="37e8ab42-61ef-4a62-8438-e558fc62dbe9" targetConnections="b776a1d8-8b5c-4533-aa06-5da38fe62eaa" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="d4a37302-c25c-4e3f-9582-3c53e9b1a876">
+        <bounds x="835" y="732" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d8107d14-978d-44fa-bbe4-f6bf93c2de6e" targetConnections="9b918ef8-c0eb-4e63-8212-7f414e3aa8c7" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="276191e8-bb50-4e75-b053-9ca791f8df3e">
+        <bounds x="654" y="642" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3dbcc6ba-ac04-4019-9260-fca1f6ea295c" targetConnections="35fe82e7-26d0-43d0-969a-a0451f7206e6" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="eb5a3026-3e7e-4197-bc7d-a3c216aae764">
+        <bounds x="835" y="642" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Collectie Beheer Systemen" id="af57d9bb-75e5-4a13-b698-45d65b24eddb" viewpoint="layered">
+      <child xsi:type="archimate:DiagramObject" id="223ae16e-68f4-4c6b-8c65-7feb220200a3" targetConnections="fe223c23-5314-45dd-a015-6b3fbbeb8d53 af2fe58d-2367-4590-9e96-06ad0423d56f ab4a96bd-fb33-4170-8410-dcd327ed0d18" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="ef25c29d-66ac-4535-b11e-f4a8194293ca">
+        <bounds x="348" y="360" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ed6b7743-8a42-4679-b2e5-ddf2df579f40" lineColor="#000000" textPosition="0" source="223ae16e-68f4-4c6b-8c65-7feb220200a3" target="fe791896-2475-4a18-9c41-7d214fb40bc0" archimateRelationship="1d7e2778-796c-4ca8-913b-f6cbb38bd8c5"/>
+        <sourceConnection xsi:type="archimate:Connection" id="fba5777f-b175-47fb-a3a5-c2a9d8e26436" lineColor="#000000" source="223ae16e-68f4-4c6b-8c65-7feb220200a3" target="993df912-15c4-4192-9565-7b11f5b38743" archimateRelationship="c1274d7b-0c41-47fb-aaf5-4db202799bcc"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a9ebd218-dcad-4aa1-a214-d9db13e1a144" lineColor="#000000" source="223ae16e-68f4-4c6b-8c65-7feb220200a3" target="03ee332f-23d2-4193-838e-d4aa116d6f3e" archimateRelationship="3ec02dd7-903e-464c-bd3f-db3079c6fda9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fe791896-2475-4a18-9c41-7d214fb40bc0" targetConnections="ed6b7743-8a42-4679-b2e5-ddf2df579f40" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="9f9154f7-1d80-44ad-8b4c-a7bc9d41c2bd">
+        <bounds x="480" y="240" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="12e8490e-590d-4c64-a6c3-dc4ca7f22f25" lineColor="#000000" source="fe791896-2475-4a18-9c41-7d214fb40bc0" target="2fb72b82-3953-4941-a08b-5fbaf640a148" archimateRelationship="b8bce858-b86f-4ea0-8e6a-d47fda8fc0a4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ea719fe0-ed8b-4507-afc7-304254cd5389" targetConnections="f9131da1-0dbe-421d-9877-abd2bf1ae7a3" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="ffd8eb66-451a-43a7-b7d0-c12eae3e490f">
+        <bounds x="336" y="24" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2fb72b82-3953-4941-a08b-5fbaf640a148" targetConnections="12e8490e-590d-4c64-a6c3-dc4ca7f22f25" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="fc90cfb9-cfce-44cc-be22-30c253c1a586">
+        <bounds x="480" y="132" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="993df912-15c4-4192-9565-7b11f5b38743" targetConnections="fba5777f-b175-47fb-a3a5-c2a9d8e26436" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="0a905c3d-2f13-4b12-b8cf-e62408e0269a">
+        <bounds x="336" y="132" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f9131da1-0dbe-421d-9877-abd2bf1ae7a3" lineColor="#000000" textPosition="2" source="993df912-15c4-4192-9565-7b11f5b38743" target="ea719fe0-ed8b-4507-afc7-304254cd5389" archimateRelationship="e9018e78-92e7-4908-8fa3-08506f976273"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="03ee332f-23d2-4193-838e-d4aa116d6f3e" targetConnections="a9ebd218-dcad-4aa1-a214-d9db13e1a144" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="5c5daef7-2e41-46ec-ac4a-d3ed42adc96d">
+        <bounds x="193" y="132" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bc3d5216-6002-40e5-8f6d-4359550dcc3c" targetConnections="dc6de3d8-bb30-47b4-b6a3-33fb322bce9d" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0a6b1d26-c2b5-467e-8b78-114de232a9f1">
+        <bounds x="348" y="456" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="fe223c23-5314-45dd-a015-6b3fbbeb8d53" lineColor="#000000" source="bc3d5216-6002-40e5-8f6d-4359550dcc3c" target="223ae16e-68f4-4c6b-8c65-7feb220200a3" archimateRelationship="b08332f5-0307-46dc-9d72-8d1a98438ed9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="97f95ef4-b010-4fe2-b2d3-66a7897dedc0" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="dd1dacb8-dce3-4f74-8867-4a1caa36df62">
+        <bounds x="348" y="564" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dc6de3d8-bb30-47b4-b6a3-33fb322bce9d" lineColor="#000000" source="97f95ef4-b010-4fe2-b2d3-66a7897dedc0" target="bc3d5216-6002-40e5-8f6d-4359550dcc3c" archimateRelationship="3d410a17-f694-4f0b-ae33-42b992131ba6"/>
+        <sourceConnection xsi:type="archimate:Connection" id="11f091c3-32b0-4cee-9a6e-ce65b5a2975f" lineColor="#000000" source="97f95ef4-b010-4fe2-b2d3-66a7897dedc0" target="615b4b39-5464-4106-ae05-8a29ff54b827" archimateRelationship="0714607c-66a4-4e9d-b50d-dd25b2199ea7"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="615b4b39-5464-4106-ae05-8a29ff54b827" targetConnections="11f091c3-32b0-4cee-9a6e-ce65b5a2975f" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="751cf9b8-28a0-4ce7-bd28-803fd6b2fe0a">
+        <bounds x="144" y="564" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="eea9ca7a-4c02-447d-9910-223991741aee" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="a96d16cd-b959-4d82-b0d9-f4730249d3a6">
+        <bounds x="715" y="564" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="af2fe58d-2367-4590-9e96-06ad0423d56f" lineColor="#000000" source="eea9ca7a-4c02-447d-9910-223991741aee" target="223ae16e-68f4-4c6b-8c65-7feb220200a3" archimateRelationship="ee7ae50d-c74b-4137-b09a-9ea91735323a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c4f14108-209e-43e1-90bb-778251ce696e" lineColor="#000000" source="eea9ca7a-4c02-447d-9910-223991741aee" target="1fbd761c-c719-4683-afd0-9907e75288ca" archimateRelationship="24244267-b4f6-4cae-a897-f54123174584"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="57d34441-0e6a-4938-b270-338e2f461838" targetConnections="31ffac44-d9a0-4239-b91f-63e2be0f8f57" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="299035c0-3d15-4093-a088-6b4d0f66fa13">
+        <bounds x="648" y="240" width="133" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1fbd761c-c719-4683-afd0-9907e75288ca" targetConnections="a479e6ca-42c2-4684-9322-c77c9a26003b f5467545-5985-439b-89a1-ff543ecb25b6 c4f14108-209e-43e1-90bb-778251ce696e 4b327527-4bce-4af0-8815-b2330e5dc21a" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="44bc0713-8878-44fb-ae05-69d07812f534">
+        <bounds x="648" y="336" width="277" height="169"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ab4a96bd-fb33-4170-8410-dcd327ed0d18" lineColor="#000000" textPosition="2" source="1fbd761c-c719-4683-afd0-9907e75288ca" target="223ae16e-68f4-4c6b-8c65-7feb220200a3" archimateRelationship="066f3773-8a60-47aa-95ce-f713e1440494"/>
+        <child xsi:type="archimate:DiagramObject" id="260955eb-bb77-4406-8f8f-e9d1088a3135" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="e1b87ac1-7aee-4d83-b257-db9d59ee8c1a">
+          <bounds x="12" y="36" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="31ffac44-d9a0-4239-b91f-63e2be0f8f57" lineColor="#000000" textPosition="2" source="260955eb-bb77-4406-8f8f-e9d1088a3135" target="57d34441-0e6a-4938-b270-338e2f461838" archimateRelationship="5e97dec8-063d-4fd8-b684-e47a401b90c7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="a479e6ca-42c2-4684-9322-c77c9a26003b" source="260955eb-bb77-4406-8f8f-e9d1088a3135" target="1fbd761c-c719-4683-afd0-9907e75288ca" archimateRelationship="236b7426-5ec9-4d78-8ff1-15ea874da609"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="5565d505-cadc-4377-a5bf-7747ef0fb969" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0ddaf6b7-2d61-40d8-af1a-469fce692eb2">
+          <bounds x="144" y="36" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="f5467545-5985-439b-89a1-ff543ecb25b6" source="5565d505-cadc-4377-a5bf-7747ef0fb969" target="1fbd761c-c719-4683-afd0-9907e75288ca" archimateRelationship="c281db87-1241-4477-ab2b-ad81c122c2bc"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="220a1c4f-4afc-4832-9dbf-738837b2a51a" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="c575e9eb-bece-46a6-9d1c-c0d2cbe8c657">
+          <bounds x="12" y="96" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4b327527-4bce-4af0-8815-b2330e5dc21a" source="220a1c4f-4afc-4832-9dbf-738837b2a51a" target="1fbd761c-c719-4683-afd0-9907e75288ca" archimateRelationship="18ea09e9-41f1-4d43-9b36-bbecdccaa94e"/>
+        </child>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Terminologie bron" id="d22c4fb1-29c0-4f8c-abbb-d6ae656b6833" viewpoint="layered">
+      <child xsi:type="archimate:DiagramObject" id="25f804e3-ddf9-4dda-87c4-c430e690f001" targetConnections="a4884fd7-aab2-4e18-ab5d-a0a54cb87b62 9f9d905c-faae-42c7-aeb7-2c797914b6dd a17edc3a-644e-4557-aab7-6a06ff2f73dc 0426db10-e558-481c-8821-70df549ee09e" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="619133b8-2215-4fc8-832a-dd4f7e7eaf72">
+        <bounds x="492" y="156" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9bcd6b6d-6663-4387-92b1-f132912c4262" lineColor="#000000" textPosition="0" source="25f804e3-ddf9-4dda-87c4-c430e690f001" target="3e0ee587-efc5-44da-8571-48fc10f3f6d3" archimateRelationship="970e9cdc-fab0-4b72-980b-d87cd2dc03cf"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3e0ee587-efc5-44da-8571-48fc10f3f6d3" targetConnections="612e507b-0df6-48dc-af79-f07c7c01fd5f 9bcd6b6d-6663-4387-92b1-f132912c4262" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="0723ed5c-7d82-48e1-9845-e65d4ee58ea7">
+        <bounds x="768" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fd32f442-f93f-4cde-b514-56b9c789d58d" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="bfcc7b42-347b-4afc-abfd-699693ee86bb">
+        <bounds x="192" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a4884fd7-aab2-4e18-ab5d-a0a54cb87b62" lineColor="#000000" source="fd32f442-f93f-4cde-b514-56b9c789d58d" target="25f804e3-ddf9-4dda-87c4-c430e690f001" archimateRelationship="e6ef09ab-7378-4587-a589-a9fa8fa21286">
+          <bendpoint startY="-87" endX="-300" endY="81"/>
+          <bendpoint startX="300" startY="-87" endY="81"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ca680269-e45b-40fc-b2dd-17ea6ff11fb2" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="bc349123-0fb7-425f-b58b-de33c8cac72e">
+        <bounds x="336" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9f9d905c-faae-42c7-aeb7-2c797914b6dd" lineColor="#000000" source="ca680269-e45b-40fc-b2dd-17ea6ff11fb2" target="25f804e3-ddf9-4dda-87c4-c430e690f001" archimateRelationship="44081b68-0ef4-41b2-a08e-feba989916ea">
+          <bendpoint startY="-87" endX="-156" endY="81"/>
+          <bendpoint startX="156" startY="-87" endY="81"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6faed18a-c63d-4c0d-b541-425651c76a5b" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="f5f7c5dc-b7af-4290-9560-cdc31cd60f0d">
+        <bounds x="624" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a17edc3a-644e-4557-aab7-6a06ff2f73dc" lineColor="#000000" textPosition="2" source="6faed18a-c63d-4c0d-b541-425651c76a5b" target="25f804e3-ddf9-4dda-87c4-c430e690f001" archimateRelationship="53f0ec50-107c-4d6c-8187-d09a9cd67bce">
+          <bendpoint startX="-24" startY="-87" endX="108" endY="81"/>
+          <bendpoint startX="-132" startY="-87" endY="81"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="612e507b-0df6-48dc-af79-f07c7c01fd5f" lineColor="#000000" textPosition="2" source="6faed18a-c63d-4c0d-b541-425651c76a5b" target="3e0ee587-efc5-44da-8571-48fc10f3f6d3" archimateRelationship="6bbd1ef8-ba43-481c-96af-696e2d08f026">
+          <bendpoint startX="-12" startY="-87" endX="-156" endY="81"/>
+          <bendpoint startX="156" startY="-87" endX="12" endY="81"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d679b275-dedc-45c1-b074-f1a2a3149f16" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="ac16ddf2-5ba1-4405-aa69-793fc7f543f6">
+        <bounds x="480" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0426db10-e558-481c-8821-70df549ee09e" lineColor="#000000" textPosition="2" source="d679b275-dedc-45c1-b074-f1a2a3149f16" target="25f804e3-ddf9-4dda-87c4-c430e690f001" archimateRelationship="717c9c30-6529-4138-9c4d-f9e052eb9992">
+          <bendpoint startX="12" startY="-87" endY="81"/>
+        </sourceConnection>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Collectie Beheer Systeem + register" id="faf3efde-0ee3-493d-91c9-e763eb684f76" viewpoint="layered">
+      <child xsi:type="archimate:DiagramObject" id="281569a5-8d47-4255-a4fa-8236aac8351e" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="ef25c29d-66ac-4535-b11e-f4a8194293ca">
+        <bounds x="228" y="336" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a402bd57-076c-4e83-9f91-10a099340673" targetConnections="6d71dff5-3941-46ba-b2de-ef8ef25f1596 6e65e3e2-c930-4089-8a39-f3d15ec330c9 1de91f12-aabb-47a0-9751-3ac83ac29ef4" lineColor="#000000" textPosition="2" source="281569a5-8d47-4255-a4fa-8236aac8351e" target="198c8033-4389-4baa-a042-20363531f2ef" archimateRelationship="64bc8e22-70b0-49f3-8730-24cbbb3fe678"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="198c8033-4389-4baa-a042-20363531f2ef" targetConnections="a402bd57-076c-4e83-9f91-10a099340673" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="60156cb2-2d2e-4fb3-a7a3-2b5411f6a5b9">
+        <bounds x="228" y="36" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4dba949c-5a78-41c8-a7fc-57610927d387" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="d8f6dadd-efa2-41a5-a058-4d8c34a51080">
+        <bounds x="109" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6d71dff5-3941-46ba-b2de-ef8ef25f1596" lineColor="#000000" source="4dba949c-5a78-41c8-a7fc-57610927d387" target="a402bd57-076c-4e83-9f91-10a099340673" archimateRelationship="9f384739-67fd-462e-80f6-c5952731813a"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="396d6887-3320-458d-adbd-d9a22ff33b9b" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="f0f400b0-96bd-4e8f-8ace-63e3a7d64682">
+        <bounds x="109" y="180" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6e65e3e2-c930-4089-8a39-f3d15ec330c9" lineColor="#000000" source="396d6887-3320-458d-adbd-d9a22ff33b9b" target="a402bd57-076c-4e83-9f91-10a099340673" archimateRelationship="a15b85bb-6a24-4ba3-9d89-594ac3c4381f"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1c6e0bf1-76ba-4b80-bdc5-ea4a588657fe" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="5d7bb94c-2888-415e-a4ea-058c023d2dbe">
+        <bounds x="109" y="252" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1de91f12-aabb-47a0-9751-3ac83ac29ef4" lineColor="#000000" source="1c6e0bf1-76ba-4b80-bdc5-ea4a588657fe" target="a402bd57-076c-4e83-9f91-10a099340673" archimateRelationship="c63d353b-fc22-4add-8074-b464c39dbaab"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1ac19749-e0ff-45e6-afa0-119e4f9fe744" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="5e14ada6-31ba-4d4a-837f-9fc7229b04cd">
+        <bounds x="538" y="246" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Annotaties" id="b74777cc-9fe1-483f-b42a-722c8d686a33">
+      <child xsi:type="archimate:Group" id="6ae7e1e1-5bd4-4d64-8188-e407a8c5776f" name="Legenda" lineColor="#5c5c5c" textAlignment="1" fillColor="#e8e8e8">
+        <bounds x="12" y="360" width="277" height="175"/>
+        <child xsi:type="archimate:DiagramObject" id="2c8ec0be-69f9-4072-bb40-e18d227ee192" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="37792de1-1f9c-4e94-b8eb-5f31f0dc7cd2">
+          <bounds x="144" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="be01d7cc-3fa1-4513-9b58-eb29cd82a510" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="4dcc9004-9e7a-42c7-85bf-1e03c75e3602">
+          <bounds x="12" y="108" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ae899d61-4299-4135-b0a8-179361157197" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="5b26b8d5-ec00-40c6-a610-dc58725c1d5b">
+          <bounds x="12" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="36dfe20a-25c0-4096-ad12-791e6ea8862d" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="3222d9d6-6b38-47b7-9447-d3c04701a729">
+          <bounds x="144" y="108" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bd5d9ea6-1787-45ee-b996-5418f74c6da1" targetConnections="31aabda5-66a4-44fd-a727-145c03dca931" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="18d10471-485d-4aba-85cd-04bdd1f5ecc8">
+        <bounds x="57" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b205eb57-f2cd-4f7d-85df-1fcb1e5cef7b" lineColor="#000000" textPosition="2" source="bd5d9ea6-1787-45ee-b996-5418f74c6da1" target="fd7fad74-3215-407c-a513-db39966b2f20" archimateRelationship="4485c207-ae70-4e64-b7b7-f04c1ac16eec"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8ff61e46-914e-4463-b547-415703c12abc" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="f0d90f40-80c3-43c9-9ea7-61d119e13dd2">
+        <bounds x="57" y="264" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="31aabda5-66a4-44fd-a727-145c03dca931" lineColor="#000000" textPosition="2" source="8ff61e46-914e-4463-b547-415703c12abc" target="bd5d9ea6-1787-45ee-b996-5418f74c6da1" archimateRelationship="a4963c64-9e82-4395-9d63-210fc050020e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c923de54-fa57-44b2-bce1-cc0f002b7564" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="cd137aba-f777-4430-b30b-952e89bd71d1">
+        <bounds x="261" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="fed9689f-3657-4c8f-947f-9de3993ea522" lineColor="#000000" source="c923de54-fa57-44b2-bce1-cc0f002b7564" target="bcd93ab8-cc6e-4049-85c9-420ba630c087" archimateRelationship="e9ee8368-9bf9-499e-90b2-3a16af2f2bfa">
+          <bendpoint startX="3" startY="-63" endX="3" endY="57"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a1c9e560-a14a-44ce-b28d-5aa4c3950c38" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="e0b1df3b-18a7-4d0b-9e0d-4f66aa285021">
+        <bounds x="408" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b1bc616e-a822-418c-82e0-449a1898d2f5" lineColor="#000000" source="a1c9e560-a14a-44ce-b28d-5aa4c3950c38" target="bcd93ab8-cc6e-4049-85c9-420ba630c087" archimateRelationship="1dccb957-797c-4859-9ffd-bc2842c10983">
+          <bendpoint startY="-63" endX="147" endY="57"/>
+          <bendpoint startX="-144" startY="-63" endX="3" endY="57"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bcd93ab8-cc6e-4049-85c9-420ba630c087" targetConnections="fed9689f-3657-4c8f-947f-9de3993ea522 b1bc616e-a822-418c-82e0-449a1898d2f5" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="03555adb-1575-4e68-b4ca-88b70101d8c6">
+        <bounds x="261" y="24" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c63f4361-a525-48d4-980a-0099d9000ff0" lineColor="#000000" textPosition="2" source="bcd93ab8-cc6e-4049-85c9-420ba630c087" target="fd7fad74-3215-407c-a513-db39966b2f20" archimateRelationship="2567b0b0-b448-40ae-b1d7-a4a6bb5941a0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fd7fad74-3215-407c-a513-db39966b2f20" targetConnections="b205eb57-f2cd-4f7d-85df-1fcb1e5cef7b c63f4361-a525-48d4-980a-0099d9000ff0" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="9e1a557f-5a39-4c72-8b24-2daa37b8402e">
+        <bounds x="57" y="24" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actorenoverzicht OCW" id="3e63908e-e0ba-40e4-b0f7-ddbaf7c0ceee" viewpoint="business_process_cooperation">
+      <child xsi:type="archimate:DiagramObject" id="05c23af5-a0c9-403d-88b9-85c277cba136" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="238893f9-1b33-4046-b03f-3a2f4e7ecaf7">
+        <bounds x="36" y="36" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1306b7a8-36ba-4f65-b002-41e6d25de8b1" lineColor="#000000" source="05c23af5-a0c9-403d-88b9-85c277cba136" target="ae4f3159-92f1-4baf-ba86-b985606f05ad" archimateRelationship="6b175d0b-71d2-4d16-b418-31b19cfc9cfe"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d67a6b05-aa53-4b36-bd85-318b77590f24" targetConnections="0d92d168-cfd8-4c42-8779-478fc07f8bd5" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="8bdcb97d-05e4-460a-bba0-f180d4eb64c2">
+        <bounds x="228" y="36" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7ea64249-2f17-4014-9563-3524a4dfc29b" lineColor="#000000" source="d67a6b05-aa53-4b36-bd85-318b77590f24" target="98cf3dd6-9b92-4321-9ddd-5d5570de687e" archimateRelationship="e1da44bf-fd2a-4fc8-96e6-fcdd0fb90cef">
+          <bendpoint startX="-36" startY="165" endX="-12" endY="-222"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="77807f3b-fc7a-453d-9ad1-e8fc38c2db1e" lineColor="#000000" source="d67a6b05-aa53-4b36-bd85-318b77590f24" target="dfacd197-fc9d-4ddd-8e0b-e7793120e42a" archimateRelationship="226cf259-6f63-4354-b7fe-b6b7cc987f76">
+          <bendpoint startX="24" startY="177" endX="-180" endY="-51"/>
+          <bendpoint startX="168" startY="177" endX="-36" endY="-51"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="d5a04a98-8f90-4d68-b821-583b5ab36b51" lineColor="#000000" source="d67a6b05-aa53-4b36-bd85-318b77590f24" target="a896beca-4d83-4c43-a629-cd6a104a949b" archimateRelationship="7c337e37-7834-4867-9fb6-166dd8abbda0">
+          <bendpoint startX="36" startY="165" endX="-312" endY="-63"/>
+          <bendpoint startX="300" startY="165" endX="-48" endY="-63"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="16f5cd47-92f8-4048-8910-db24ab395467" lineColor="#000000" source="d67a6b05-aa53-4b36-bd85-318b77590f24" target="80aa56f4-1850-4808-a33c-c7d99ab1040b" archimateRelationship="e3077c7f-8c1f-430d-a108-8fdb98a4ae8a">
+          <bendpoint startY="117" endX="-48" endY="-111"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2d10e331-e518-4638-b9c7-c81d57db69e9" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="c5a7d5ed-912b-4a66-b0bf-6ea03db9bb80">
+        <bounds x="36" y="252" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="74ce39e2-d936-498b-84e7-e96f2103f92f" lineColor="#000000" source="2d10e331-e518-4638-b9c7-c81d57db69e9" target="ae4f3159-92f1-4baf-ba86-b985606f05ad" archimateRelationship="138a635f-c8c3-4181-a2c1-47418f786053"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4fec9c1d-0910-4a32-baa3-bdbb19d5ed6b" lineColor="#000000" source="2d10e331-e518-4638-b9c7-c81d57db69e9" target="98cf3dd6-9b92-4321-9ddd-5d5570de687e" archimateRelationship="e678d7d5-00e6-4a2b-8956-034a87ff5e61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ae4f3159-92f1-4baf-ba86-b985606f05ad" targetConnections="74ce39e2-d936-498b-84e7-e96f2103f92f 1306b7a8-36ba-4f65-b002-41e6d25de8b1" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="2bb4b520-95da-4f00-8535-adfc27be9d90">
+        <bounds x="36" y="144" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="98cf3dd6-9b92-4321-9ddd-5d5570de687e" targetConnections="4fec9c1d-0910-4a32-baa3-bdbb19d5ed6b 7ea64249-2f17-4014-9563-3524a4dfc29b" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="ccf3b580-9052-4fee-94dd-b178f0fb12ae">
+        <bounds x="36" y="360" width="469" height="241"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ac6218fa-720a-47b6-bdb8-c5f55d2d7520" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="6e07fd14-620f-4d2c-b350-12e160104a10" archimateRelationship="3cc59d29-be7c-4849-b751-b26fcf713373"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4d029bc0-a755-452f-b0f9-43ed3c7fa5fe" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" archimateRelationship="79d693af-018f-4647-8d82-cb14cd2ff7dd"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6189fcaa-48c7-48ab-9423-5c8ef6f2ce60" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="037989ec-4943-40cc-bf9d-ed4fb23d3648" archimateRelationship="a55600a4-b75e-4750-9136-3c2e9d3451b5"/>
+        <sourceConnection xsi:type="archimate:Connection" id="675999c9-bbff-4197-9c07-79643ed822c3" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="006903a2-e780-4468-b6ff-b508e362b7c5" archimateRelationship="7487e248-6913-42bc-b75f-a154434df07f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="64344c7c-33d7-4e97-a8b7-7e64008afe6a" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="a96ae731-e270-453e-aefd-7126690d734e" archimateRelationship="753d7ce5-1c68-42e9-882d-79397284fe7d"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c027d8da-57fa-4983-a9e7-5325be6d2ec5" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="8a4c1ce7-3ba8-4ea0-a0ae-88df9f3bf1a2" archimateRelationship="b1c9f702-b099-4257-821e-33c4bb03402f"/>
+        <child xsi:type="archimate:DiagramObject" id="6e07fd14-620f-4d2c-b350-12e160104a10" targetConnections="ac6218fa-720a-47b6-bdb8-c5f55d2d7520" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="902fcd50-a7c4-404d-b5c2-eacb7437e63a">
+          <bounds x="24" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" targetConnections="4d029bc0-a755-452f-b0f9-43ed3c7fa5fe" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b4784487-6d3e-4549-8421-55507a81fe54">
+          <bounds x="168" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="037989ec-4943-40cc-bf9d-ed4fb23d3648" targetConnections="6189fcaa-48c7-48ab-9423-5c8ef6f2ce60" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="eaa58277-d294-4a1c-838b-4d13d55c3543">
+          <bounds x="312" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="006903a2-e780-4468-b6ff-b508e362b7c5" targetConnections="675999c9-bbff-4197-9c07-79643ed822c3" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b50743da-be42-4e8e-98ce-8c874bca5114">
+          <bounds x="24" y="96" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="a96ae731-e270-453e-aefd-7126690d734e" targetConnections="64344c7c-33d7-4e97-a8b7-7e64008afe6a 6d3e05c7-19f2-45cd-85b9-7910c0517a8b" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="c47bd3e8-3d19-4b36-9949-e42731fbaa08">
+          <bounds x="312" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="8a4c1ce7-3ba8-4ea0-a0ae-88df9f3bf1a2" targetConnections="c027d8da-57fa-4983-a9e7-5325be6d2ec5 c5fe270e-3840-482b-80f5-6636664b2980" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="f126f330-3952-4837-a2aa-fabbbe339a6e">
+          <bounds x="312" y="96" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a896beca-4d83-4c43-a629-cd6a104a949b" targetConnections="d5a04a98-8f90-4d68-b821-583b5ab36b51 07122b74-b2cb-4dd2-86f7-57bf7c0e7852" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="9b9b63a7-39b8-4d6b-9ddd-2bf7a03bd571">
+        <bounds x="564" y="264" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="dfacd197-fc9d-4ddd-8e0b-e7793120e42a" targetConnections="77807f3b-fc7a-453d-9ad1-e8fc38c2db1e 8d1af9c3-b006-4566-a6f6-49911cb979c3" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="a307516f-da5e-4ce6-98be-5c502081bbfb">
+        <bounds x="420" y="264" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="80aa56f4-1850-4808-a33c-c7d99ab1040b" targetConnections="16f5cd47-92f8-4048-8910-db24ab395467" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="354be20c-8fec-45c8-a266-567cde360f38">
+        <bounds x="276" y="264" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="32750847-b290-48c2-9dbc-69f55c9a1e77" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="234b7d25-d87c-482a-9cd1-2aa3eca33dab">
+        <bounds x="504" y="36" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="be6af339-5085-4f52-8014-b1a1b25b3741" lineColor="#000000" source="32750847-b290-48c2-9dbc-69f55c9a1e77" target="b7799251-53c2-4397-8ce6-627c268dee2a" archimateRelationship="03a7c4e2-f8fc-428a-939a-59a5e0c1cca8">
+          <bendpoint startX="48" startY="165" endX="-156" endY="-63"/>
+          <bendpoint startX="180" startY="165" endX="-24" endY="-63"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="07122b74-b2cb-4dd2-86f7-57bf7c0e7852" lineColor="#000000" source="32750847-b290-48c2-9dbc-69f55c9a1e77" target="a896beca-4d83-4c43-a629-cd6a104a949b" archimateRelationship="dcf91390-5edd-4900-9379-93630eb50f00"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8d1af9c3-b006-4566-a6f6-49911cb979c3" lineColor="#000000" source="32750847-b290-48c2-9dbc-69f55c9a1e77" target="dfacd197-fc9d-4ddd-8e0b-e7793120e42a" archimateRelationship="6bd42087-02df-43d5-aaba-1a51e990fea4"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c3fe7969-c9c7-47fe-95eb-f0d73d2916dd" lineColor="#000000" source="32750847-b290-48c2-9dbc-69f55c9a1e77" target="15e65eba-83b8-4da4-bc75-dc8ba0fb9c35" archimateRelationship="3a4261b0-30f7-48ad-b48e-d640aa0d1a5d"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c5fe270e-3840-482b-80f5-6636664b2980" lineColor="#000000" source="32750847-b290-48c2-9dbc-69f55c9a1e77" target="8a4c1ce7-3ba8-4ea0-a0ae-88df9f3bf1a2" archimateRelationship="3cc0ae29-1820-4e0a-8ea1-fcc7bef4eea7">
+          <bendpoint startX="-12" startY="417" endX="144" endY="-3"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b7799251-53c2-4397-8ce6-627c268dee2a" targetConnections="be6af339-5085-4f52-8014-b1a1b25b3741" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="24b55bd9-2bbd-4f26-abc5-06ba51cf43aa">
+        <bounds x="708" y="264" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="15e65eba-83b8-4da4-bc75-dc8ba0fb9c35" targetConnections="c3fe7969-c9c7-47fe-95eb-f0d73d2916dd" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="08b9ffd3-b4b5-4845-aecc-e35c55bbb409">
+        <bounds x="900" y="36" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6d3e05c7-19f2-45cd-85b9-7910c0517a8b" lineColor="#000000" source="15e65eba-83b8-4da4-bc75-dc8ba0fb9c35" target="a96ae731-e270-453e-aefd-7126690d734e" archimateRelationship="feef33f4-b5f6-443f-bfee-9b47e5fbde85">
+          <bendpoint startX="-42" startY="464" endX="516" endY="-3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="0d92d168-cfd8-4c42-8779-478fc07f8bd5" lineColor="#000000" source="15e65eba-83b8-4da4-bc75-dc8ba0fb9c35" target="d67a6b05-aa53-4b36-bd85-318b77590f24" archimateRelationship="27d5a231-a5e1-407b-8f7b-4270fb772de1">
+          <bendpoint startX="-36" startY="-63" endX="636" endY="-63"/>
+          <bendpoint startX="-672" startY="-63" endY="-63"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7909ccb0-57aa-4e2a-ba0a-2dd7fbff8bda" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="2e4405ae-073e-4b09-96b5-ba6293603d78">
+        <bounds x="710" y="428" width="120" height="55"/>
+      </child>
+      <documentation>Koninklijke Nederlandse Akademie van Wetenschappen
+
+Voor de wetenschap
+
+De Koninklijke Nederlandse Akademie van Wetenschappen (KNAW) is in 1808 opgericht als adviesorgaan van de regering, een taak die zij ook nu nog vervult. De KNAW ontleent haar gezag aan haar op kwaliteit geselecteerde leden, excellente wetenschappers uit een scala van wetenschapsgebieden. Ook is de KNAW verantwoordelijk voor vijftien instituten die met hun onderzoek en collecties tot de voorhoede van de Nederlandse wetenschap behoren en internationale faam genieten.
+
+Visie
+
+De KNAW is het forum, de stem en het geweten van de wetenschap in Nederland. Haar instituten behoren met hun onderzoek en hun collecties tot de (inter)nationale top. Aan de basis van al haar activiteiten ligt de overtuiging dat kennis en creativiteit de belangrijkste grondstoffen zijn voor welzijn en welvaart.
+
+Missie
+
+Vanuit haar onafhankelijke positie brengt de KNAW mensen en middelen bij elkaar om met kennis en creativiteit bij te dragen aan de ontwikkeling van onze samenleving. Ze wil de bron zijn van inspirerende, vernieuwende inzichten, vergezichten en samenwerkingsverbanden. Ze bevordert de kwaliteit en de integriteit van de wetenschapsbeoefening. Haar instituten moeten staan voor excellente kwaliteit en dienen te fungeren als magneten voor onderzoekstalent.
+
+https://www.knaw.nl/nl/de-knaw</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Leveranciers Erfgoedsoftware (KnEL)" id="0de984f1-9c0a-444d-b830-6c97521f16de">
+      <child xsi:type="archimate:DiagramObject" id="31f46a8b-df5b-4d31-a8ca-562bfd394bc2" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="a85ce351-c478-49b1-b904-d578d480fae7">
+        <bounds x="27" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="06519241-3983-4c9a-a844-83c6b70a5bc6" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="e38b4b55-9343-4383-89a1-a113ae1b7451">
+        <bounds x="27" y="268" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4791ee03-bbd8-4381-871d-fd05b1c27851" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="1f6e9f8b-5c14-42b7-8dd8-c9a4f7433dec">
+        <bounds x="180" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a01b7734-e858-4a30-822b-8a678635b8d7" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="5fbc943b-7bfb-4131-bc77-b20e0f132919">
+        <bounds x="180" y="268" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b4bb725c-7a3b-4ded-b898-84911841a036" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="99b1ce7b-a4ed-4bfc-bc53-59eb518c9cde">
+        <bounds x="336" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4e3a4e9e-1a2e-4dd9-b6a6-83e8339d9245" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="7fd285cb-d338-46c9-a389-05b82a984cca">
+        <bounds x="336" y="268" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b447a33c-11b0-4fbb-9e4a-412041b3e698" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="49088461-da81-4935-80f4-2b712fcb73cc">
+        <bounds x="492" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0fa845d9-6a35-40dc-aaaa-38dd0a96019d" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b205dd91-1045-47bb-b7b9-a51cbde3acf7">
+        <bounds x="492" y="268" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6c56bf62-eabb-43ac-87cb-a9c11f03ad27" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="3eb0bd4a-cc61-4a72-8653-24eb934dbbc2">
+        <bounds x="648" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1d65a545-8ce4-4a2c-9df7-746e504a19e6" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="8d562ee8-9946-495c-a649-9a5a09ed7b2b">
+        <bounds x="648" y="268" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6ea1012f-3d11-4705-98fa-a824f284e716" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="e0ed5c0e-7fe5-4656-b538-2bba3c2566df">
+        <bounds x="792" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8fd4147c-e5d5-4f2b-95ef-c32c1da4a4f4" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="a8641b84-78db-414f-b789-7d607c911167">
+        <bounds x="792" y="268" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
