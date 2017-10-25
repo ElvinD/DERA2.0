@@ -200,6 +200,12 @@ We offer remote work in the right circumstances, as well as offices in Washingto
 
 http://www.stardog.com/about</documentation>
     </element>
+    <element xsi:type="archimate:BusinessActor" name="Imec" id="a3a1d343-4e18-4545-9a77-1a4365deeae2">
+      <documentation>https://www.imec-int.com/nl/home</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Universiteit Ghent" id="cff580ce-a444-4951-af5f-285ca1103d79">
+      <documentation>https://www.ugent.be/</documentation>
+    </element>
   </folder>
   <folder name="Application" id="97a9bd3b-0391-43a3-ab60-236ff6a3bf95" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="Collectie Beheer Systeem" id="ef25c29d-66ac-4535-b11e-f4a8194293ca"/>
@@ -618,6 +624,10 @@ The best place to start learning about RML is at the source, but basically RML i
 
 https://github.com/carml/carml</documentation>
     </element>
+    <element xsi:type="archimate:ApplicationComponent" name="RML Editor" id="d9db7d6c-c31d-49b7-81ab-9784dd77e747"/>
+    <element xsi:type="archimate:ApplicationComponent" name="RML validator" id="ec0894aa-254b-452d-8f64-563337e22016"/>
+    <element xsi:type="archimate:DataObject" name="RML Vocabulaire" id="563c75e4-3cc8-4840-a53b-6b56d6cd9e15"/>
+    <element xsi:type="archimate:DataObject" name="RML Specificatie" id="75e95bc3-b74f-47ca-bbcc-b370e1ab96b7"/>
   </folder>
   <folder name="Technology &amp; Physical" id="241ff34d-64ba-4d16-8d8f-6295a8839e50" type="technology"/>
   <folder name="Motivation" id="7af505d0-a3b1-4439-bb73-27e69bbdea44" type="motivation">
@@ -633,6 +643,9 @@ https://github.com/carml/carml</documentation>
     <element xsi:type="archimate:Grouping" name="Houdbaar" id="091ba448-91ca-4c52-b7a5-c09d0ce62ff5"/>
     <element xsi:type="archimate:Grouping" name="Bruikbaar" id="7820c7ff-7250-4eaf-8d6e-43a96a95eace"/>
     <element xsi:type="archimate:Grouping" name="Zichtbaar" id="920b13c9-2a5b-4a80-914e-643e6444757e"/>
+    <element xsi:type="archimate:Grouping" name="RML Project" id="f4ea45af-00a2-4818-82c6-d2e21af7f1b4">
+      <documentation>http://rml.io/RMLsoftware.html</documentation>
+    </element>
   </folder>
   <folder name="Relations" id="656a473f-c31a-4251-8ce3-9c3c6d726341" type="relations">
     <element xsi:type="archimate:RealizationRelationship" name="realiseert" id="1d7e2778-796c-4ca8-913b-f6cbb38bd8c5" source="ef25c29d-66ac-4535-b11e-f4a8194293ca" target="9f9154f7-1d80-44ad-8b4c-a7bc9d41c2bd"/>
@@ -779,6 +792,14 @@ https://github.com/carml/carml</documentation>
     <element xsi:type="archimate:AggregationRelationship" id="17baefc4-61cf-42cc-bdbd-04a596886182" source="67efafe0-c46b-4003-9545-619a47e21373" target="b279870b-fd4c-4b70-b95e-c97be9bec449"/>
     <element xsi:type="archimate:CompositionRelationship" id="20b1380a-107f-47b0-91c6-86b62b6b493b" source="67efafe0-c46b-4003-9545-619a47e21373" target="2035ba03-52fb-45af-94d9-d5d81ac5f38e"/>
     <element xsi:type="archimate:CompositionRelationship" id="3ebeb7a3-e38d-4e54-be14-46f4de43f25d" source="67efafe0-c46b-4003-9545-619a47e21373" target="b279870b-fd4c-4b70-b95e-c97be9bec449"/>
+    <element xsi:type="archimate:AggregationRelationship" id="cc7c4286-1620-4c27-9d07-681fd220f9a0" source="f4ea45af-00a2-4818-82c6-d2e21af7f1b4" target="d9db7d6c-c31d-49b7-81ab-9784dd77e747"/>
+    <element xsi:type="archimate:AggregationRelationship" id="648ecceb-efa5-4499-8d38-c3f4c222f6c9" source="f4ea45af-00a2-4818-82c6-d2e21af7f1b4" target="ec0894aa-254b-452d-8f64-563337e22016"/>
+    <element xsi:type="archimate:AggregationRelationship" id="9a80f8ff-e415-4c83-b285-645aecf0abe7" source="f4ea45af-00a2-4818-82c6-d2e21af7f1b4" target="2035ba03-52fb-45af-94d9-d5d81ac5f38e"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a896ac53-f083-488f-b5d9-89e0b53fb34d" source="f4ea45af-00a2-4818-82c6-d2e21af7f1b4" target="75e95bc3-b74f-47ca-bbcc-b370e1ab96b7"/>
+    <element xsi:type="archimate:AggregationRelationship" id="9db21348-f17e-4853-8076-d21b86f55bc1" source="f4ea45af-00a2-4818-82c6-d2e21af7f1b4" target="563c75e4-3cc8-4840-a53b-6b56d6cd9e15"/>
+    <element xsi:type="archimate:CompositionRelationship" id="794e11dd-5838-4dec-8d5c-1008ba3667c1" source="561d2128-9605-4832-a8a6-465e31c82659" target="f4ea45af-00a2-4818-82c6-d2e21af7f1b4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="96cc001d-4e72-4b60-a14f-d51c7b46d43d" source="a3a1d343-4e18-4545-9a77-1a4365deeae2" target="f4ea45af-00a2-4818-82c6-d2e21af7f1b4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="1b875c7e-c5c6-468c-8ab4-5f68db7577e3" source="cff580ce-a444-4951-af5f-285ca1103d79" target="f4ea45af-00a2-4818-82c6-d2e21af7f1b4"/>
   </folder>
   <folder name="Views" id="0af8a53c-8cf2-4dd9-9f19-ad04a0eb3796" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Vierlagen model (creatie)" id="6f3b5b31-56b1-417a-8a89-902dd7e861c9">
@@ -1402,7 +1423,7 @@ https://www.knaw.nl/nl/de-knaw</documentation>
         <bounds x="792" y="268" width="120" height="55"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="RML model" id="66495b90-972e-4d47-ac91-4c3abde44d74">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="RML + ETL applicaties" id="66495b90-972e-4d47-ac91-4c3abde44d74">
       <child xsi:type="archimate:DiagramObject" id="6e7c0184-06c3-448b-a126-751fb814ec23" targetConnections="9cbbd169-a29b-4196-ac81-b385c235a5a9 ddb2465b-4aac-462a-9a57-2bf977a14e14 b26da547-322e-4e4f-8430-91d661e57c53" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="561d2128-9605-4832-a8a6-465e31c82659">
         <bounds x="264" y="348" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="74c99e82-b085-44ca-93e0-27a8529b8df0" lineColor="#000000" textPosition="0" source="6e7c0184-06c3-448b-a126-751fb814ec23" target="895fccbe-897e-4a3c-a446-a9dbccdd3f0c" archimateRelationship="f06d9682-151c-450b-9d36-e9a300b47c1a"/>
@@ -1411,7 +1432,7 @@ https://www.knaw.nl/nl/de-knaw</documentation>
         <bounds x="468" y="348" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="4c9b4260-1333-481c-a3c0-b143e453b564" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="dba488a2-612c-421d-8d74-9ac3c14a3eec">
-        <bounds x="468" y="228" width="120" height="55"/>
+        <bounds x="468" y="132" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="8e3518f1-8850-4a22-bd6c-5ed085c9940b" lineColor="#000000" source="4c9b4260-1333-481c-a3c0-b143e453b564" target="895fccbe-897e-4a3c-a446-a9dbccdd3f0c" archimateRelationship="5d59f8d2-26b7-4be9-b851-2487de7fae25"/>
         <sourceConnection xsi:type="archimate:Connection" id="ec25eea6-0cd9-4fa4-922b-52ee8034337f" lineColor="#000000" textPosition="0" source="4c9b4260-1333-481c-a3c0-b143e453b564" target="1000906d-3ca7-4745-b01b-01b95111c80e" archimateRelationship="d66c9ee6-4930-42dc-bd6d-a7ee8e20b81b"/>
       </child>
@@ -1436,7 +1457,10 @@ https://www.knaw.nl/nl/de-knaw</documentation>
       </child>
       <child xsi:type="archimate:DiagramObject" id="1000906d-3ca7-4745-b01b-01b95111c80e" targetConnections="ec25eea6-0cd9-4fa4-922b-52ee8034337f a6260a5e-a745-4bd6-b8c8-933a537e303a 03e30476-9ba0-4d76-aa57-58092ebab859" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="88a1bc03-37ed-44e8-8563-56c02ffae24c">
         <bounds x="516" y="-12" width="350" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="9bb032de-b542-4369-a476-b8cbc9eb8f55" lineColor="#000000" textPosition="0" source="1000906d-3ca7-4745-b01b-01b95111c80e" target="eaa60938-1515-4499-bf02-2ffde64a3f90" archimateRelationship="613af118-3a5d-4f93-b2d6-bc5db75e3058"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9bb032de-b542-4369-a476-b8cbc9eb8f55" lineColor="#000000" textPosition="0" source="1000906d-3ca7-4745-b01b-01b95111c80e" target="eaa60938-1515-4499-bf02-2ffde64a3f90" archimateRelationship="613af118-3a5d-4f93-b2d6-bc5db75e3058">
+          <bendpoint startX="-271" startY="-3" endX="96" endY="-75"/>
+          <bendpoint startX="-283" startY="69" endX="84" endY="-3"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="09771225-6093-41be-abe0-490c6b6d1c74" targetConnections="84dbf85d-afe8-457e-950c-dec36317913e" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="5f92bc0a-bf47-4be8-bcab-3e58aa793741">
         <bounds x="262" y="-192" width="124" height="49"/>
@@ -1446,12 +1470,12 @@ https://www.knaw.nl/nl/de-knaw</documentation>
         <sourceConnection xsi:type="archimate:Connection" id="84dbf85d-afe8-457e-950c-dec36317913e" lineColor="#000000" source="b4749bbb-67b3-48d0-b6f9-807b4d335c34" target="09771225-6093-41be-abe0-490c6b6d1c74" archimateRelationship="3409c116-6bc2-43f4-98f6-6e8f87f3b8b2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="eaa60938-1515-4499-bf02-2ffde64a3f90" targetConnections="9bb032de-b542-4369-a476-b8cbc9eb8f55" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="67efafe0-c46b-4003-9545-619a47e21373">
-        <bounds x="264" y="-12" width="120" height="55"/>
+        <bounds x="264" y="60" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="13633b38-1599-47cd-9a73-acd5ca4568b4" lineColor="#000000" source="eaa60938-1515-4499-bf02-2ffde64a3f90" target="b4749bbb-67b3-48d0-b6f9-807b4d335c34" archimateRelationship="d8146619-80b3-4ad9-81a4-faba096d9ca6"/>
         <sourceConnection xsi:type="archimate:Connection" id="190961fd-1d8c-420b-ba3d-c3ef4cbbfa68" lineColor="#000000" source="eaa60938-1515-4499-bf02-2ffde64a3f90" target="5a19b204-a344-48d8-999b-098e639a8b59" archimateRelationship="20b1380a-107f-47b0-91c6-86b62b6b493b"/>
         <sourceConnection xsi:type="archimate:Connection" id="ae7cc12e-b566-4ce1-bf9d-5f6b2e95f92e" lineColor="#000000" source="eaa60938-1515-4499-bf02-2ffde64a3f90" target="21a52652-a659-4ef7-a6bc-c572d49c178b" archimateRelationship="3ebeb7a3-e38d-4e54-be14-46f4de43f25d">
-          <bendpoint startX="-24" startY="177" endX="120" endY="-63"/>
-          <bendpoint startX="-144" startY="177" endY="-63"/>
+          <bendpoint startX="-24" startY="117" endX="120" endY="-51"/>
+          <bendpoint startX="-144" startY="117" endY="-51"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="3544eee3-d86d-4742-adac-01f9b4313018" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="f6221091-df01-4e02-acc7-745f3fc65617">
@@ -1514,6 +1538,49 @@ https://www.knaw.nl/nl/de-knaw</documentation>
       </child>
       <child xsi:type="archimate:DiagramObject" id="4bf2364f-7a3b-4ec0-9815-ece4683a491f" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="474f0c52-ac29-42f7-8bab-c7f911e94db2">
         <bounds x="312" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1a405398-adc2-452d-b442-d5e544888795" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="a3a1d343-4e18-4545-9a77-1a4365deeae2">
+        <bounds x="480" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ce55bba7-822f-4c62-93f3-43d16cd37fd0" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="cff580ce-a444-4951-af5f-285ca1103d79">
+        <bounds x="636" y="228" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="RML Project" id="afff9c12-f5b5-4cd8-9ac1-3a4c263b9fd6">
+      <child xsi:type="archimate:DiagramObject" id="2d11a5d2-c518-44ca-81bc-659c06e226c6" targetConnections="223c3a9d-0102-4843-873e-19e84c373f90 b23567f3-1ece-4dae-8c0e-a5018f3cb06d 5844c184-e93d-4f9b-8331-8700b6807258" lineColor="#5c5c5c" fillColor="#ffffff" archimateElement="f4ea45af-00a2-4818-82c6-d2e21af7f1b4">
+        <bounds x="48" y="132" width="433" height="193"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6e04509a-d32d-4582-b673-be35c3ef155b" source="2d11a5d2-c518-44ca-81bc-659c06e226c6" target="5c4b7d66-d7cd-4f24-b969-79398c58657a" archimateRelationship="cc7c4286-1620-4c27-9d07-681fd220f9a0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ccccb19b-1652-40c9-91ac-8a75e275e696" source="2d11a5d2-c518-44ca-81bc-659c06e226c6" target="03addcba-f45e-4b2a-963f-3915b28267f4" archimateRelationship="648ecceb-efa5-4499-8d38-c3f4c222f6c9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="364e7190-0460-46f6-a008-644e57a6cd71" source="2d11a5d2-c518-44ca-81bc-659c06e226c6" target="9122c63c-c7d9-4b80-a17c-3ed732a8c15d" archimateRelationship="9a80f8ff-e415-4c83-b285-645aecf0abe7"/>
+        <sourceConnection xsi:type="archimate:Connection" id="af217586-18c7-4501-9a8e-947a0187296b" source="2d11a5d2-c518-44ca-81bc-659c06e226c6" target="b018eeaf-31dd-48d2-8fac-57b829549db7" archimateRelationship="a896ac53-f083-488f-b5d9-89e0b53fb34d"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a034b692-ea52-4799-8b51-af17b004bd8d" source="2d11a5d2-c518-44ca-81bc-659c06e226c6" target="907ec957-e936-4cd8-ad2f-1d4a32a933c2" archimateRelationship="9db21348-f17e-4853-8076-d21b86f55bc1"/>
+        <child xsi:type="archimate:DiagramObject" id="5c4b7d66-d7cd-4f24-b969-79398c58657a" targetConnections="6e04509a-d32d-4582-b673-be35c3ef155b" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="d9db7d6c-c31d-49b7-81ab-9784dd77e747">
+          <bounds x="144" y="108" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="03addcba-f45e-4b2a-963f-3915b28267f4" targetConnections="ccccb19b-1652-40c9-91ac-8a75e275e696" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="ec0894aa-254b-452d-8f64-563337e22016">
+          <bounds x="276" y="108" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="9122c63c-c7d9-4b80-a17c-3ed732a8c15d" targetConnections="364e7190-0460-46f6-a008-644e57a6cd71" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="2035ba03-52fb-45af-94d9-d5d81ac5f38e">
+          <bounds x="12" y="108" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b018eeaf-31dd-48d2-8fac-57b829549db7" targetConnections="af217586-18c7-4501-9a8e-947a0187296b" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="75e95bc3-b74f-47ca-bbcc-b370e1ab96b7">
+          <bounds x="144" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="907ec957-e936-4cd8-ad2f-1d4a32a933c2" targetConnections="a034b692-ea52-4799-8b51-af17b004bd8d" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="563c75e4-3cc8-4840-a53b-6b56d6cd9e15">
+          <bounds x="12" y="36" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="60d98bae-546b-461a-b23d-0785e664ccc6" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="561d2128-9605-4832-a8a6-465e31c82659">
+        <bounds x="204" y="36" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="223c3a9d-0102-4843-873e-19e84c373f90" lineColor="#000000" source="60d98bae-546b-461a-b23d-0785e664ccc6" target="2d11a5d2-c518-44ca-81bc-659c06e226c6" archimateRelationship="794e11dd-5838-4dec-8d5c-1008ba3667c1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="95f97c53-be26-4b35-8fe9-03b017c983c9" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="a3a1d343-4e18-4545-9a77-1a4365deeae2">
+        <bounds x="120" y="408" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b23567f3-1ece-4dae-8c0e-a5018f3cb06d" lineColor="#000000" source="95f97c53-be26-4b35-8fe9-03b017c983c9" target="2d11a5d2-c518-44ca-81bc-659c06e226c6" archimateRelationship="96cc001d-4e72-4b60-a14f-d51c7b46d43d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="419db06f-021d-49c9-ba97-5ebe4789b8b8" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="cff580ce-a444-4951-af5f-285ca1103d79">
+        <bounds x="276" y="408" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5844c184-e93d-4f9b-8331-8700b6807258" lineColor="#000000" source="419db06f-021d-49c9-ba97-5ebe4789b8b8" target="2d11a5d2-c518-44ca-81bc-659c06e226c6" archimateRelationship="1b875c7e-c5c6-468c-8ab4-5f68db7577e3"/>
       </child>
     </element>
   </folder>
