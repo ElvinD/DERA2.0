@@ -64,9 +64,16 @@ http://www.beeldengeluid.nl/over</documentation>
 https://cultureelerfgoed.nl/organisatie</documentation>
     </element>
     <element xsi:type="archimate:BusinessActor" name="KNAW" id="b50743da-be42-4e8e-98ce-8c874bca5114">
-      <documentation>De Rijksdienst voor het Cultureel Erfgoed is een onderdeel van het ministerie van Onderwijs, Cultuur en Wetenschap. We werken onder de rechtstreekse verantwoordelijkheid van de minister. De Rijksdienst voert wet- en regelgeving en erfgoedbeleid uit dat het ministerie samen met de dienst ontwikkelt.
+      <documentation>De KNAW is zowel genootschap van excellente wetenschappers als institutenorganisatie. Het bestuur van de KNAW stelt de hoofdlijnen van het beleid en de begroting vast. De dagelijkse leiding is in handen van de algemeen directeur.
 
-https://cultureelerfgoed.nl/organisatie</documentation>
+De KNAW is bij wet gehouden iedere vier jaar een 'instellingsplan’ vast te stellen. Het beleid voor de komende jaren is verwoord in Wetenschap verbindt. Strategische Agenda 2016-2020. Daarin stelt de KNAW zich ten doel de verbindingen te versterken tussen wetenschapsgebieden en wetenschappelijke organisaties; tussen wetenschap en samenleving en, in eigen huis, tussen de drie Akademies (Genootschap, De Jonge Akademie en de Akademie van Kunsten) en de vijftien instituten. 
+
+Sinds 1 januari 2017 bestaat het genootschap uit vier domeinen:
+Domein Geesteswetenschappen (GW) 
+Domein Gedrags-, Maatschappij- en Rechtswetenschappen (GMRW)
+Domein Natuur- en Technische Wetenschappen (NTW)
+Domein Medische, Medisch-Biologische en Gezondheidswetenschappen (MMBG)
+</documentation>
     </element>
     <element xsi:type="archimate:BusinessActor" name="NA" id="f126f330-3952-4837-a2aa-fabbbe339a6e">
       <documentation>Het Nationaal Archief
@@ -205,6 +212,152 @@ http://www.stardog.com/about</documentation>
     </element>
     <element xsi:type="archimate:BusinessActor" name="Universiteit Ghent" id="cff580ce-a444-4951-af5f-285ca1103d79">
       <documentation>https://www.ugent.be/</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Wie" id="b2518f37-86b7-4d72-890d-f199889b1cd6"/>
+    <element xsi:type="archimate:BusinessObject" name="Wat" id="f70829fa-dfa0-474a-9b60-e0b7c5a17ffd"/>
+    <element xsi:type="archimate:BusinessObject" name="Waar" id="1fe40d60-819b-4d64-ba80-6e1d46f5a8de"/>
+    <element xsi:type="archimate:BusinessObject" name="Wanneer" id="49dc09df-c7a7-4c31-bc54-7d51e5a33d6e"/>
+    <element xsi:type="archimate:BusinessActor" name="DUO" id="0849ced7-8aef-4e6e-bc70-027a86dd1915">
+      <documentation>Onze missie
+DUO is de uitvoeringsorganisatie van de Rijksoverheid voor het onderwijs. DUO financiert en informeert onderwijsdeelnemers en onderwijsinstellingen en organiseert examens. Zo maakt DUO goed onderwijs mogelijk.
+
+Onze visie
+Als organisatie die werk maakt van goed onderwijs is DUO:
+een betrouwbare, meedenkende partner voor opdrachtgevers. DUO voert als expert op het gebied van financiële en administratieve processen en als kenner van het onderwijsveld, correct en efficiënt wet- en regelgeving uit.
+de deskundige schakel tussen leerlingen, studenten, ouders, docenten, scholen, universiteiten, beleidsmakers, gemeenten en andere ketenpartners. DUO verbindt deze partijen met elkaar en betrekt ze actief bij de uitvoering.
+de spil in de onderwijsketen. DUO verzamelt, verwerkt en verrijkt waardevolle kennis en gegevens tot betrouwbare informatie.
+een op de toekomst gerichte organisatie die het zijn klanten en relaties zo makkelijk mogelijk maakt. DUO werkt voortdurend aan het verbeteren van de dienstverlening en speelt daarbij snel in op technologische vernieuwingen.
+een aantrekkelijke organisatie voor personeel. DUO heeft een open en respectvolle cultuur waarin medewerkers kansen krijgen.
+https://www.duo.nl/organisatie/</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="NWO" id="6cf05ed5-080a-464e-8430-a5bf46e57691">
+      <documentation>De Nederlandse Organisatie voor Wetenschappelijk Onderzoek zet zich in voor een sterk wetenschapsstelsel in Nederland door kwaliteit en vernieuwing in de wetenschap te bevorderen. Onze overtuiging is dat wetenschappelijk onderzoek bijdraagt aan onze welvaart en welzijn en in onze groeiende behoefte aan kennis voorziet: om maatschappelijke uitdagingen tegemoet te treden, voor economische ontwikkeling en om onszelf en de wereld beter te begrijpen.
+
+https://www.nwo.nl/over-nwo/missie+en+visie</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Grote Technologische Instituten" id="d08baf04-eb59-4d64-84c2-412bde4c2197">
+      <documentation>In Nederland heeft een aantal kennisinstellingen de status van Groot Technologisch Instituut (GTI), te weten:
+
+Nederlands Lucht- en Ruimtevaartcentrum (NLR)
+Energieonderzoek Centrum Nederland (ECN)
+Maritime Research Institute Netherlands (MARIN)
+Deltares, waarin de volgende voormalige GTI's zijn samengevoegd met delen van TNO en Rijkswaterstaat:
+Waterloopkundig Laboratorium (WL)
+GeoDelft (GD)
+Samen met TNO zijn deze kennisinstellingen gericht op het toepasbaar maken van fundamentele kennis. Dit doen zij door onderzoek te verrichten voor — en diensten te leveren aan — overheid, bedrijfsleven en maatschappelijke instellingen. De GTI's fungeren als centrum voor technologische kennis voor bedrijven en overheid en ze ontwikkelen technologieën. Naast een directe financiering door hun opdrachtgevers, ontvangen de GTI's ook subsidie van de overheid. [1]
+
+Sinds 2010 werken TNO en de Grote Technologische instituten in federatief verband samen onder de noemer TO2.
+
+https://nl.wikipedia.org/wiki/Groot_Technologisch_Instituut</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Nederlands Lucht- en Ruimtevaartcentrum (NLR)" id="fb75e57c-0a37-414f-b70c-c4c6a578177e">
+      <documentation>Het Nederlands Lucht- en Ruimtevaartcentrum (NLR) is het centrale instituut voor luchtvaart- en ruimtevaartonderzoek in Nederland. Sinds 1937 is het NLR een zelfstandige stichting zonder winstoogmerk, die technologische ondersteuning verschaft aan de lucht- en ruimtevaartsector. Die sector omvat industrieën, gebruikers van militaire en civiele vliegtuigen, beheerders van luchthavens, luchtverkeersleidingsorganisaties, overheidsinstanties en internationale organisaties.
+
+Organisatie
+Het NLR voert nationale en internationale opdrachten uit op het gebied van de vliegtuigontwikkeling, het vliegtuiggebruik en de ruimtevaart, zowel zelfstandig als in samenwerking met andere instituten en industrieën. Het werk voor betaalde opdrachten omvat ongeveer 75 procent van de activiteiten van het NLR. Het werk in het kader van het eigen programma voor basisonderzoek en de ontwikkeling van onderzoeksfaciliteiten, dat wordt gefinancierd uit overheidssubsidies, vertegenwoordigt ongeveer 25 procent.
+
+De organisatie kent de divisies Aerospace Systems, Aerospace Operations en Aerospace Vehicles.
+
+https://nl.wikipedia.org/wiki/Nederlands_Lucht-_en_Ruimtevaartcentrum</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Energieonderzoek Centrum Nederland (ECN)" id="45502729-7d77-4a6b-9264-60e83551b50d">
+      <documentation>Energieonderzoek Centrum Nederland (ECN), is het belangrijkste Nederlandse onderzoeksinstituut op het gebied van energie. Met en voor de markt ontwikkelt ECN kennis en technologie die gericht is op een transitie naar een duurzame energiehuishouding. Het hoofdkantoor is gevestigd te Petten. Daarnaast heeft ECN vestigingen in Amsterdam, Eindhoven, Wieringermeer, Brussel en China. ECN heeft ongeveer 500 medewerkers.
+
+Het onderzoek en de technologieontwikkeling van ECN richten zich op:
+
+Zonne-energie
+Windenergie
+Biomassa
+Energie efficiëntie
+Milieuonderzoek
+Beleidsstudies
+Daarbij staat een totaalpakket van duurzame energieopwekking, schoon gebruik van fossiele brandstoffen en beperking van het totale energieverbruik centraal. Daarnaast voert ECN ook onderzoek uit naar toekomstmogelijkheden en economische achtergronden op energiegebied.
+
+Internationale positie[bewerken]
+ECN neemt deel aan internationale projecten, adviseert overheden en werkt samen met industrie in Nederland, Europa en wereldwijd. 
+
+Een aantal voorbeelden:
+
+EERA: ECN heeft samen met negen andere onderzoeksinstituten in Europa, de European Energy Research Alliance (EERA) opgericht. Inzet is het harmoniseren van onderzoeksprogramma’s door middel van gezamenlijk onderzoek en het optimaal benutten van faciliteiten.
+
+ADEM: een initiatief van ECN en de drie samenwerkende Technische Universiteiten (TU Delft, TU Eindhoven en Universiteit Twente). Zij willen een krachtige impuls geven aan het Nederlandse materialenonderzoek met relatie tot energietechnologie.
+
+FLOW; Het FLOW programma stelt bedrijven in Nederland in staat een leidende positie in te nemen op de internationale markt voor offshore windparken. Het programma is opgezet door RWE, Eneco, TenneT, Ballast Nedam, Van Oord, IHC Merwede, 2-B Energy, XEMC Darwind, ECN en TU Delft.
+
+Solliance: Solliance is een samenwerkingsverband van TNO, TU Eindhoven, Holst Centre, ECN en imec voor onderzoek en ontwikkeling op het gebied van dunne-film zonnecellen (PV) in de ELAT-regio (Eindhoven-Leuven-Aken triangle).
+
+Daarnaast neemt ECN deel aan het Intergovernmental Panel on Climate Change en het Internationaal Energieagentschap.
+https://nl.wikipedia.org/wiki/Energieonderzoek_Centrum_Nederland
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="MARIN" id="70c43d17-5d73-446f-af04-3233b94a6d9b">
+      <documentation>MARIN, het Maritiem Research Instituut Nederland, is één van de grootste instituten ter wereld voor onderzoek naar hydrodynamica en maritieme technologie door middel van simulaties, modeltesten, ware-groottemetingen en training. MARIN richt zich hierbij op de scheepsbouw, scheepvaart, offshore-industrie en overheden. De belangrijkste klanten zijn werven en reders, ontwerp- en classificatiebureaus, producenten in de olie- en LNG-industrie en marines.
+
+MARIN heeft in Nederland de status van Groot Technologisch Instituut. Ruim 85% van de omzet wordt gerealiseerd door commerciële projecten voor de internationale maritieme industrie. De overige 15% komt voort uit wetenschappelijk onderzoek.
+
+Vestigingen
+MARIN heeft het hoofdkantoor in Wageningen en beschikt daarnaast over vestigingen in Ede en Houston.
+
+Faciliteiten
+MARIN werd in 1929 opgericht als Stichting Nederlandsch Scheepsbouwkundig Proefstation (NSP). Nadat in 1932 de sleeptank was voltooid, begon men met het testen van scheepsmodellen. Inmiddels beschikt MARIN over de volgende zeven testfaciliteiten: binnenvaarttank, diepwatertank, hogesnelheidstank, offshorebassin, zeegangs- en manoeuvreerbassin, vacuümtank en cavitatietunnel. Voor het trainen van maritiem personeel, zoals loodsen, scheepsofficieren, sleepbootkapiteins en offshorepersoneel zijn er drie simulatoren: de grote brug, kleine brug en de verkeersdienstsimulator.
+
+https://nl.wikipedia.org/wiki/Maritiem_Research_Instituut_Nederland</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Deltares" id="5c47533f-601c-477f-8078-f54bd26fc687">
+      <documentation>Deltares is een Groot Technologisch Instituut (GTI) in Nederland op het gebied van water, ondergrond en infrastructuur. Deltares richt zich voornamelijk op rivierdelta’s, kustregio’s, riviergebieden en offshore. Deltares heeft ruim 800 medewerkers en is gevestigd in Delft en Utrecht.
+
+Deltares richt zich onder meer op:
+
+integraal waterbeheer;
+waterveiligheid;
+waterbouw – planning, ontwerp, beheer en onderhoud van waterbouwkundige werken;
+grondwater;
+bodembeheer;
+geologie;
+ecologie;
+waterkwaliteit;
+morfologie;
+benutting van de ondiepe ondergrond; en
+ruimtelijke inpassing van droge en natte infrastructuur.
+Geschiedenis[bewerken]
+Deltares is naar aanleiding van de bevindingen van de Commissie-Wijffels op 1 januari 2008 ontstaan uit de samenvoeging van:
+
+GeoDelft;
+Delft Hydraulics;
+delen van TNO–Bouw en Ondergrond en
+delen van de specialistische diensten RIZA, RIKZ en DWW van Rijkswaterstaat.
+Aanvankelijk werd de naam Delta-instituut overwogen. Die naam werd tot 1992 gebruikt door een andere organisatie: het Delta Instituut voor Hydrobiologisch Onderzoek. Dit maakt nu onderdeel uit van het Nederlands Instituut voor Ecologie (NIOO-KNAW).
+
+https://nl.wikipedia.org/wiki/Deltares</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="TNO" id="b0434963-236c-4e7d-9436-f560cebce49c">
+      <documentation>De Nederlandse Organisatie voor toegepast-natuurwetenschappelijk onderzoek (TNO) is een onderzoeksinstituut met als doelstelling het in opdracht van overheden en andere marktpartijen toepassen van wetenschappelijke kennis in de praktijk. TNO telt 2.926 werknemers (12-2015) en is hiermee het grootste onderzoeksinstituut in Nederland.
+
+Het hoofdkantoor van TNO was lang gevestigd in Delft maar is in 2015 verhuisd naar Den Haag, andere locaties zijn te vinden in onder meer Delft, Apeldoorn, Eindhoven, Helmond, Groningen, Leiden, Rijswijk, Soesterberg, Bergen op Zoom (Heimolen), Utrecht en Zeist. Verder zijn er buitenlandse locaties zoals Brussel - België, Doha - Qatar, Toronto - Canada, Tokio - Japan en Oranjestad - Aruba.
+
+Geschiedenis
+TNO is opgericht in 1932. Daar is een lange geschiedenis aan voorafgegaan. De Commissie Lorentz uit 1918 - officieel Wetenschappelijke Commissie van advies en onderzoek in het belang van volkswelvaart en weerbaarheid - met onder meer de wiskundige L.E.J. Brouwer betekende een eerste aanzet. Deze commissie was bedoeld om de beoefenaren van de natuurwetenschappen te betrekken bij het oplossen van allerlei problemen die het gevolg waren van de Eerste Wereldoorlog.
+
+Nadat de commissie was gestopt met zijn activiteiten bleef de discussie over het effectiever inzetten van de wetenschap voor allerlei praktische behoeften doorgaan. Zo groeide het besef dat toepassingsgericht onderzoek een belangrijke bijdrage kon leveren aan het concurrentievermogen van de industrie. Grote bedrijven hadden intussen hun eigen R&amp;D (research &amp; development)-faciliteiten gecreëerd en bouwden aan samenwerking met de universiteiten. Voor het midden- en kleinbedrijf lag dat moeilijker. In het buitenland waren speciale organisaties gecreëerd om de industrie te ondersteunen.
+
+Bestand:De werkplaats van TNO, samengaan van kunst en technologie Weeknummer 74-34 - Open Beelden - 23198.ogv
+Polygoonjournaal uit 1974
+De discussies leidden ertoe dat de regering in 1923 een commissie onder voorzitterschap van de Utrechtse hoogleraar F.A.F.C. Went instelde. Deze kreeg de opdracht te onderzoeken &quot;door welke maatregelen en in welke vorm het toegepast-natuurwetenschappelijk onderzoek hier te lande dienstbaar kon worden gemaakt aan het algemeen belang&quot;. De Commissie Went kwam in 1925 met zijn bevindingen en aanbevelingen. De regering nam de aanbevelingen in grote lijnen over. Ir. A. de Mooij A. Czn. werd als tijdelijk adviseur verbonden aan het ministerie van Onderwijs met als taak om, in samenwerking met de Commissie Went, een centrale organisatie van het toegepast-natuurwetenschappelijk onderzoek in Nederland voor te bereiden.
+
+Dit resulteerde in de zogenoemde TNO-wet van 30 oktober 1930. In deze wet waren de taak, organisatievorm, juridische status en relatie met de overheid van de nieuwe instelling vastgelegd. De wet trad op 1 mei 1932 in werking. Op 10 mei 1932 werd het eerste bestuur van TNO geïnstalleerd.
+
+Organisatie
+
+TNO-gebouw in Eindhoven
+TNO is geen overheidsinstelling en is dat ook nooit geweest. TNO is een zelfstandige instelling met onder meer een eigen financieel beleid, personeelsbeleid, commercieel beleid, onderzoeksbeleid, etc. TNO is een rechtspersoon krachtens de TNO-wet van 19 december 1985 (Staatsblad 762), gewijzigd in 2005 (Staatsblad 47), artikel 3 dat luidt:
+
+Er is een Nederlandse Organisatie voor toegepast-natuurwetenschappelijk onderzoek TNO.
+Zij bezit rechtspersoonlijkheid en is gevestigd te Delft.
+TNO is daardoor een voorbeeld van een publiekrechtelijke rechtspersoon, meer specifiek een Zelfstandig bestuursorgaan.
+
+De organisatie kent op grond van artikel 15 uit de TNO-wet een instituutsstructuur.
+
+https://nl.wikipedia.org/wiki/Nederlandse_Organisatie_voor_toegepast-natuurwetenschappelijk_onderzoek</documentation>
     </element>
   </folder>
   <folder name="Application" id="97a9bd3b-0391-43a3-ab60-236ff6a3bf95" type="application">
@@ -628,6 +781,9 @@ https://github.com/carml/carml</documentation>
     <element xsi:type="archimate:ApplicationComponent" name="RML validator" id="ec0894aa-254b-452d-8f64-563337e22016"/>
     <element xsi:type="archimate:DataObject" name="RML Vocabulaire" id="563c75e4-3cc8-4840-a53b-6b56d6cd9e15"/>
     <element xsi:type="archimate:DataObject" name="RML Specificatie" id="75e95bc3-b74f-47ca-bbcc-b370e1ab96b7"/>
+    <element xsi:type="archimate:DataObject" name="ErfGeo PiT" id="6f9505a4-0e98-4b88-891f-84921b2f0b7e"/>
+    <element xsi:type="archimate:DataObject" name="BiographyNet" id="94a47255-33da-4b72-92c4-457c1aeb3b7a"/>
+    <element xsi:type="archimate:DataObject" name="Europeana EDM" id="32f7faaa-bef6-4b4c-b410-80832486cd27"/>
   </folder>
   <folder name="Technology &amp; Physical" id="241ff34d-64ba-4d16-8d8f-6295a8839e50" type="technology"/>
   <folder name="Motivation" id="7af505d0-a3b1-4439-bb73-27e69bbdea44" type="motivation">
@@ -635,6 +791,59 @@ https://github.com/carml/carml</documentation>
     <element xsi:type="archimate:Requirement" name="Data als LOD publiceren" id="b9cb5949-d471-4850-be3c-97e21a8a338f"/>
     <element xsi:type="archimate:Meaning" name="Omzetten van data in relationele databases naar RDF" id="074327dd-ca92-4240-96a4-74dc134cd3df"/>
     <element xsi:type="archimate:Meaning" name="Flexibel omzetten van data naar RDF" id="9eb7c39a-3cbc-4a0a-84ef-c639be2e51ba"/>
+    <element xsi:type="archimate:Principle" name="Afnemers krijgen de dienstverlening waar ze behoefte aan hebben" id="39580622-2f1a-4fd8-b61e-15353eea9abe">
+      <documentation>BPNORA01
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers kunnen de dienst eenvoudig vinden." id="4558aaa9-905b-4e80-b91b-3693d95c39cf">
+      <documentation>BPNORA02
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers hebben eenvoudig toegang tot de dienst." id="521d0336-d795-40fd-8c8c-c36c81954048">
+      <documentation>BPNORA03
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers ervaren uniformiteit in de dienstverlening." id="0463c32f-611c-4696-b569-c2c2c5993a39">
+      <documentation>BPNORA04
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers krijgen gerelateerde diensten gebundeld aangeboden." id="72d75089-6caf-4ce2-8e6e-3a9f9d9c8b44">
+      <documentation>BPNORA05
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers hebben inzage in voor hen relevante gegevens." id="72ffa5fc-6951-4bf3-81de-d181dd746a22">
+      <documentation>BPNORA06
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers worden niet geconfronteerd met overbodige vragen." id="31de9380-8d8a-4b3e-a126-b88790cf00e4">
+      <documentation>BPNORA07
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers kunnen erop vertrouwen dat gegevens niet worden misbruikt." id="d27b54d6-5215-410f-9dcc-ae2f2bb9c1f0">
+      <documentation>BPNORA08
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers kunnen erop vertrouwen dat de dienstverlener zich aan afspraken houdt." id="9d03b975-0697-4cd7-8bca-6c44494f5c15">
+      <documentation>BPNORA09
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Afnemers kunnen input leveren over de dienstverlening." id="3ccf6a2a-3613-4385-9aa2-d5cfb855eaec">
+      <documentation>BPNORA10
+
+Gebruikte codering [BPNORAnn]: BP= Basisprincipe, NORA = Nederlandse Overheid Referentie Architectuur, nn = volgnummer.</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="NORA" id="402b9fbe-3592-4305-9a4a-cb41138f9d3b">
+      <documentation>Nederlandse Overheid Referentie Architectuur</documentation>
+    </element>
   </folder>
   <folder name="Implementation &amp; Migration" id="3e54a38c-3b08-4a8a-9342-16a70f4a2e45" type="implementation_migration"/>
   <folder name="Other" id="b7fff1e0-7f71-4dc1-9194-bafeb5503e9d" type="other">
@@ -800,6 +1009,32 @@ https://github.com/carml/carml</documentation>
     <element xsi:type="archimate:CompositionRelationship" id="794e11dd-5838-4dec-8d5c-1008ba3667c1" source="561d2128-9605-4832-a8a6-465e31c82659" target="f4ea45af-00a2-4818-82c6-d2e21af7f1b4"/>
     <element xsi:type="archimate:RealizationRelationship" id="96cc001d-4e72-4b60-a14f-d51c7b46d43d" source="a3a1d343-4e18-4545-9a77-1a4365deeae2" target="f4ea45af-00a2-4818-82c6-d2e21af7f1b4"/>
     <element xsi:type="archimate:RealizationRelationship" id="1b875c7e-c5c6-468c-8ab4-5f68db7577e3" source="cff580ce-a444-4951-af5f-285ca1103d79" target="f4ea45af-00a2-4818-82c6-d2e21af7f1b4"/>
+    <element xsi:type="archimate:CompositionRelationship" id="63aeb176-2ef6-4339-90c4-522d8d202324" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="521d0336-d795-40fd-8c8c-c36c81954048"/>
+    <element xsi:type="archimate:CompositionRelationship" id="d1f7db6a-f34d-4924-b95d-ee15fbcc9ed6" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="72ffa5fc-6951-4bf3-81de-d181dd746a22"/>
+    <element xsi:type="archimate:CompositionRelationship" id="1f271172-8787-441d-a981-f70102a2b7a8" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="31de9380-8d8a-4b3e-a126-b88790cf00e4"/>
+    <element xsi:type="archimate:CompositionRelationship" id="3f828a1c-3a3c-4d85-844d-aeb8a4801446" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="d27b54d6-5215-410f-9dcc-ae2f2bb9c1f0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="2511e78f-879a-4483-8446-eab4f279f576" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="9d03b975-0697-4cd7-8bca-6c44494f5c15"/>
+    <element xsi:type="archimate:CompositionRelationship" id="0715626f-bf7b-490b-b7eb-5777307f08a5" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="4558aaa9-905b-4e80-b91b-3693d95c39cf"/>
+    <element xsi:type="archimate:CompositionRelationship" id="46f341cd-bc1b-4e87-957b-e7aa7ce51031" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="3ccf6a2a-3613-4385-9aa2-d5cfb855eaec"/>
+    <element xsi:type="archimate:CompositionRelationship" id="00375d18-814f-42db-9398-e4be1001a99a" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="0463c32f-611c-4696-b569-c2c2c5993a39"/>
+    <element xsi:type="archimate:CompositionRelationship" id="c7d78d78-cfb1-4bb1-9b8e-669f7007e990" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="72d75089-6caf-4ce2-8e6e-3a9f9d9c8b44"/>
+    <element xsi:type="archimate:CompositionRelationship" id="3d21784c-9fe8-4562-830e-18f663b9f9ec" source="402b9fbe-3592-4305-9a4a-cb41138f9d3b" target="39580622-2f1a-4fd8-b61e-15353eea9abe"/>
+    <element xsi:type="archimate:RealizationRelationship" id="77700e06-c96b-4c5e-8065-8fe9abd37aca" source="6f9505a4-0e98-4b88-891f-84921b2f0b7e" target="1fe40d60-819b-4d64-ba80-6e1d46f5a8de"/>
+    <element xsi:type="archimate:AggregationRelationship" id="32cae232-2df4-4637-9305-8e582277c9f3" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="0849ced7-8aef-4e6e-bc70-027a86dd1915"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="1c547766-f231-456f-ae68-bfaf47d5d41a" source="0849ced7-8aef-4e6e-bc70-027a86dd1915" target="902fcd50-a7c4-404d-b5c2-eacb7437e63a"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="699aa4e8-bde6-44d2-9086-a79746b3ade1" source="f126f330-3952-4837-a2aa-fabbbe339a6e" target="b4784487-6d3e-4549-8421-55507a81fe54"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="4f1de0de-099e-4d3e-bda2-f94b6c6378bb" source="b50743da-be42-4e8e-98ce-8c874bca5114" target="eaa58277-d294-4a1c-838b-4d13d55c3543"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="422ac1f0-f328-4ea7-ad42-024b1ee2a7fa" source="c47bd3e8-3d19-4b36-9949-e42731fbaa08" target="b4784487-6d3e-4549-8421-55507a81fe54"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="181b3270-7d30-4935-8f5c-ee6bd9e28a46" source="2e4405ae-073e-4b09-96b5-ba6293603d78" target="b4784487-6d3e-4549-8421-55507a81fe54"/>
+    <element xsi:type="archimate:AggregationRelationship" id="95381dcc-6b48-4508-ab1e-28a71db02cd4" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="6cf05ed5-080a-464e-8430-a5bf46e57691"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="d8d2031e-9f4f-4cf6-8d8c-3fe7f75a7e78" source="6cf05ed5-080a-464e-8430-a5bf46e57691" target="eaa58277-d294-4a1c-838b-4d13d55c3543"/>
+    <element xsi:type="archimate:AggregationRelationship" id="63e466b7-e908-4718-afa0-3a414e140173" source="ccf3b580-9052-4fee-94dd-b178f0fb12ae" target="d08baf04-eb59-4d64-84c2-412bde4c2197"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="0d296468-9587-433c-8fcf-e631dd4f5573" source="d08baf04-eb59-4d64-84c2-412bde4c2197" target="eaa58277-d294-4a1c-838b-4d13d55c3543"/>
+    <element xsi:type="archimate:AggregationRelationship" id="0eab8322-8b77-49b8-9d3e-dbfd0a659a37" source="d08baf04-eb59-4d64-84c2-412bde4c2197" target="fb75e57c-0a37-414f-b70c-c4c6a578177e"/>
+    <element xsi:type="archimate:AggregationRelationship" id="29f6473a-fc73-4fe7-bc87-92ebfb01659c" source="d08baf04-eb59-4d64-84c2-412bde4c2197" target="45502729-7d77-4a6b-9264-60e83551b50d"/>
+    <element xsi:type="archimate:AggregationRelationship" id="8355e4ad-70bb-444b-88df-648c1ffcbfab" source="d08baf04-eb59-4d64-84c2-412bde4c2197" target="70c43d17-5d73-446f-af04-3233b94a6d9b"/>
+    <element xsi:type="archimate:AggregationRelationship" id="fee192cf-11f0-460f-af14-dd747eeedb55" source="d08baf04-eb59-4d64-84c2-412bde4c2197" target="5c47533f-601c-477f-8078-f54bd26fc687"/>
+    <element xsi:type="archimate:AggregationRelationship" id="f8612887-0bf0-41f2-9678-89985d2557b9" source="d08baf04-eb59-4d64-84c2-412bde4c2197" target="b0434963-236c-4e7d-9436-f560cebce49c"/>
   </folder>
   <folder name="Views" id="0af8a53c-8cf2-4dd9-9f19-ad04a0eb3796" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Vierlagen model (creatie)" id="6f3b5b31-56b1-417a-8a89-902dd7e861c9">
@@ -1305,26 +1540,56 @@ https://github.com/carml/carml</documentation>
         <sourceConnection xsi:type="archimate:Connection" id="64344c7c-33d7-4e97-a8b7-7e64008afe6a" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="a96ae731-e270-453e-aefd-7126690d734e" archimateRelationship="753d7ce5-1c68-42e9-882d-79397284fe7d"/>
         <sourceConnection xsi:type="archimate:Connection" id="c027d8da-57fa-4983-a9e7-5325be6d2ec5" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="8a4c1ce7-3ba8-4ea0-a0ae-88df9f3bf1a2" archimateRelationship="b1c9f702-b099-4257-821e-33c4bb03402f"/>
         <sourceConnection xsi:type="archimate:Connection" id="81cb58dd-e8b7-40a6-897f-0b1d7d0fc8bb" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="7909ccb0-57aa-4e2a-ba0a-2dd7fbff8bda" archimateRelationship="cb600b56-f646-4d2c-a6a0-f229f2a5e155"/>
-        <child xsi:type="archimate:DiagramObject" id="6e07fd14-620f-4d2c-b350-12e160104a10" targetConnections="ac6218fa-720a-47b6-bdb8-c5f55d2d7520" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="902fcd50-a7c4-404d-b5c2-eacb7437e63a">
-          <bounds x="24" y="24" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="048e0b3b-8fff-4b62-aca8-cbfcdb324f42" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="2f24e1f5-9150-4513-bc16-5d62bc8987b8" archimateRelationship="32cae232-2df4-4637-9305-8e582277c9f3"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7e355f56-8804-4879-a3e7-124f4366d6a3" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="a7389391-b52f-4022-8a4a-7462fca69112" archimateRelationship="95381dcc-6b48-4508-ab1e-28a71db02cd4"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a4238d64-3405-438f-8ffa-a34e88823c54" source="98cf3dd6-9b92-4321-9ddd-5d5570de687e" target="f4c9f197-7a60-4589-9f49-753457a5b032" archimateRelationship="63e466b7-e908-4718-afa0-3a414e140173"/>
+        <child xsi:type="archimate:DiagramObject" id="6e07fd14-620f-4d2c-b350-12e160104a10" targetConnections="ac6218fa-720a-47b6-bdb8-c5f55d2d7520 424a53b1-c094-45e9-a580-79a82afb59c5" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="902fcd50-a7c4-404d-b5c2-eacb7437e63a">
+          <bounds x="24" y="168" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" targetConnections="4d029bc0-a755-452f-b0f9-43ed3c7fa5fe" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b4784487-6d3e-4549-8421-55507a81fe54">
-          <bounds x="168" y="24" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" targetConnections="4d029bc0-a755-452f-b0f9-43ed3c7fa5fe bdbfeba3-dbfb-4e29-9350-ebeab11548d9 88315e56-f3e0-4043-98c0-d67c999260b3 dcf5166e-628c-4610-b3b1-9e491f3cc224" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b4784487-6d3e-4549-8421-55507a81fe54">
+          <bounds x="456" y="168" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="037989ec-4943-40cc-bf9d-ed4fb23d3648" targetConnections="6189fcaa-48c7-48ab-9423-5c8ef6f2ce60" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="eaa58277-d294-4a1c-838b-4d13d55c3543">
-          <bounds x="312" y="24" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="037989ec-4943-40cc-bf9d-ed4fb23d3648" targetConnections="6189fcaa-48c7-48ab-9423-5c8ef6f2ce60 e25e0ca0-de0f-43d9-bf00-879e23e65c43 4a6b9aa2-c515-4d4c-8bdf-21265953dcd1 c18a870c-77ed-433f-8793-18ceff7a9c7e" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="eaa58277-d294-4a1c-838b-4d13d55c3543">
+          <bounds x="312" y="168" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="006903a2-e780-4468-b6ff-b508e362b7c5" targetConnections="675999c9-bbff-4197-9c07-79643ed822c3" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b50743da-be42-4e8e-98ce-8c874bca5114">
-          <bounds x="600" y="24" width="120" height="55"/>
+          <bounds x="312" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="e25e0ca0-de0f-43d9-bf00-879e23e65c43" lineColor="#000000" source="006903a2-e780-4468-b6ff-b508e362b7c5" target="037989ec-4943-40cc-bf9d-ed4fb23d3648" archimateRelationship="4f1de0de-099e-4d3e-bda2-f94b6c6378bb"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="a96ae731-e270-453e-aefd-7126690d734e" targetConnections="64344c7c-33d7-4e97-a8b7-7e64008afe6a 6d3e05c7-19f2-45cd-85b9-7910c0517a8b" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="c47bd3e8-3d19-4b36-9949-e42731fbaa08">
           <bounds x="744" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="88315e56-f3e0-4043-98c0-d67c999260b3" lineColor="#000000" source="a96ae731-e270-453e-aefd-7126690d734e" target="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" archimateRelationship="422ac1f0-f328-4ea7-ad42-024b1ee2a7fa">
+            <bendpoint startX="-192" startY="-3" endX="96" endY="-147"/>
+            <bendpoint startX="-192" startY="45" endX="96" endY="-99"/>
+            <bendpoint startX="-264" startY="45" endX="24" endY="-99"/>
+          </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="8a4c1ce7-3ba8-4ea0-a0ae-88df9f3bf1a2" targetConnections="c027d8da-57fa-4983-a9e7-5325be6d2ec5 c5fe270e-3840-482b-80f5-6636664b2980" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="f126f330-3952-4837-a2aa-fabbbe339a6e">
           <bounds x="456" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="bdbfeba3-dbfb-4e29-9350-ebeab11548d9" lineColor="#000000" source="8a4c1ce7-3ba8-4ea0-a0ae-88df9f3bf1a2" target="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" archimateRelationship="699aa4e8-bde6-44d2-9086-a79746b3ade1"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="7909ccb0-57aa-4e2a-ba0a-2dd7fbff8bda" targetConnections="81cb58dd-e8b7-40a6-897f-0b1d7d0fc8bb 9b071fb5-4fb6-4ff0-9341-ee468b617766" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="2e4405ae-073e-4b09-96b5-ba6293603d78">
           <bounds x="744" y="96" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="dcf5166e-628c-4610-b3b1-9e491f3cc224" lineColor="#000000" source="7909ccb0-57aa-4e2a-ba0a-2dd7fbff8bda" target="fe9bbfea-76e6-48b2-a27c-4b3751d0f7cd" archimateRelationship="181b3270-7d30-4935-8f5c-ee6bd9e28a46">
+            <bendpoint startX="-252" startY="-3" endX="36" endY="-75"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="2f24e1f5-9150-4513-bc16-5d62bc8987b8" targetConnections="048e0b3b-8fff-4b62-aca8-cbfcdb324f42" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="0849ced7-8aef-4e6e-bc70-027a86dd1915">
+          <bounds x="24" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="424a53b1-c094-45e9-a580-79a82afb59c5" lineColor="#000000" source="2f24e1f5-9150-4513-bc16-5d62bc8987b8" target="6e07fd14-620f-4d2c-b350-12e160104a10" archimateRelationship="1c547766-f231-456f-ae68-bfaf47d5d41a"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="a7389391-b52f-4022-8a4a-7462fca69112" targetConnections="7e355f56-8804-4879-a3e7-124f4366d6a3" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="6cf05ed5-080a-464e-8430-a5bf46e57691">
+          <bounds x="180" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4a6b9aa2-c515-4d4c-8bdf-21265953dcd1" lineColor="#000000" source="a7389391-b52f-4022-8a4a-7462fca69112" target="037989ec-4943-40cc-bf9d-ed4fb23d3648" archimateRelationship="d8d2031e-9f4f-4cf6-8d8c-3fe7f75a7e78">
+            <bendpoint startY="45" endX="-132" endY="-99"/>
+            <bendpoint startX="120" startY="45" endX="-12" endY="-99"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="f4c9f197-7a60-4589-9f49-753457a5b032" targetConnections="a4238d64-3405-438f-8ffa-a34e88823c54" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="d08baf04-eb59-4d64-84c2-412bde4c2197">
+          <bounds x="180" y="114" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c18a870c-77ed-433f-8793-18ceff7a9c7e" lineColor="#000000" source="f4c9f197-7a60-4589-9f49-753457a5b032" target="037989ec-4943-40cc-bf9d-ed4fb23d3648" archimateRelationship="0d296468-9587-433c-8fcf-e631dd4f5573">
+            <bendpoint startX="108" startY="3" endX="-24" endY="-51"/>
+          </sourceConnection>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="a896beca-4d83-4c43-a629-cd6a104a949b" targetConnections="d5a04a98-8f90-4d68-b821-583b5ab36b51 07122b74-b2cb-4dd2-86f7-57bf7c0e7852" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="9b9b63a7-39b8-4d6b-9ddd-2bf7a03bd571">
@@ -1582,6 +1847,103 @@ https://www.knaw.nl/nl/de-knaw</documentation>
         <bounds x="276" y="408" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="5844c184-e93d-4f9b-8331-8700b6807258" lineColor="#000000" source="419db06f-021d-49c9-ba97-5ebe4789b8b8" target="2d11a5d2-c518-44ca-81bc-659c06e226c6" archimateRelationship="1b875c7e-c5c6-468c-8ab4-5f68db7577e3"/>
       </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="NORA Principes" id="85dec441-123e-41d3-9f2f-e014b4713d5c">
+      <child xsi:type="archimate:DiagramObject" id="c5797c42-8795-4787-8946-934aab9eea8c" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="402b9fbe-3592-4305-9a4a-cb41138f9d3b">
+        <bounds x="36" y="48" width="925" height="193"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8aa12a5d-fd29-4543-badf-5ff2332f80f1" source="c5797c42-8795-4787-8946-934aab9eea8c" target="a547f6e2-d485-4fc4-98e4-4acd606c4e58" archimateRelationship="63aeb176-2ef6-4339-90c4-522d8d202324"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1af391dd-f712-4c19-832f-d75113efeaba" source="c5797c42-8795-4787-8946-934aab9eea8c" target="74e1d1c4-012f-4926-8242-0e934c00aefa" archimateRelationship="d1f7db6a-f34d-4924-b95d-ee15fbcc9ed6"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8363b9d9-53c7-4eef-9b90-5c9d0ad73caa" source="c5797c42-8795-4787-8946-934aab9eea8c" target="325888e4-fa52-4a38-a14c-9f07781767cf" archimateRelationship="1f271172-8787-441d-a981-f70102a2b7a8"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e8cdf92c-5137-4215-b9ae-d563dae327a2" source="c5797c42-8795-4787-8946-934aab9eea8c" target="483cc2db-7722-4c9b-beba-170879d1b3ec" archimateRelationship="3f828a1c-3a3c-4d85-844d-aeb8a4801446"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0b7a8460-6e31-4e06-9e3e-e3a0ccfb84a7" source="c5797c42-8795-4787-8946-934aab9eea8c" target="0db56b05-bd44-40af-a799-2eb86eb52258" archimateRelationship="2511e78f-879a-4483-8446-eab4f279f576"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8a9d9282-cb8d-4feb-9065-43afcd605540" source="c5797c42-8795-4787-8946-934aab9eea8c" target="11d7b2f0-c39d-40dd-8a2e-3fc4b1e31c68" archimateRelationship="0715626f-bf7b-490b-b7eb-5777307f08a5"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7a3e80da-814b-46b9-9927-1f7edc3564ab" source="c5797c42-8795-4787-8946-934aab9eea8c" target="22d0194f-2d1f-4288-9974-168130c8a45b" archimateRelationship="46f341cd-bc1b-4e87-957b-e7aa7ce51031"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ed49aa80-8e56-4d6e-867d-95ed95aa8c72" source="c5797c42-8795-4787-8946-934aab9eea8c" target="c2c269c9-bfe0-4652-9cea-16a501dcf51d" archimateRelationship="00375d18-814f-42db-9398-e4be1001a99a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="666425f7-9e72-4fb8-a194-08cf5e9dd271" source="c5797c42-8795-4787-8946-934aab9eea8c" target="25513168-b7db-4db5-9634-d86b69d5bd4f" archimateRelationship="c7d78d78-cfb1-4bb1-9b8e-669f7007e990"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6abfb506-43db-472e-af34-ac9a2ca73d76" source="c5797c42-8795-4787-8946-934aab9eea8c" target="b2d91f55-845b-43fc-b159-9fecc64abe50" archimateRelationship="3d21784c-9fe8-4562-830e-18f663b9f9ec"/>
+        <child xsi:type="archimate:DiagramObject" id="a547f6e2-d485-4fc4-98e4-4acd606c4e58" targetConnections="8aa12a5d-fd29-4543-badf-5ff2332f80f1" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="521d0336-d795-40fd-8c8c-c36c81954048">
+          <bounds x="372" y="24" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="74e1d1c4-012f-4926-8242-0e934c00aefa" targetConnections="1af391dd-f712-4c19-832f-d75113efeaba" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="72ffa5fc-6951-4bf3-81de-d181dd746a22">
+          <bounds x="12" y="108" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="325888e4-fa52-4a38-a14c-9f07781767cf" targetConnections="8363b9d9-53c7-4eef-9b90-5c9d0ad73caa" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="31de9380-8d8a-4b3e-a126-b88790cf00e4">
+          <bounds x="192" y="108" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="483cc2db-7722-4c9b-beba-170879d1b3ec" targetConnections="e8cdf92c-5137-4215-b9ae-d563dae327a2" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="d27b54d6-5215-410f-9dcc-ae2f2bb9c1f0">
+          <bounds x="372" y="108" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="0db56b05-bd44-40af-a799-2eb86eb52258" targetConnections="0b7a8460-6e31-4e06-9e3e-e3a0ccfb84a7" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="9d03b975-0697-4cd7-8bca-6c44494f5c15">
+          <bounds x="552" y="108" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="11d7b2f0-c39d-40dd-8a2e-3fc4b1e31c68" targetConnections="8a9d9282-cb8d-4feb-9065-43afcd605540" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="4558aaa9-905b-4e80-b91b-3693d95c39cf">
+          <bounds x="192" y="24" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="22d0194f-2d1f-4288-9974-168130c8a45b" targetConnections="7a3e80da-814b-46b9-9927-1f7edc3564ab" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="3ccf6a2a-3613-4385-9aa2-d5cfb855eaec">
+          <bounds x="732" y="108" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="c2c269c9-bfe0-4652-9cea-16a501dcf51d" targetConnections="ed49aa80-8e56-4d6e-867d-95ed95aa8c72" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="0463c32f-611c-4696-b569-c2c2c5993a39">
+          <bounds x="552" y="24" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="25513168-b7db-4db5-9634-d86b69d5bd4f" targetConnections="666425f7-9e72-4fb8-a194-08cf5e9dd271" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="72d75089-6caf-4ce2-8e6e-3a9f9d9c8b44">
+          <bounds x="732" y="24" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b2d91f55-845b-43fc-b159-9fecc64abe50" targetConnections="6abfb506-43db-472e-af34-ac9a2ca73d76" lineColor="#5c5c5c" fillColor="#ccccff" archimateElement="39580622-2f1a-4fd8-b61e-15353eea9abe">
+          <bounds x="12" y="24" width="157" height="61"/>
+        </child>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Domeinoverstijgend model van DERA" id="da7f4aa7-e3bd-4068-a238-3c70ef52be2e">
+      <child xsi:type="archimate:DiagramObject" id="b66d6ac6-97d4-4c95-87dc-1a01e58f0a28" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b2518f37-86b7-4d72-890d-f199889b1cd6">
+        <bounds x="192" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8f1f60fd-83ed-4ccc-b17d-cca361ab787a" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="f70829fa-dfa0-474a-9b60-e0b7c5a17ffd">
+        <bounds x="348" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9c9f7533-f311-4846-9300-4b0efc0bb462" targetConnections="1b26ab1a-b163-47bd-a68d-ac11678de0ea" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="1fe40d60-819b-4d64-ba80-6e1d46f5a8de">
+        <bounds x="516" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="baff9492-4cff-4d31-8e44-bd48cc35ca55" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="49dc09df-c7a7-4c31-bc54-7d51e5a33d6e">
+        <bounds x="708" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e7e52003-3199-4f40-b512-842a1097a2ff" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="6f9505a4-0e98-4b88-891f-84921b2f0b7e">
+        <bounds x="516" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1b26ab1a-b163-47bd-a68d-ac11678de0ea" lineColor="#000000" source="e7e52003-3199-4f40-b512-842a1097a2ff" target="9c9f7533-f311-4846-9300-4b0efc0bb462" archimateRelationship="77700e06-c96b-4c5e-8065-8fe9abd37aca"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f3c39ec6-f982-4fb8-a4ad-5729187b0f95" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="94a47255-33da-4b72-92c4-457c1aeb3b7a">
+        <bounds x="192" y="324" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="305902cf-3dc2-4107-9f46-7d151beaddd9" lineColor="#5c5c5c" fillColor="#b5ffff" archimateElement="32f7faaa-bef6-4b4c-b410-80832486cd27">
+        <bounds x="348" y="324" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Grote Technologische Instituten" id="bd0581bb-f5bd-41f5-9cd8-9c3e6a4cdfea" viewpoint="layered">
+      <child xsi:type="archimate:DiagramObject" id="c4e90dd3-0195-44ca-9437-52da0115ddcf" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="d08baf04-eb59-4d64-84c2-412bde4c2197">
+        <bounds x="20" y="20" width="365" height="269"/>
+        <sourceConnection xsi:type="archimate:Connection" id="81107159-309b-4aa0-968b-c702a4bea6ad" source="c4e90dd3-0195-44ca-9437-52da0115ddcf" target="28397e16-3cd1-4675-be87-ce2bf094e3fa" archimateRelationship="0eab8322-8b77-49b8-9d3e-dbfd0a659a37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5bdcedda-6499-4636-9cb8-e5a2d2bd9231" source="c4e90dd3-0195-44ca-9437-52da0115ddcf" target="02563ba8-be10-4936-b8a6-82455a6d8a7a" archimateRelationship="29f6473a-fc73-4fe7-bc87-92ebfb01659c"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1be90e90-9cc1-4251-906f-a5cbf979c8ad" source="c4e90dd3-0195-44ca-9437-52da0115ddcf" target="188ca33c-bb28-4fef-8400-3334b7fcb39c" archimateRelationship="8355e4ad-70bb-444b-88df-648c1ffcbfab"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7a0ed2f7-dcd4-4f53-9c11-50c523209761" source="c4e90dd3-0195-44ca-9437-52da0115ddcf" target="d29eca58-707e-4704-9f98-e551c3b2728c" archimateRelationship="fee192cf-11f0-460f-af14-dd747eeedb55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e22c6d7d-80ff-4183-b674-8bdddbb0c492" source="c4e90dd3-0195-44ca-9437-52da0115ddcf" target="d4dd468f-f3aa-4dc4-9b86-831f905eabc9" archimateRelationship="f8612887-0bf0-41f2-9678-89985d2557b9"/>
+        <child xsi:type="archimate:DiagramObject" id="28397e16-3cd1-4675-be87-ce2bf094e3fa" targetConnections="81107159-309b-4aa0-968b-c702a4bea6ad" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="fb75e57c-0a37-414f-b70c-c4c6a578177e">
+          <bounds x="24" y="48" width="148" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="02563ba8-be10-4936-b8a6-82455a6d8a7a" targetConnections="5bdcedda-6499-4636-9cb8-e5a2d2bd9231" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="45502729-7d77-4a6b-9264-60e83551b50d">
+          <bounds x="192" y="48" width="142" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="188ca33c-bb28-4fef-8400-3334b7fcb39c" targetConnections="1be90e90-9cc1-4251-906f-a5cbf979c8ad" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="70c43d17-5d73-446f-af04-3233b94a6d9b">
+          <bounds x="24" y="120" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d29eca58-707e-4704-9f98-e551c3b2728c" targetConnections="7a0ed2f7-dcd4-4f53-9c11-50c523209761" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="5c47533f-601c-477f-8078-f54bd26fc687">
+          <bounds x="192" y="120" width="142" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d4dd468f-f3aa-4dc4-9b86-831f905eabc9" targetConnections="e22c6d7d-80ff-4183-b674-8bdddbb0c492" lineColor="#5c5c5c" fillColor="#ffffb5" archimateElement="b0434963-236c-4e7d-9436-f560cebce49c">
+          <bounds x="24" y="192" width="145" height="55"/>
+        </child>
+      </child>
+      <documentation>De Nederlandse Organisatie voor toegepast-natuurwetenschappelijk onderzoek (TNO) is een onderzoeksinstituut met als doelstelling het in opdracht van overheden en andere marktpartijen toepassen van wetenschappelijke kennis in de praktijk. TNO telt 2.926 werknemers (12-2015) en is hiermee het grootste onderzoeksinstituut in Nederland.
+
+Het hoofdkantoor van TNO was lang gevestigd in Delft maar is in 2015 verhuisd naar Den Haag, andere locaties zijn te vinden in onder meer Delft, Apeldoorn, Eindhoven, Helmond, Groningen, Leiden, Rijswijk, Soesterberg, Bergen op Zoom (Heimolen), Utrecht en Zeist. Verder zijn er buitenlandse locaties zoals Brussel - België, Doha - Qatar, Toronto - Canada, Tokio - Japan en Oranjestad - Aruba.</documentation>
     </element>
   </folder>
 </archimate:model>
